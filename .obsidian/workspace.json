@@ -14,8 +14,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "0dee4e0572ab1e9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/code/code master.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "semester-1/programmieren/code/code master.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "semester-1/programmieren/code/code master.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "semester-1/programmieren/code/code master.md"
+              }
             }
           },
           {
@@ -157,8 +174,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c09df15095755f1c",
+  "active": "0dee4e0572ab1e9a",
   "lastOpenFiles": [
+    "semester-1/programmieren/code/001/bier.c",
+    "semester-1/programmieren/code/code master.md",
     "semester-1/lineare-algebra/Definitionen LAlg.md",
     "semester-1/programmieren/code/004/output/mod11",
     "semester-1/programmieren/code/004/output/SCHTRINGs",
@@ -170,7 +189,6 @@
     "semester-1/programmieren/code/003/output/random_guesser_game",
     "semester-1/programmieren/code/003/output/overflow",
     "semester-1/programmieren/code/004/output",
-    "semester-1/programmieren/code/code master.md",
     "semester-1/programmieren/concepts/switch-case.md",
     "semester-1/programmieren/concepts/fun facts.md",
     "semester-1/programmieren/concepts/Structs.md",
@@ -197,7 +215,6 @@
     "semester-1/programmieren/Aufgabe - Sieb des Erothostenes.md",
     "semester-1/projektmanagement/SMART.md",
     "semester-1/projektmanagement/Projektmanagement Master.md",
-    "semester-1/projektmanagement/Projektdefinition.md",
     "projektmanagement/images/Pasted image 20231220111558.png",
     "projektmanagement/images/gesamtorganisation.png",
     "projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
