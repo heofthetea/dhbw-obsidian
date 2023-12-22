@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "cc93181ee5d236e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1f91385b956dbff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c09df15095755f1c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6c832374194d83f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "939b3123a7aa3bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73f722707734fe93",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9ddd92b720372a3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73d6ed47fb7845af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "right": {
+    "id": "94a3acffebf25680",
+    "type": "split",
+    "children": [
+      {
+        "id": "760b1c248d96680a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9059d624f66ce9d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "898bcd44224d2ad2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfdea169b6b09fb2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "778eaad8ebc359e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "semester-1/lineare-algebra/Definitionen LAlg.md"
+              }
+            }
+          },
+          {
+            "id": "7f948703aae021b3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f84849a312b86f07",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "code-files:Create Code File": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "73f722707734fe93",
+  "lastOpenFiles": [
+    "semester-1/programmieren/code/004/output/mod11",
+    "semester-1/programmieren/code/004/output/SCHTRINGs",
+    "semester-1/programmieren/code/examples/output/string_functions",
+    "semester-1/programmieren/code/examples/output/strings",
+    "semester-1/programmieren/code/examples/output/memory",
+    "semester-1/programmieren/code/examples/output/date",
+    "semester-1/programmieren/code/003/output/trainzzz",
+    "semester-1/programmieren/code/003/output/random_guesser_game",
+    "semester-1/programmieren/code/003/output/overflow",
+    "semester-1/programmieren/code/004/output",
+    "semester-1/programmieren/code/004/mod11.c",
+    "semester-1/programmieren/code/code master.md",
+    "semester-1/programmieren/concepts/switch-case.md",
+    "semester-1/programmieren/concepts/fun facts.md",
+    "semester-1/programmieren/concepts/Structs.md",
+    "semester-1/programmieren/concepts/Strings.md",
+    "semester-1/programmieren/concepts/Functions.md",
+    "semester-1/programmieren/concepts/C concepts.md",
+    "semester-1/projektmanagement/turmbau/Turmbau.md",
+    "semester-1/projektmanagement/turmbau/Turmbau Documentation.md",
+    "semester-1/projektmanagement/turmbau/Fragenkatalog 002.md",
+    "semester-1/projektmanagement/images/gesamtorganisation.png",
+    "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
+    "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
+    "semester-1/lineare-algebra/aufgaben/scribbles.md",
+    "semester-1/lineare-algebra/aufgaben/taschentücher koffer.md",
+    "semester-1/bwl/planspiel/Planspiel Master.md",
+    "semester-1/bwl/planspiel/Periode 3.md",
+    "semester-1/bwl/planspiel/Periode 2.md",
+    "semester-1/bwl/planspiel/Periode 2 fine-grained.md",
+    "semester-1/bwl/planspiel/Einführung Planspiel.md",
+    "semester-1/bwl/planspiel/BWL Master.md",
+    "semester-1/bwl/planspiel/001 Verträge.md",
+    "semester-1/programmieren/Programmieren Master.md",
+    "semester-1/programmieren/Begriffe Programmieren.md",
+    "semester-1/programmieren/Aufgabe - Sieb des Erothostenes.md",
+    "semester-1/projektmanagement/SMART.md",
+    "semester-1/projektmanagement/Projektmanagement Master.md",
+    "semester-1/projektmanagement/Projektdefinition.md",
+    "projektmanagement/images/Pasted image 20231220111558.png",
+    "projektmanagement/images/gesamtorganisation.png",
+    "projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
+    "Pasted image 20231220103523.png"
+  ]
+}
