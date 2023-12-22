@@ -19,7 +19,7 @@
 
 #### examples
 [[strings.c]]
-[[string_functions.c]]]
+[[string_functions.c]]
 
 ## 004
 [[mod11.c]]

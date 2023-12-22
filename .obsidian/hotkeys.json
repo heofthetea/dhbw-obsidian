@@ -24,6 +24,20 @@
       "key": "ArrowUp"
     }
   ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "PageDown"
+    }
+  ],
   "switcher:open": [
     {
       "modifiers": [
