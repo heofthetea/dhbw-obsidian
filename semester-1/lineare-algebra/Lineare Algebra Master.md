@@ -6,6 +6,9 @@
 [[LaTex Cheat Sheet]]
 
 
+## Good Notes
+[[Lineare Algebra GoodNotes]]
+
 
 ---
 [[scribbles]]

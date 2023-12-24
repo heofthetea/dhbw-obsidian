@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c09df15095755f1c",
+            "id": "b5a8bd58a406f227",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/code/Code Master.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -26,20 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e2943496b64463b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Daily Notes Master.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/Daily Note 24-12-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/Daily Note 24-12-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notes/Daily Note 24-12-2023.md"
+              }
             }
           },
           {
@@ -180,24 +177,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c09df15095755f1c",
+  "active": "0dee4e0572ab1e9a",
   "lastOpenFiles": [
-    "semester-1/programmieren/code/002/output",
+    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "semester-1/goodnotes/Logik/source",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.1 Aussagenlogik.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe",
+    "semester-1/goodnotes/Logik/Lgk Aufschriebe.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRÄDIKATENLOGIK.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 Mitschrieb.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 Übungen.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 Aufschrieb.pdf",
+    "semester-1/goodnotes/Logik/LgK 1.1 Mengenlehre.pdf",
+    "semester-1/Semester 1 Master.md",
+    "semester-1/Logik/Logik Master.md",
+    "semester-1/Logik/Logik GoodNotes.md",
+    "semester-1/Logik/Begrifflichkeiten Aussagenlogik.md",
+    "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
+    "semester-1/digitaltechnik/Digitaltechnik Master.md",
+    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
+    "notes/TODO cleanups GoodNotes.md",
+    "semester-1/semester-1 master.md",
+    "semester-1/logic/Begrifflichkeiten Aussagenlogik.md",
     "notes/Daily Note 24-12-2023.md",
-    "notes/Daily Notes Master.md",
+    "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/programmieren/code/Code Master.md",
-    "notes",
-    "2023-12-24 - TODOs Ferien.md",
-    "semester-1/programmieren/code/004/mod11.c",
-    "semester-1/programmieren/code/003/trainzzz.c",
-    "semester-1/programmieren/code/001/euclid.c",
-    "semester-1/programmieren/code/examples/string_functions.c",
-    "semester-1/programmieren/code/001/bier.c",
+    "notes/Daily Notes Master.md",
+    "semester-1/programmieren/Programmieren Master.md",
     "semester-1/lineare-algebra/Definitionen LAlg.md",
-    "semester-1/programmieren/code/004/output/mod11",
-    "semester-1/programmieren/code/004/output/SCHTRINGs",
-    "semester-1/programmieren/code/examples/output/string_functions",
-    "semester-1/programmieren/code/examples/output/strings",
+    "2023-12-24 - TODOs Ferien.md",
     "semester-1/programmieren/concepts/switch-case.md",
     "semester-1/programmieren/concepts/fun facts.md",
     "semester-1/programmieren/concepts/Structs.md",
@@ -206,21 +215,9 @@
     "semester-1/programmieren/concepts/C concepts.md",
     "semester-1/projektmanagement/turmbau/Turmbau.md",
     "semester-1/projektmanagement/turmbau/Turmbau Documentation.md",
-    "semester-1/projektmanagement/turmbau/Fragenkatalog 002.md",
     "semester-1/projektmanagement/images/gesamtorganisation.png",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
-    "semester-1/lineare-algebra/aufgaben/scribbles.md",
-    "semester-1/lineare-algebra/aufgaben/taschentücher koffer.md",
-    "semester-1/bwl/planspiel/Planspiel Master.md",
-    "semester-1/bwl/planspiel/Periode 3.md",
-    "semester-1/bwl/planspiel/Periode 2.md",
-    "semester-1/bwl/planspiel/Periode 2 fine-grained.md",
-    "semester-1/bwl/planspiel/Einführung Planspiel.md",
-    "semester-1/bwl/planspiel/BWL Master.md",
-    "semester-1/bwl/planspiel/001 Verträge.md",
-    "semester-1/programmieren/Programmieren Master.md",
-    "semester-1/programmieren/Begriffe Programmieren.md",
     "projektmanagement/images/Pasted image 20231220111558.png",
     "projektmanagement/images/gesamtorganisation.png",
     "projektmanagement/images/diagramm 3 Arten Projektmanagement.png",

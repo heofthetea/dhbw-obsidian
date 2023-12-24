@@ -1,9 +1,5 @@
 {
   "extensions": [
-    "ts",
-    "tsx",
-    "js",
-    "jsx",
     "py",
     "c"
   ],
