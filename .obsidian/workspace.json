@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c045c6d7accb7e15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/bwl/BWL Master.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "semester-1/bwl/BWL Master.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "semester-1/bwl/BWL Master.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md"
+                "file": "semester-1/bwl/BWL Master.md"
               }
             }
           },
@@ -177,8 +189,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0dee4e0572ab1e9a",
+  "active": "c045c6d7accb7e15",
   "lastOpenFiles": [
+    "notes/Daily Note 24-12-2023.md",
     "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
     "semester-1/goodnotes/Logik/source",
     "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.1 Aussagenlogik.pdf",
@@ -189,7 +202,6 @@
     "semester-1/goodnotes/Logik/Lgk 1 Mitschrieb.pdf",
     "semester-1/goodnotes/Logik/Lgk 1 Übungen.pdf",
     "semester-1/goodnotes/Logik/Lgk 1 Aufschrieb.pdf",
-    "semester-1/goodnotes/Logik/LgK 1.1 Mengenlehre.pdf",
     "semester-1/Semester 1 Master.md",
     "semester-1/Logik/Logik Master.md",
     "semester-1/Logik/Logik GoodNotes.md",
@@ -200,7 +212,6 @@
     "notes/TODO cleanups GoodNotes.md",
     "semester-1/semester-1 master.md",
     "semester-1/logic/Begrifflichkeiten Aussagenlogik.md",
-    "notes/Daily Note 24-12-2023.md",
     "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/programmieren/code/Code Master.md",
     "notes/Daily Notes Master.md",
