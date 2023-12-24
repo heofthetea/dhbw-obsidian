@@ -1,4 +1,6 @@
 {
   "things-style@@h6-color": "#0CDA5A",
-  "things-style@@h2-underline": false
+  "things-style@@h2-underline": false,
+  "things-style@@h1-color": "#FFFFFF",
+  "things-style@@h2-color": "#FF79C6"
 }

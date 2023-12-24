@@ -16,4 +16,4 @@
 
 
 ## code
-[[code master]]
+[[Code Master]]
