@@ -2,6 +2,9 @@
 
 ### 1. Environment
 - [ ]  Colour theme Obsidian
+- [ ] choose a set of colours
+	- [ ] back them up in a file BECAUSE OBSIDIAN SYNC CANNOT BE TRUSTED WITH *ANYTHING*
+	- [ ] get in sync over different devices
 - [x] **Goodnotes** synchronisation!!!!
 	- [x] setup rclone and alias
 	- [x] Setup Master Nodes for goodnotes
