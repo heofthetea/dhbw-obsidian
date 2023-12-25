@@ -1,8 +1,8 @@
-- [ ] Lineare Algebra
-	- [ ] remove SKRIPT-LAlg
-	- [ ] remove LAlg Aufschrieb
-- [ ] Digitaltechnik
-	- [ ] redundant script
-- [ ] Logik
-	- [ ] create Aufschriebe Subfolder
-	- [ ] remove Logik-handout.pdf
+- [x] Lineare Algebra
+	- [x] remove SKRIPT-LAlg
+	- [x] remove LAlg Aufschrieb
+- [x] Digitaltechnik
+	- [x] redundant script
+- [x] Logik
+	- [x] create Aufschriebe Subfolder
+	- [x] remove Logik-handout.pdf

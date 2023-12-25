@@ -1,9 +1,8 @@
 ## Aufschriebe
 ```expander
-path:"goodnotes/Lineare Algebra/Aufschrieb"
+path:"goodnotes/Lineare Algebra/Aufschriebe"
 ```
 - [[Induktion.pdf]]
-- [[Mengen.pdf]]
 - [[Notationen.pdf]]
 - [[RSA - Zahlentheorie.pdf]]
 <-->

@@ -11,9 +11,7 @@ Abgabe bis 7. Januar --> Feedback
 
 ---
 
-# 1. Zielbestimmungen
-
-
+# 1. Gedanken sammeln
 
 ## 3. Produktfunktionen
 - Accountsystem 

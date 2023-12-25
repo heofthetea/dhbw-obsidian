@@ -2,15 +2,15 @@
 
 ### 1. Environment
 - [ ]  Colour theme Obsidian
-- [ ] choose a set of colours
-	- [ ] back them up in a file BECAUSE OBSIDIAN SYNC CANNOT BE TRUSTED WITH *ANYTHING*
+- [x] choose a set of colours
+	- [x] back them up in a file BECAUSE OBSIDIAN SYNC CANNOT BE TRUSTED WITH *ANYTHING*
 	- [ ] get in sync over different devices
 - [ ] [[Daily Note 25-12-2023#New desk environment]]
 - [x] **Goodnotes** synchronisation!!!!
 	- [x] setup rclone and alias
 	- [x] Setup Master Nodes for goodnotes
-	- [ ] [[TODO cleanups GoodNotes]]
-		- [ ] grant write permissions to `rclone` remote
+	- [x] [[TODO cleanups GoodNotes]]
+		- [x] grant write permissions to `rclone` remote
 ### 2. Tasks
 #### High Importance
 - [ ] [[presentation vietnam]]
