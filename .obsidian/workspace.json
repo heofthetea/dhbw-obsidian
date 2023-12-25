@@ -20,12 +20,24 @@
             }
           },
           {
-            "id": "0dee4e0572ab1e9a",
+            "id": "6ac3576db8e82b69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Colour Backups.md",
+                "file": "semester-1/projektmanagement/003 Projektplanung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0773c56f289a176",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/Semester 1 Master.md",
                 "mode": "source",
                 "source": false
               }
@@ -40,19 +52,19 @@
             }
           },
           {
-            "id": "2122f702d81a8223",
+            "id": "865f879fed951352",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "notes/Colour Backups.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "notes/Colour Backups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "notes/Colour Backups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md"
+                "file": "notes/Colour Backups.md"
               }
             }
           },
@@ -197,34 +209,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2122f702d81a8223",
+  "active": "865f879fed951352",
   "lastOpenFiles": [
     "notes/Daily Note 25-12-2023.md",
+    "semester-1/Semester 1 Master.md",
+    "semester-1/projektmanagement/003 Projektplanung.md",
+    "semester-1/programmieren/code/Code Master.md",
+    "semester-1/programmieren/code/003/random_guesser_game.c",
+    "semester-1/projektmanagement/9 Wissensgebiete.md",
+    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "notes/Colour Backups.md",
-    "notes/Daily Note 24-12-2023.md",
+    "semester-1/digitaltechnik/scripts/Digitaltechnik-1.pdf",
+    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "semester-1/bwl/BWL Master.md",
+    "notes/Daily Note 24-12-2023.md",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/tout.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufschrieb/Mengen.pdf",
+    "semester-1/programmieren/code/001/euclid.c",
     "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
     "semester-1/goodnotes/Logik/source",
     "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.1 Aussagenlogik.pdf",
     "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
-    "semester-1/goodnotes/Logik/Aufschriebe",
-    "semester-1/goodnotes/Logik/Lgk Aufschriebe.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRÄDIKATENLOGIK.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1 Mitschrieb.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1 Übungen.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1 Aufschrieb.pdf",
-    "semester-1/Semester 1 Master.md",
     "semester-1/Logik/Logik Master.md",
     "semester-1/Logik/Logik GoodNotes.md",
     "semester-1/Logik/Begrifflichkeiten Aussagenlogik.md",
     "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
     "semester-1/digitaltechnik/Digitaltechnik Master.md",
-    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "notes/TODO cleanups GoodNotes.md",
     "semester-1/semester-1 master.md",
     "semester-1/logic/Begrifflichkeiten Aussagenlogik.md",
     "semester-1/lineare-algebra/Lineare Algebra Master.md",
-    "semester-1/programmieren/code/Code Master.md",
     "notes/Daily Notes Master.md",
     "semester-1/programmieren/Programmieren Master.md",
     "semester-1/lineare-algebra/Definitionen LAlg.md",
@@ -232,9 +246,6 @@
     "semester-1/programmieren/concepts/switch-case.md",
     "semester-1/programmieren/concepts/fun facts.md",
     "semester-1/programmieren/concepts/Structs.md",
-    "semester-1/programmieren/concepts/Strings.md",
-    "semester-1/programmieren/concepts/Functions.md",
-    "semester-1/programmieren/concepts/C concepts.md",
     "semester-1/projektmanagement/images/gesamtorganisation.png",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",

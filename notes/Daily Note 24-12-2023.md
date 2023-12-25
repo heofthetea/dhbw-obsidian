@@ -5,6 +5,7 @@
 - [ ] choose a set of colours
 	- [ ] back them up in a file BECAUSE OBSIDIAN SYNC CANNOT BE TRUSTED WITH *ANYTHING*
 	- [ ] get in sync over different devices
+- [ ] [[Daily Note 25-12-2023#New desk environment]]
 - [x] **Goodnotes** synchronisation!!!!
 	- [x] setup rclone and alias
 	- [x] Setup Master Nodes for goodnotes
