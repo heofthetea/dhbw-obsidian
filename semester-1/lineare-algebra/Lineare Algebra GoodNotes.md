@@ -13,6 +13,7 @@ path:"goodnotes/Lineare Algebra/Aufgaben"
 ```
 - [[Aufg-03_Induktion.pdf]]
 - [[tout.pdf]]
+- [[UEbungen.pdf]]
 <-->
 
 ## Mitschrieb

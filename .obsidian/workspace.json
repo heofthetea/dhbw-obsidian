@@ -4,102 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "c1f91385b956dbff",
+        "id": "296358329538c187",
         "type": "tabs",
         "children": [
           {
-            "id": "87a81f6b65c71b18",
+            "id": "e60038626ade337c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Daily Note 24-12-2023.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "831045e8e231c09a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dba20e039afc4ccc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Daily Note 24-12-2023.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a8b62b7fba4f54e",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "06af090e00414eb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3cd81dfce30bd79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Programmieren Master.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32115e94a40266bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/projektmanagement/Projektmanagement Master.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a766347be51560b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/Logik/Logik Master.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "930c23cb9f3d9946",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b72c3aad6e01741c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/Logik/Logik Master.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "410fab92bbe02f97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/projektmanagement/Projektmanagement Master.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/Daily Note 24-12-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/Daily Note 24-12-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notes/Daily Note 24-12-2023.md"
+              }
             }
           },
           {
@@ -221,13 +181,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,46 +199,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "87a81f6b65c71b18",
+  "active": "4a8b62b7fba4f54e",
   "lastOpenFiles": [
-    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
-    "notes/Daily Note 25-12-2023.md",
+    "notes/Daily Notes Master.md",
     "notes/Daily Note 24-12-2023.md",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
+    "notes/Daily Note 25-12-2023.md",
+    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
+    "semester-1/Logik/Logik GoodNotes.md",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.1 Aussagenlogik.pdf",
+    "semester-1/programmieren/Programmieren GoodNotes.md",
+    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRÄDIKATENLOGIK.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/Übungen.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 Übungen.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
+    "semester-1/goodnotes/Programmieren/Prog1 Mitschrieb.pdf",
+    "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
+    "semester-1/projektmanagement/vorlesungen/002 Projektorganisation.md",
+    "semester-1/programmieren/concepts/Structs.md",
+    "semester-1/Logik/Logik Master.md",
+    "semester-1/programmieren/Programmieren Master.md",
+    "semester-1/projektmanagement/Projektmanagement Master.md",
+    "semester-1/programmieren/code/Code Master.md",
     "notes/TODO cleanups GoodNotes.md",
     "notes/Colour Backups.md",
     "semester-1/Semester 1 Master.md",
     "semester-1/projektmanagement/vorlesungen/003 Projektplanung.md",
-    "semester-1/programmieren/code/Code Master.md",
     "semester-1/projektmanagement/Aufgabe Lastenheft.md",
     "semester-1/projektmanagement/Fragenkatalog Master.md",
-    "semester-1/programmieren/Programmieren Master.md",
-    "semester-1/programmieren/Programmieren GoodNotes.md",
-    "semester-1/goodnotes/Programmieren/C sheet.pdf",
-    "semester-1/projektmanagement/Projektmanagement Master.md",
-    "semester-1/Logik/Logik Master.md",
     "semester-1/projektmanagement/Projektmanagement GoodNotes.md",
     "semester-1/projektmanagement/Projektdefinition.md",
-    "semester-1/projektmanagement/vorlesungen",
     "semester-1/lineare-algebra/aufgaben/taschentücher koffer.md",
     "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
-    "semester-1/Logik/Logik GoodNotes.md",
-    "semester-1/goodnotes/Lineare Algebra/Aufschriebe/RSA - Zahlentheorie.pdf",
-    "semester-1/goodnotes/Lineare Algebra/Aufschriebe/Induktion.pdf",
-    "semester-1/goodnotes/Lineare Algebra/Aufschriebe/Notationen.pdf",
-    "semester-1/goodnotes/Lineare Algebra/Aufschriebe",
-    "semester-1/goodnotes/Lineare Algebra/LAlg Aufschrieb.pdf",
-    "semester-1/programmieren/code/003/random_guesser_game.c",
     "semester-1/projektmanagement/9 Wissensgebiete.md",
-    "semester-1/digitaltechnik/scripts/Digitaltechnik-1.pdf",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "semester-1/bwl/BWL Master.md",
     "semester-1/Logik/Begrifflichkeiten Aussagenlogik.md",
     "semester-1/digitaltechnik/Digitaltechnik Master.md",
-    "semester-1/semester-1 master.md",
-    "semester-1/logic/Begrifflichkeiten Aussagenlogik.md",
-    "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/projektmanagement/images/gesamtorganisation.png",
-    "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
     "projektmanagement/images/Pasted image 20231220111558.png",
     "projektmanagement/images/gesamtorganisation.png",

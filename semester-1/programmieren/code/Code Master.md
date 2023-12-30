@@ -36,5 +36,5 @@
 
 ## Weihnachtsferien
 ---
-[[Aufgabe - Sieb des Erothostenes]]4
+[[Aufgabe - Sieb des Erothostenes]]
 

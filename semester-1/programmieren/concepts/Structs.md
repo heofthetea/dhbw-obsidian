@@ -7,7 +7,7 @@ Acts in memory like an simple data type!!
 Actually gets _memory_ reserved in main memory.
 --> corresponds to _singular_ Object in OOP languages
 
-###### create a struct
+##### create a struct
 ```c
 struct 
 {
@@ -17,7 +17,7 @@ struct
 } student;
 ```
 
-###### access a struct
+##### access a struct
 ```c
 student.age = 18;
 strcpy(dhstudent.name, "Emil");
@@ -71,7 +71,9 @@ struct m_student
 ```
 
 ## 4. custom data type
+This, actually, resembles **objects/classes** in OOP. Only exceptionis, there is no methods.
 DOESN'T need the`struct` keyword when instantiated
+--> instead, the name given to the struct is used (`t_student` in this case)
 ```c
 typedef struct 
 {
