@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +165,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +181,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,9 +202,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -246,8 +241,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06af090e00414eb2",
+  "active": "87a81f6b65c71b18",
   "lastOpenFiles": [
+    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "notes/Daily Note 25-12-2023.md",
     "notes/Daily Note 24-12-2023.md",
     "notes/TODO cleanups GoodNotes.md",
@@ -265,7 +261,6 @@
     "semester-1/projektmanagement/Projektmanagement GoodNotes.md",
     "semester-1/projektmanagement/Projektdefinition.md",
     "semester-1/projektmanagement/vorlesungen",
-    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "semester-1/lineare-algebra/aufgaben/taschentücher koffer.md",
     "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
     "semester-1/Logik/Logik GoodNotes.md",

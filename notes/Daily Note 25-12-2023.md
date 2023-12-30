@@ -1,4 +1,7 @@
 ## New desk environment
 - [ ] pfand + müll weg
-- [ ] Kästchen ausmisten
+- [x] Kästchen ausmisten
 - [ ] yeet the laptop
+	- [ ] format SSD
+	- [ ] yeet monitor + Verstärker
+- [ ] new desk
