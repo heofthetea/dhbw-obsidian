@@ -106,4 +106,6 @@ Traditions, Savings...
 
 ### Indulgence
 How much do you enjoy life?
+"satisfy desires" / "luxury"
+	--> connected to leisure time, "treats"  
 

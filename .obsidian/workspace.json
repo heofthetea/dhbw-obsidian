@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffe4a02958f6afbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/ICC/presentation vietnam/presentation vietnam.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3d6a833bc81e17a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/ICC/Hall & Hofstede.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#e05252",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,11 +127,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -121,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "semester-1/ICC/presentation vietnam/presentation vietnam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md",
+                "file": "semester-1/ICC/presentation vietnam/presentation vietnam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Daily Note 24-12-2023.md"
+                "file": "semester-1/ICC/presentation vietnam/presentation vietnam.md"
               }
             }
           },
@@ -185,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +228,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a8b62b7fba4f54e",
+  "active": "ffe4a02958f6afbe",
   "lastOpenFiles": [
-    "notes/Daily Notes Master.md",
+    "semester-1/ICC/Hall & Hofstede.md",
+    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
+    "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
     "notes/Daily Note 24-12-2023.md",
+    "semester-1/ICC/presentation vietnam",
+    "semester-1/ICC/ICC Master.md",
+    "notes/Daily Notes Master.md",
     "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
     "notes/Daily Note 25-12-2023.md",
     "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
@@ -216,7 +250,6 @@
     "semester-1/goodnotes/Logik/Lgk 1 Übungen.pdf",
     "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
     "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
-    "semester-1/goodnotes/Programmieren/Prog1 Mitschrieb.pdf",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
     "semester-1/projektmanagement/vorlesungen/002 Projektorganisation.md",
     "semester-1/programmieren/concepts/Structs.md",
@@ -234,10 +267,6 @@
     "semester-1/projektmanagement/Projektdefinition.md",
     "semester-1/lineare-algebra/aufgaben/taschentücher koffer.md",
     "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
-    "semester-1/projektmanagement/9 Wissensgebiete.md",
-    "semester-1/bwl/BWL Master.md",
-    "semester-1/Logik/Begrifflichkeiten Aussagenlogik.md",
-    "semester-1/digitaltechnik/Digitaltechnik Master.md",
     "semester-1/projektmanagement/images/gesamtorganisation.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
     "projektmanagement/images/Pasted image 20231220111558.png",
