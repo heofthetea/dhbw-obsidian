@@ -17,4 +17,4 @@
 
 or how about...
 - [ ] **NOT USING A FUCKING ARRAY AT ALL**
-- [ ] or use a custom data type using less space
+	- [ ] work bit-wise instead

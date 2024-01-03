@@ -1,9 +1,14 @@
 
-
+## Code
 [[sieve.c]]
+--> uses: [[Nimmzeit.c]]
+
+---
+## Optimization notes
 
 ![[List of potential optimizations]]
 
+![[complexities.png]]
 ## Initial attempt
 ---
 - Array gets populated via play for-loop
@@ -152,4 +157,6 @@ Trying to find a data structure different from an array that will handle the tas
 > 
 > For your information: I am using the sieve until 100 000 000. So ideally, there would be a data type using exactly 100 000 000 bits.
 
+--> seems _complicated_
+maybe this can be done using only `malloc` 
 
