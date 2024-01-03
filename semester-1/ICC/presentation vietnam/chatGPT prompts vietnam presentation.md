@@ -18,3 +18,6 @@ You are quite satisfied with this outline, but to be sure you show it to a frien
 - He also mentions that the Masculinity vs Femininity point is a valid point to cover, however not what is meant by Hofstede's "MAS" dimension (which stands for "Motivation towards Achievement and Success"). He suggests you move the slide with the gender roles to after your coverage of the cultural dimensions and insert a new slide _actually_ covering the "MAS" dimension.
 
 You think this feedback is vallid and adjust your outline accordingly.
+
+#### 3. vietnamese economy
+Tell me a bit about the vietnamese economic system. Focus especially on the unique constellation of the country having a socialist leadership, but through reforms in the 80's adopted a system more closely resembling the free market economy of western countries. Highlight key points which those reforms adressed, and outline how the current state of the economy has similarities with the western free market, and how it differs from it.

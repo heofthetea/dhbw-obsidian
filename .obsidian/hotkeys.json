@@ -61,5 +61,14 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
   ]
 }

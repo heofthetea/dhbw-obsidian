@@ -1,7 +1,7 @@
 **Objects**, but in boring
 _Collections_ of individual data
 
-Acts in memory like an simple data type!!
+Acts in memory like a simple data type!!
 
 ## 1. real existent
 Actually gets _memory_ reserved in main memory.
@@ -67,7 +67,7 @@ struct m_student
 	char name[32];
 	int age;
 	float salary;
-} dhbw-student;
+} dhbw_student;
 ```
 
 ## 4. custom data type
@@ -82,7 +82,7 @@ typedef struct
 	float salary;
 } t_student;
 
-t_dhler hannes, lisa; // etc
+t_student hannes, lisa; // etc
 ```
 
 ### use model with typedef:

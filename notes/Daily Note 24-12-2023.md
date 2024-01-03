@@ -2,7 +2,7 @@
 
 ### 1. Environment
 - [x]  Colour theme Obsidian
-	- [ ] GET THE CODE EXTENSION TO EITHER LOOK GOOD OR YEET IT
+	- [x] GET THE CODE EXTENSION TO EITHER LOOK GOOD OR YEET IT
 - [x] choose a set of colours
 	- [x] back them up in a file BECAUSE OBSIDIAN SYNC CANNOT BE TRUSTED WITH *ANYTHING*
 	- [x] get in sync over different devices
@@ -21,7 +21,7 @@
 	- [x] p-Kanal-MOSFET (trivial)
 	- [ ] Schaltungen (autsch)
 - [x] Logik
-- [ ] Programmieren - _structs_
+- [x] Programmieren - _structs_
 - [ ] Projektmanagement
 
 #### 2.2 exercises
