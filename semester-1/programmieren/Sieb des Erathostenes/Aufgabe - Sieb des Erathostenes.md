@@ -23,9 +23,16 @@ for every element in array:
 
 
 ## Task
-Calculate bis 100 000 000
+Calculate until 100 000 000
 
 output:
 time for initialisation
 time for calculation
+time for summing up results
 time in total
+
+
+number of found primes
+
+
+[[implementation Sieb des Erathostenes]]

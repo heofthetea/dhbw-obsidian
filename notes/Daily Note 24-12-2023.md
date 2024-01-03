@@ -26,9 +26,12 @@
 
 #### 2.2 exercises
 - [ ] Programmieren
-	- [ ] [[Aufgabe - Sieb des Erothostenes]]
+	- [ ] [[Aufgabe - Sieb des Erathostenes]]
 - [ ] Lineare Algebra
 	- [ ] RSA encryption
 		- [ ] programmieren?
 	- [ ] Induktionen
 	- [ ] Knobelaufgaben
+- [ ] Digitaltechnik
+	- [ ] Blatt 1
+	- [ ] Blatt 2

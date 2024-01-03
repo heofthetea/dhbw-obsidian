@@ -102,9 +102,8 @@ _?? move this into their respective slides_
 [[#Individualism]] --> discussions need to reach a common consensus, but once they do, plans get implemented real fast
 
 
-
-
-
+## notes
+- highlight contradictions --> hypothesis about communist system clashing with other systems throughout Vietnam's history
 
 ---
 ### sources
