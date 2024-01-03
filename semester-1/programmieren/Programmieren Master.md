@@ -5,16 +5,17 @@
 [[fun facts]]
 
 
-## c syntax
+## Contents
 [[C concepts]]
 [[Functions]]
 [[semester-1/programmieren/concepts/Strings|Strings]]
 [[Structs]]
 [[switch-case]]
 
+## Code
+[[Code Master]]
 
 ## GoodNotes
 [[Programmieren GoodNotes]]
 
-## code
-[[Code Master]]
+

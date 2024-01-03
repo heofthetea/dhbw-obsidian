@@ -34,5 +34,5 @@ time in total
 
 number of found primes
 
-
-[[implementation Sieb des Erathostenes]]
+## Implementation
+[[implementation Sieb des Eratosthenes]]

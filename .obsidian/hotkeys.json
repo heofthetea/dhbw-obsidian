@@ -74,9 +74,18 @@
   "file-explorer:move-file": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "M"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
     }
   ]
 }

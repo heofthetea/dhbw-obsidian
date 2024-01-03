@@ -19,10 +19,6 @@ use: `printf("...", )`
 |`%s` | string|
 |`%x, %X` | hex-darstellung |
 
-
-
-
-
 ###### scanf
 
 **Achtung:** input buffer löschen:
@@ -168,8 +164,6 @@ Zahlen folgen _immer_ gleichem System
 
 ## dimensions of a variable
 ###### data type
-
 ###### name
 ###### value
-
 ###### address
