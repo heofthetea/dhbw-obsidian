@@ -12,7 +12,9 @@
 
 
 ```python
-primes: list = regular_sieve(until sqrt(n))
+is_prime: list = regular_sieve(until sqrt(n))
+for each segment:
+	
 
 ```
 
@@ -68,6 +70,17 @@ The _list_uint64_ struct roughly emulates a _list_ in python.
 - _length_ -> equivalent to the return value of `len(list)` in python. Stores how many elements the list currently holds.
 ##### Appending
 This is more or less a very fancy _array syntax_. It first accesses the data list via pointer operations (`list->data`), then stores the value at the end (`list->length`) and then increases the length attribute by one.
+
+
+#### Setup
+1) create `is_prime` array to later run a regular sieve on
+2) fill this array with one's --> leave indexes for 0 and 1 out, because those aren't primes
+3) create a `list_uint64` instance to later store the primes in
+```c
+bool is_prime[(uint64_t)sqrt(UPPER_LIMIT)];
+memset(is_prime + 2, 1, (uint64_t) sqrt(UPPER_LIMIT));
+list_uint64 primes = new_list(PRIMES_UNTIL_10E8 + 5);
+```
 
 
 

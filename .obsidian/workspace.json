@@ -83,15 +83,12 @@
             }
           },
           {
-            "id": "c8794fcd769aa52a",
+            "id": "4988a3b2cbadef9f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "semester-1/programmieren/concepts/C concepts.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf"
               }
             }
           }
@@ -162,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/concepts/C concepts.md",
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/concepts/C concepts.md",
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/programmieren/concepts/C concepts.md"
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf"
               }
             }
           },
@@ -240,13 +237,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c8794fcd769aa52a",
+  "active": "4988a3b2cbadef9f",
   "lastOpenFiles": [
-    "semester-1/programmieren/Programmieren Master.md",
-    "semester-1/programmieren/concepts/Strings.md",
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
     "semester-1/programmieren/code/Code Master.md",
+    "semester-1/programmieren/code/examples/functions.c",
+    "semester-1/programmieren/concepts/Functions.md",
     "semester-1/programmieren/concepts/C concepts.md",
+    "semester-1/programmieren/Programmieren Master.md",
+    "semester-1/programmieren/concepts/Strings.md",
     "semester-1/programmieren/concepts/Structs.md",
     "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
     "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
@@ -263,7 +262,6 @@
     "semester-1/programmieren/code/sieve of erathostenes/segmented_sieve_stolen.c",
     "semented_sieve.c.md",
     "semester-1/programmieren/code/sieve of erathostenes/segmented_sieve.c",
-    "semester-1/programmieren/code/sieve of erathostenes/sieveWithoutArray.c",
     "semester-1/ICC/presentation vietnam/presentation vietnam.md",
     "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
@@ -278,8 +276,6 @@
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
     "semester-1/programmieren/concepts/fun facts.md",
     "semester-1/ICC/presentation vietnam/Vietnam - Notizen HHG Geschichte.md",
-    "semester-1/ICC/ICC Master.md",
-    "notes/Daily Note 25-12-2023.md",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
     "semester-1/projektmanagement/images/gesamtorganisation.png",
     "projektmanagement/images/Pasted image 20231220111558.png",
