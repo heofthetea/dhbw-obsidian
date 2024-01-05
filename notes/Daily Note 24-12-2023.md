@@ -18,7 +18,7 @@
 #### 2.1 summaries
 - [ ] Digitaltechnik (_ask Tobi_)
 	- [x] n-Kanal-MOSFET
-	- [x] p-Kanal-MOSFET (trivial)
+	- [ ] p-Kanal-MOSFET (trivial)
 	- [ ] Schaltungen (autsch)
 - [x] Logik
 - [x] Programmieren - _structs_
@@ -26,12 +26,14 @@
 
 #### 2.2 exercises
 - [ ] Programmieren
-	- [ ] [[Aufgabe - Sieb des Erathostenes]]
+	- [ ] [[Aufgabe - Sieb des Eratosthenes]]
+		- [x] simple implementation
+			- [x] optimized
+		- [ ] segmented optimization
 - [ ] Lineare Algebra
 	- [ ] RSA encryption
 		- [ ] programmieren?
 	- [ ] Induktionen
-	- [ ] Knobelaufgaben
 - [ ] Digitaltechnik
 	- [ ] Blatt 1
 	- [ ] Blatt 2

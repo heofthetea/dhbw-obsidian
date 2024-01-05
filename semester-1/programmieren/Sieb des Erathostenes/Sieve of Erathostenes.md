@@ -1,9 +1,4 @@
 
-https://elearning.dhbw-stuttgart.de/moodle/mod/folder/view.php?id=350129
-
-
-## Verfahren:
-
 1) find a prime number (start with 2)
 2) exclude all multiples of that prime number
 
@@ -20,19 +15,3 @@ for every element in array:
 	if(element == 1):
 		element is prime
 ```
-
-
-## Task
-Calculate until 100 000 000
-
-output:
-time for initialisation
-time for calculation
-time for summing up results
-time in total
-
-
-number of found primes
-
-## Implementation
-[[implementation Sieb des Eratosthenes]]

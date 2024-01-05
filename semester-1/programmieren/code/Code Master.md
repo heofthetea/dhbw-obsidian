@@ -36,5 +36,5 @@
 
 ## Weihnachtsferien
 ---
-[[Aufgabe - Sieb des Erathostenes]]
+[[Aufgabe - Sieb des Eratosthenes]]
 

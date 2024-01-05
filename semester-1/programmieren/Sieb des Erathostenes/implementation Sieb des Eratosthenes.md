@@ -2,6 +2,9 @@
 ## Code
 [[sieve.c]]
 --> uses: [[Nimmzeit.c]]
+	--> THIS IS LITERALL ABUSIVE BULLSHIT
+		BRO  I CANNOT FOR THE LIFE OF ME USE THIS FUCKING STUPID TIME-TAKING SHIT IT IS LITERALLY FUCKING IMPOSSIBLE
+		WHY DO YOU WRITE YOUR STUPID FUCKING TOOL WITH LIBRARIES _ONLY ACCESSIBLE ON WINDOWS SYSTEMS_ LIKE WHAT THE FUCK **WHY DON'T YOU JUST USE TIME.H LIKE  _EVERY! FUCKING! SANE! PERSON!_**
 
 ---
 ## Optimization notes
@@ -159,4 +162,8 @@ Trying to find a data structure different from an array that will handle the tas
 
 --> seems _complicated_
 maybe this can be done using only `malloc` 
+
+## Attempt 5: Segmented Sieve
+--> found [[Segmented Sieve]] --> scratch the data structure
+![[Segmented Sieve]]
 

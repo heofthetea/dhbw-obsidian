@@ -167,3 +167,8 @@ Zahlen folgen _immer_ gleichem System
 ###### name
 ###### value
 ###### address
+
+
+## Segmentation Fault
+Occurs whenever program tries to write to memory it is not allowed to 
+--> usually because something is too big (similar to `OutOfBoundsException` in Java)

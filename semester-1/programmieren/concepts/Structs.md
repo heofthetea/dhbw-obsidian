@@ -99,3 +99,9 @@ typedef struct m_student
 t_dhler hannes, lisa; // etc
 
 ```
+
+
+## Traps
+### size limit
+A struct gets a certain amount of Memory reserved (~2 MB)
+	--> If this limit is reached, the result is a _segmentation Fault_

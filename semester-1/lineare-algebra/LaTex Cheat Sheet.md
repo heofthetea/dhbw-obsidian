@@ -36,4 +36,13 @@
 `\sum` --> $\sum$ 
 `\sum_{k = 1}^{n} expression` --> $\sum_{k = 1}^{n} expression$
 
+###### Spezielle Mengen
+`\mathbb{N}` --> $\mathbb{N}$
+
+### spacing
+`\.` --> wee lil space
+`\ ` --> regular spac
+`\quad` --> big space
+`\qquad` --> way too big space
+
 

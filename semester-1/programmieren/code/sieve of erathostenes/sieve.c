@@ -2,8 +2,9 @@
 // #include <stdio.h>
 // #include <stdlib.h>
 #include <string.h>
-#include "Nimmzeit.c"
+// #include "Nimmzeit.c"
 #include <stdbool.h>
+#include <time.h>
 
 #define LEN_ARRAY 100000000
 
@@ -20,14 +21,18 @@ int main()
     double mw1, mw2, mw3, mw4;
     int primes;
 
-    mw1 = nimmzeit();
+    //mw1 = nimmzeit();
+    mw1 = (double) clock() / CLOCKS_PER_SEC;
     populateArray();
     // printArray(LEN_ARRAY - 10000, LEN_ARRAY);
-    mw2 = nimmzeit();
+    // mw2 = nimmzeit();
+    mw2 = (double)clock() / CLOCKS_PER_SEC;
     sieve();
-    mw3 = nimmzeit();
+    // mw3 = nimmzeit();
+    mw3 = (double)clock() / CLOCKS_PER_SEC;
     primes = countPrimes();
-    mw4 = nimmzeit();
+    // mw4 = nimmzeit();
+    mw4 = (double)clock() / CLOCKS_PER_SEC;
 
     double timeInitialization = mw2 - mw1;
     double timeSieving = mw3 - mw2;
