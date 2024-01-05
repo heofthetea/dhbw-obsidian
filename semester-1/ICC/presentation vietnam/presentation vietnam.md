@@ -38,7 +38,6 @@ structure of slides:
 	image of graph
 	explanation + hypothesis of why it is that way
 	example from Hanh
-	
 ### Hofstede
 First compare all aspects to different countries
 Only compare to germany in individual points

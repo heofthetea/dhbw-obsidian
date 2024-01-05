@@ -9,6 +9,5 @@
 ## Good Notes
 [[Lineare Algebra GoodNotes]]
 
-
----
-[[scribbles]]
+## Aufgaben
+[[Lineare Algebra Aufgaben Master]]
