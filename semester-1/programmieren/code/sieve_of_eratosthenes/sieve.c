@@ -1,19 +1,15 @@
-
-// #include <stdio.h>
-// #include <stdlib.h>
 #include <string.h>
-// #include "Nimmzeit.c"
 #include <stdbool.h>
 #include <time.h>
 
-#define LEN_ARRAY 100000000
+// #define UPPER_LIMIT 100000000
+#define UPPER_LIMIT 10000
 
 void populateArray();
-void printArray(int, int);
-int sieve();
+void sieve();
 int countPrimes();
 
-bool numbers[LEN_ARRAY];
+bool numbers[UPPER_LIMIT];
 
 int main()
 {
@@ -21,10 +17,10 @@ int main()
     double mw1, mw2, mw3, mw4;
     int primes;
 
-    //mw1 = nimmzeit();
-    mw1 = (double) clock() / CLOCKS_PER_SEC;
+    printf("\nCalculation for number of primes until %lu:\n\n", UPPER_LIMIT);
+    // mw1 = nimmzeit();
+    mw1 = (double)clock() / CLOCKS_PER_SEC;
     populateArray();
-    // printArray(LEN_ARRAY - 10000, LEN_ARRAY);
     // mw2 = nimmzeit();
     mw2 = (double)clock() / CLOCKS_PER_SEC;
     sieve();
@@ -46,52 +42,36 @@ int main()
     printf("\ntime total: \t\t\t %.3f", timeTotal);
 
     printf("\n\nnumber of primes: %d\n\n", primes);
-    printArray(2, 13);
 
     return 0;
 }
 
 void populateArray()
 {
-    memset(numbers, 1, LEN_ARRAY);
+    memset(numbers + 2, 1, UPPER_LIMIT - 2);
 }
 
-int sieve()
+void sieve()
 {
-    for (int i = 2; i * i < LEN_ARRAY; i++)
+    for (int i = 3; i * i < UPPER_LIMIT; i += 2)
     {
-        if (!numbers[i])
+        if (numbers[i])
         {
-            continue;
-        }
-        for (int j = i * i; j < LEN_ARRAY; j += i)
-        {
-            numbers[j] = 0;
+            for (int j = i * i; j < UPPER_LIMIT; j += 2 * i)
+            {
+                numbers[j] = 0;
+            }
         }
     }
-
-    return 0;
 }
 
 int countPrimes()
 {
     int sum = 1;
-    for (int i = 3; i < LEN_ARRAY; i += 2)
+    for (int i = 3; i < UPPER_LIMIT; i += 2)
     {
         sum += numbers[i];
     }
     return sum;
 }
 
-void printArray(int start, int end)
-{
-    if (start > end)
-    {
-        return;
-    }
-
-    for (int i = start; i <= end; i++)
-    {
-        printf("%d", numbers[i]);
-    }
-}

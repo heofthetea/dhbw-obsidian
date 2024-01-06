@@ -1,6 +1,21 @@
-
 ## Code
 [[segmented_sieve.c]]
+
+### Runtime
+**Time Complexity:** $O(n\;log(n))$ 
+**Space Complexity:** $O(\sqrt{n}$
+
+**Timed** (average-case):
+	as _linux executable_: ~225 ms
+	as _windows executable_ under `wine`: ~260 ms
+
+|  | Segmented Sieve | Segmented Sieve (under `wine`) | Benchmark |
+| ---- | ---- | ---- | ---- |
+| battery power | 230 ms | 260 ms | 700 ms |
+| performance mode | 225 ms | 260 ms | 370 ms |
+--> As _space complexity_ is optimized, Segmented Sieve runs basically equally fast regardless of available resources
+--> `wine` emulator adds ~40 ms of runtime
+
 
 ### Inspired by:
 [[segmented_sieve_stolen.c]]
@@ -150,7 +165,7 @@ for (int i = 0; i < sieving_primes.length; i++)
 - Iterator variable $j$ is assigned the corresponding `multiples` entry
 	--> if the sieving prime $p$ has been used in the loop before, this will be the first multiple of $p$ in the current segment
 - Since all even indexes get ignored, we can only check every _other_ multiple of $p$
-	-   $2 \not\mid p \rightarrow 2\not\mid (2a+1)p \land 2 \mid 2a*p$ therefore $2a*p \not\in \mathbb{P}$
+	-   $2 \not\mid p \rightarrow 2\not\mid (2a+1)p \land 2 \mid 2a*p$, therefore $2a*p \not\in \mathbb{P}$
 - Finally, the `multiples` entry is updated to store the _next_ multiple, that doesn't lie in the current segment
 	- this usage of $j$ is why $j$ needed to be declared _before_ the for loop
 

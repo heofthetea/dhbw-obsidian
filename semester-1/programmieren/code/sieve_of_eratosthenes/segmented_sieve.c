@@ -50,6 +50,8 @@ int main()
     double t1, t2, t3, t4;
     int num_primes;
 
+
+    printf("\nCalculation for number of primes until %llu \n\n", UPPER_LIMIT);
     t1 = (double)clock() / CLOCKS_PER_SEC;
     bool is_prime[(size_t)sqrt(UPPER_LIMIT)];
     memset(is_prime + 2, true, sizeof(is_prime) - 2);

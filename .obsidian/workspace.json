@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -67,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md"
+                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md"
               }
             }
           },
@@ -212,45 +211,44 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3fdd04b08ae9b4a9",
+  "active": "604aa2134d7710a7",
   "lastOpenFiles": [
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/hello_world.py",
+    "semester-1/programmieren/code/sieve of erathostenes/output/go_for_it",
+    "semester-1/programmieren/code/sieve of erathostenes/output/Nimmzeit",
+    "semester-1/programmieren/code/sieve of erathostenes/output",
+    "semester-1/programmieren/code/sieve of erathostenes",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/sieveWithoutArray",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/sieve",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve_stolen",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve.exe",
+    "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "notes/Daily Note 06-01-2024.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/programmieren/code/Code Master.md",
     "notes/Daily Note 24-12-2023.md",
     "notes/Daily Notes Master.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
     "semester-1/programmieren/code/004/Code 004 Master.md",
     "semester-1/programmieren/code/003/Code 003 Master.md",
     "semester-1/programmieren/code/002/Code 002 Master.md",
     "semester-1/programmieren/code/001/Code 001 Master.md",
-    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "semester-1/ICC/presentation vietnam/presentation vietnam.md",
-    "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf",
     "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
-    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
-    "semester-1/programmieren/code/examples/functions.c",
     "semester-1/programmieren/concepts/Functions.md",
     "semester-1/programmieren/concepts/C concepts.md",
     "semester-1/programmieren/Programmieren Master.md",
     "semester-1/programmieren/concepts/Strings.md",
     "semester-1/programmieren/concepts/Structs.md",
-    "semester-1/programmieren/code/sieve of erathostenes/Nimmzeit.c",
-    "semester-1/programmieren/code/sieve of erathostenes/output/segmented_sieve_stolen",
-    "semester-1/programmieren/code/sieve of erathostenes/output/Nimmzeit",
-    "semester-1/programmieren/code/sieve of erathostenes/output/tempCodeRunnerFile",
-    "semester-1/programmieren/code/sieve of erathostenes/tempCodeRunnerFile.c",
-    "semester-1/programmieren/code/sieve of erathostenes/segmented_sieve",
-    "semester-1/programmieren/code/sieve of erathostenes/output/segmented_sieve",
     "semented_sieve.c.md",
     "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/List of potential optimizations.md",
     "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/complexities.png",
-    "semester-1/digitaltechnik/Digitaltechnik Master.md",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
     "semester-1/projektmanagement/images/gesamtorganisation.png",
