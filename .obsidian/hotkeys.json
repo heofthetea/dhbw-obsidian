@@ -87,5 +87,14 @@
       ],
       "key": "Q"
     }
+  ],
+  "backlink:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
   ]
 }

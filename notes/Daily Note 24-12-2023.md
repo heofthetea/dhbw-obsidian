@@ -25,11 +25,13 @@
 - [ ] Projektmanagement
 
 #### 2.2 exercises
-- [ ] Programmieren
-	- [ ] [[Aufgabe - Sieb des Eratosthenes]]
+- [x] Programmieren
+	- [x] [[Aufgabe - Sieb des Eratosthenes]]
 		- [x] simple implementation
 			- [x] optimized
-		- [ ] segmented optimization
+		- [x] segmented optimization
+	- [x] structs
+		--> learned indirectly through Sieve of Eratosthenes
 - [ ] Lineare Algebra
 	- [ ] RSA encryption
 		- [ ] programmieren?

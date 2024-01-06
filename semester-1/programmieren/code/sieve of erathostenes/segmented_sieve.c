@@ -8,9 +8,10 @@
 
 #define UPPER_LIMIT 100000000
 #define SEGMENT_SIZE 32768
-// #define UPPER_LIMIT 100
-// #define SEGMENT_SIZE 50
 #define PRIMES_UNTIL_SQRT 1229
+// #define UPPER_LIMIT 1000000000
+// #define SEGMENT_SIZE 40000
+// #define PRIMES_UNTIL_SQRT 32000
 
 void sieve(bool *, size_t);
 
@@ -81,7 +82,7 @@ uint64_t segmented_sieve(bool *is_prime, size_t len_is_prime, list_uint64 sievin
 {
     uint64_t low, high;
     uint64_t num_primes = 1; // 2 is already accounted for everywhere, so we need to manually specify it
-    uint64_t sieving_prime_canidate = 3;      // only look at primes larger than 2 (because multiples of 2 are trivial)
+    uint64_t sieving_prime_canidate = 3; // only look at primes larger than 2
     uint64_t prime_counter = 3;
     list_uint64 multiples = new_list(sieving_primes.max_size); // need to store exactly one multiple for every prime
     bool segment[SEGMENT_SIZE];
@@ -97,7 +98,7 @@ uint64_t segmented_sieve(bool *is_prime, size_t len_is_prime, list_uint64 sievin
             if (is_prime[sieving_prime_canidate])
             {
                 list_append(&sieving_primes, sieving_prime_canidate);                    // it is a prime, so we store it
-                list_append(&multiples, (sieving_prime_canidate * sieving_prime_canidate) - low); // appends an index to the multiples so that for every prime at index i, a multiple can be stored at the multiples.data[i]
+                list_append(&multiples, (sieving_prime_canidate * sieving_prime_canidate) - low); // create space for corresponding multiples
             }
         }
 

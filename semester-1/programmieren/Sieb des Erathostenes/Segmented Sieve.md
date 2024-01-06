@@ -37,11 +37,12 @@ for each segment [low, high]:
 ```
 
 
---> I still need to figure out why exactly this actually optimizes the algorithm
-## Stolen implementation
-[[segmented_sieve_stolen.c]]
---> explanation of algorithm: https://github.com/kimwalisch/primesieve/wiki/Segmented-sieve-of-Eratosthenes
+## Why it is faster
 
+### Locality of Memory
+A regular sieve is _massively_ ineffient when it comes to caching, as each time, the processor has to go over the _entire_ array. Splitting it up into smaller chunks easens the workload of the processor, and also, after finishing each segment, all non-primes disappear fom the cache. Making it for once more space-efficient, but also more time-efficient due to _locality of memory_ - whatever that is exactly.
 
-## Own shot at implementation
-![[Implementation Segmented Sieve]]
+### Ignoring even numbers
+Only dealing with uneven numbers essentially _halves_ the workload. This can also be observed in the time: When processing _all_ numbers, runtime jumps from _~250 ms_ all the 
+## Implementation:
+[[Implementation Segmented Sieve]]

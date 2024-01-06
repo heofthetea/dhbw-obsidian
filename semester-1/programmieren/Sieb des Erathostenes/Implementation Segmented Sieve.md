@@ -2,6 +2,11 @@
 ## Code
 [[segmented_sieve.c]]
 
+### Inspired by:
+[[segmented_sieve_stolen.c]]
+--> explanation of algorithm: https://github.com/kimwalisch/primesieve/wiki/Segmented-sieve-of-Eratosthenes
+
+
 ## Documentation
 > since I need `stdio` for this and it redefines `timeval` from `linux/time.h`, I'm not working with the provided Nimmzeit module, instead using `clock()` to measure the time. A giant Fuck You to hoever wrote that stupid module.
 > 
