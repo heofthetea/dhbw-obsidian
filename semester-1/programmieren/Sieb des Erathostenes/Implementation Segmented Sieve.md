@@ -10,7 +10,7 @@
 ## Documentation
 > since I need `stdio` for this and it redefines `timeval` from `linux/time.h`, I'm not working with the provided Nimmzeit module, instead using `clock()` to measure the time. A giant Fuck You to hoever wrote that stupid module.
 > 
-> Futhermore, since the evaluation happens _inside_ the sieving, it cannot be timed seperately. Of course one could time _each_ individual sub-evaluation, however that slows the program down by ~.5 ms, which is about 20% of total runtime and thus not feasible.
+> Futhermore, since the evaluation happens _inside_ the sieving, it cannot be timed seperately. Of course one could time _each_ individual sub-evaluation, however that slows the program down by ~50 ms, which is about 20% of total runtime and thus not feasible.
 ### Storage of primes 
 we _could_ simply use an array of size _5 761 455_ , because we only need to search until 10⁸
 	 _Problem_: how do we know what place we're in?
@@ -64,6 +64,7 @@ This is more or less a very fancy _array syntax_. It first accesses the data lis
 4) create a `list_uint64` instance to later store the primes in
 	- cheats a little because we already know how big the array has to be
 		- we're only searching until $\sqrt{n} = 10\ 000$ for $n = 10^8$ 
+			--> running a regular sieve with _upper limit_ 10 000 returns _1229_ primes 
 ```c
 bool is_prime[(size_t)sqrt(UPPER_LIMIT)];
 memset(is_prime + 2, true, sizeof(is_prime) - 2);
@@ -101,7 +102,7 @@ bool segment[SEGMENT_SIZE];
 		--> data of one segment _does not persist_
 	- attention: since the entire program _ignores even numbers_, every even index will also be marked as _true_, just not evaluated.
 ##### Scope of outer loop
-> Sets environment for the environment of the current segment.
+> Sets environment for the current segment.
 ```c
 for (low = 0; low <= UPPER_LIMIT; low += SEGMENT_SIZE)
     {
@@ -114,7 +115,7 @@ for (low = 0; low <= UPPER_LIMIT; low += SEGMENT_SIZE)
 - sets _every_ element of the `segment` array to _true_
 - high is either set to _one less_ than the low of the next segment or the upper limit (trivial)
 #### 2. Filtering of Sieving Primes
-> _Sieving Prime_: A prime that is used to cross of multiples of a segment $[l, n]$. Sieving Primes only need to be smaller than $\sqrt{n}$. (See [[#Idea]])
+> _Sieving Prime_: A prime $p$ that is used to cross of multiples $a*p$ within a segment $[l, n]$. Sieving Primes only need to be smaller than $\sqrt{n}$.
 
 ```c
 for (; sieving_prime_canidate * sieving_prime_canidate <= high; sieving_prime_canidate += 2)
@@ -149,9 +150,9 @@ for (int i = 0; i < sieving_primes.length; i++)
 - Iterator variable $j$ is assigned the corresponding `multiples` entry
 	--> if the sieving prime $p$ has been used in the loop before, this will be the first multiple of $p$ in the current segment
 - Since all even indexes get ignored, we can only check every _other_ multiple of $p$
-	-   $2 \not\mid p \rightarrow 2\not\mid p + 2p \land 2 \mid 2p$ 
+	-   $2 \not\mid p \rightarrow 2\not\mid (2a+1)p \land 2 \mid 2a*p$ therefore $2a*p \not\in \mathbb{P}$
 - Finally, the `multiples` entry is updated to store the _next_ multiple, that doesn't lie in the current segment
-	- this is why $j$ needed to be declared _before_ the for loop
+	- this usage of $j$ is why $j$ needed to be declared _before_ the for loop
 
 #### 4. Evaluation 
 > Since data of an individual segment doesn't persist, the evaluation needs to take place inside of a segment.

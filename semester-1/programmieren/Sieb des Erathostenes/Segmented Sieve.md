@@ -13,7 +13,7 @@
 	- even numbers cannot be prime
 	- allows for only checking for every _other_ multiple of a prime p because:
 		- for every $p \not= 2 \in \mathbb{P}$ is true: $2 \not\mid p$
-		 -  $2 \not\mid p \rightarrow 2\not\mid p + 2p \land 2 \mid 2p$ 
+		-  $2 \not\mid p \rightarrow 2\not\mid (2a+1)p \land 2 \mid 2a*p$  ($a \in \mathbb{N}_0$)
 		--> since $2p$ is obviously _even_, it gets ignored by _every_ part of the program, thus its state is irrelevant    
 	==> this means that when counting primes, _2 is never included_ --> thus, the number of found primes is always _one less_ than the actual number of primes
 
