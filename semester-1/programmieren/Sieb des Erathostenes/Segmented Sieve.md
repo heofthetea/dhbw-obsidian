@@ -1,6 +1,6 @@
-## Idea:
-1) search for all primes up to $sqrt(n)$
-	- reaason (trivial): $a*b > n\ (if\quad a>b \ \lor \ b > a)$ for $a, b, c,\in \mathbb{N}$
+## Idea
+1) search for all primes up to $\sqrt{n}$
+	- reason (trivial): $a*b > n\ (if\quad a>b \ \lor \ b > a)$ for $a, b, c,\in \mathbb{N}$
 	- uses _regular_ [[Sieve of Erathostenes]]
 	--> represented as _array_ of 1 and 0
 1) split array up into _segments_
@@ -9,12 +9,30 @@
 		--> maximum efficiency
 3) for each segment:
 	- check for multiples of _all_  primes found in _1)_
+4) in all of this: _Ignore_ all even numbers
+	- even numbers cannot be prime
+	- allows for only checking for every _other_ multiple of a prime p because:
+		- for every $p \not= 2 \in \mathbb{P}$ is true: $2 \not\mid p$
+		 -  $2 \not\mid p \rightarrow 2\not\mid p + 2p \land 2 \mid 2p$ 
+		--> since $2p$ is obviously _even_, it gets ignored by _every_ part of the program, thus its state is irrelevant    
+	==> this means that when counting primes, _2 is never included_ --> thus, the number of found primes is always _one less_ than the actual number of primes
 
 
 ```python
-is_prime: list = regular_sieve(until sqrt(n))
-for each segment:
+is_prime[] = regular_sieve(until sqrt(n))
+num_primes = 1 # compensates for ignoring 2
+for each segment [low, high]:
+	sieving_primes = [primes in is_prime until sqrt(high)]
+	multiples: list[len(sieving_primes)] 
+
+	for each prime p in sieving_primes:
+		a = multiples[index of p] # a is always uneven
+		for each multiple m = 2a * p:
+			eliminate m from segment
+		when multiple > high:
+			store m in multiples
 	
+	num_primes += number of primes in segment
 
 ```
 
@@ -26,61 +44,4 @@ for each segment:
 
 
 ## Own shot at implementation
-[[segmented_sieve.c]]
-> since I need `stdio` for this and it redefines `timeval` from `linux/time.h`, I'm not working with Nimmzeit, instead using `clock()` to measure the time. A giant Fuck You to hoever wrote that stupid module.
-### Storage of primes 
-we _could_ simply use an array of size _5 761 455_ , because we only need to search until 10⁸
-	 _Problem_: how do we know what place we're in?
-		--> use seperate variable for this
-	==> runs straight into a _Segmentation fault_
-
-==> scratch that, HERE GOES LISTS WITH MANUAL MEMORY ALLOCATION
-
-#### store primes
-```c
-typedef struct
-{
-    uint64_t *data;
-    uint64_t max_size;
-    uint64_t length;
-} list_uint64;
-
-// creates a new list filled with default values
-list_uint64 new_list(uint64_t size)
-{
-    list_uint64 list = {
-        malloc(size * sizeof(uint64_t)),
-        size,
-        0 
-    };
-
-    return list;
-}
-
-// appends an item to given list. List is passed as reference.
-void list_append(list_uint64 *list, uint64_t value) {
-    list->data[list->length++] = value;
-}
-```
-
-The _list_uint64_ struct roughly emulates a _list_ in python.
-##### Attributes
--  _data_ -> Pointer to where the _actual data_ of the list lies. This can be used synonimously with an array using bracket syntax: `list.data[index]`.
-- _max_size_ -> How much _memory_ has been allocated. Can be used to reallocate in case there should ever be Segmentation faults to occur.
-- _length_ -> equivalent to the return value of `len(list)` in python. Stores how many elements the list currently holds.
-##### Appending
-This is more or less a very fancy _array syntax_. It first accesses the data list via pointer operations (`list->data`), then stores the value at the end (`list->length`) and then increases the length attribute by one.
-
-
-#### Setup
-1) create `is_prime` array to later run a regular sieve on
-2) fill this array with one's --> leave indexes for 0 and 1 out, because those aren't primes
-3) create a `list_uint64` instance to later store the primes in
-```c
-bool is_prime[(uint64_t)sqrt(UPPER_LIMIT)];
-memset(is_prime + 2, 1, (uint64_t) sqrt(UPPER_LIMIT));
-list_uint64 primes = new_list(PRIMES_UNTIL_10E8 + 5);
-```
-
-
-
+![[Implementation Segmented Sieve]]

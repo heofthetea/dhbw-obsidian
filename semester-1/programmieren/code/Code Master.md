@@ -1,37 +1,18 @@
-
 ## 001
 ---
-[[euclid.c]]
-[[bier.c]]
-[[ostern.c]]
+![[Code 001 Master]]
 
 ## 002
 ---
-[[factorial.c]]
-[[loops.c]]
-
-#### examples
-[[memory.c]]
-
+![[Code 002 Master]]
 
 ## 003
 ---
-[[overflow.c]]
-[[random_guesser_game.c]]
-[[trainzzz.c]]
-
-#### examples
-[[strings.c]]
-[[string_functions.c]]
+![[Code 003 Master]]
 
 ## 004
 ---
-[[mod11.c]]
-[[SCHTRINGs.c]]
-
-#### examples
-[[functions.c]]
-[[date.c]]
+![[Code 004 Master]]
 
 
 ## Weihnachtsferien

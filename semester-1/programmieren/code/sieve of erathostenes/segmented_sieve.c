@@ -7,10 +7,10 @@
 #include <time.h>
 
 #define UPPER_LIMIT 100000000
-#define SEGMENT_SIZE 10000
+#define SEGMENT_SIZE 32768
 // #define UPPER_LIMIT 100
 // #define SEGMENT_SIZE 50
-#define PRIMES_UNTIL_10E8 5761455
+#define PRIMES_UNTIL_SQRT 1229
 
 void sieve(bool *, size_t);
 
@@ -52,10 +52,11 @@ int main()
     t1 = (double)clock() / CLOCKS_PER_SEC;
     bool is_prime[(size_t)sqrt(UPPER_LIMIT)];
     memset(is_prime + 2, true, sizeof(is_prime) - 2);
-    list_uint64 primes = new_list(PRIMES_UNTIL_10E8 + 5);
+    sieve(is_prime, sizeof(is_prime));
+
+    list_uint64 primes = new_list(PRIMES_UNTIL_SQRT);
 
     t2 = (double)clock() / CLOCKS_PER_SEC;
-    sieve(is_prime, sizeof(is_prime));
     num_primes = segmented_sieve(is_prime, sizeof(is_prime), primes);
     t3 = (double)clock() / CLOCKS_PER_SEC;
     t4 = (double)clock() / CLOCKS_PER_SEC;
@@ -76,13 +77,13 @@ int main()
     return 0;
 }
 
-uint64_t segmented_sieve(bool *is_prime, size_t len_is_prime, list_uint64 primes)
+uint64_t segmented_sieve(bool *is_prime, size_t len_is_prime, list_uint64 sieving_primes)
 {
     uint64_t low, high;
     uint64_t num_primes = 1; // 2 is already accounted for everywhere, so we need to manually specify it
-    uint64_t sieve = 3; // only look at primes larger than 2 (because multiples of 2 are trivial)
-    uint64_t n = 3;
-    list_uint64 multiples = new_list(primes.max_size); // need to store exactly one multiple for every prime
+    uint64_t sieving_prime_canidate = 3;      // only look at primes larger than 2 (because multiples of 2 are trivial)
+    uint64_t prime_counter = 3;
+    list_uint64 multiples = new_list(sieving_primes.max_size); // need to store exactly one multiple for every prime
     bool segment[SEGMENT_SIZE];
     for (low = 0; low <= UPPER_LIMIT; low += SEGMENT_SIZE)
     {
@@ -91,29 +92,29 @@ uint64_t segmented_sieve(bool *is_prime, size_t len_is_prime, list_uint64 primes
         if (high > UPPER_LIMIT)
             high = UPPER_LIMIT;
 
-        for (; sieve * sieve <= high; sieve += 2)
+        for (; sieving_prime_canidate * sieving_prime_canidate <= high; sieving_prime_canidate += 2)
         {
-            if (is_prime[sieve])
+            if (is_prime[sieving_prime_canidate])
             {
-                list_append(&primes, sieve);                    // it is a prime, so we store it
-                list_append(&multiples, (sieve * sieve) - low); // appends an index to the multiples so that for every prime at index i, a multiple can be stored at the multiples.data[i]
+                list_append(&sieving_primes, sieving_prime_canidate);                    // it is a prime, so we store it
+                list_append(&multiples, (sieving_prime_canidate * sieving_prime_canidate) - low); // appends an index to the multiples so that for every prime at index i, a multiple can be stored at the multiples.data[i]
             }
         }
 
         // sieves the current segment for primes
-        for (int i = 0; i < primes.length; i++)
+        for (int i = 0; i < sieving_primes.length; i++)
         {
             int j = multiples.data[i];
-            for (; j < SEGMENT_SIZE; j += primes.data[i] * 2)
+            for (; j < SEGMENT_SIZE; j += sieving_primes.data[i] * 2)
             {
                 segment[j] = false;
             }
             multiples.data[i] = j - SEGMENT_SIZE; // stores the multiple that lies outside of the segment, so that next iteration the loop can be started there
         }
 
-        for (; n <= high; n += 2)
+        for (; prime_counter <= high; prime_counter += 2)
         {
-            if (segment[n - low])
+            if (segment[prime_counter - low])
             {
                 num_primes++;
             }
@@ -128,14 +129,12 @@ void sieve(bool *sieving_array, size_t len_sieving_array)
 {
     for (int i = 2; i * i < len_sieving_array; i++)
     {
-        if (!sieving_array[i])
+        if (sieving_array[i])
         {
-            continue;
-        }
-        for (int j = i * i; j < len_sieving_array; j += i)
-        {
-            sieving_array[j] = false;
+            for (int j = i * i; j < len_sieving_array; j += i)
+            {
+                sieving_array[j] = false;
+            }
         }
     }
 }
-

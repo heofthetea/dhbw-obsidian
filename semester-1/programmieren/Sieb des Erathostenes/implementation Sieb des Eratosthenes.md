@@ -148,22 +148,7 @@ int countPrimes()
 }
 ```
 
-## Attempt 4 
-Trying to find a data structure different from an array that will handle the task at hand more efficiently
 
-#### chatGPT prompt:
->  I am writing an implementation for the sieve of eratosthenes. The implementation itself is trivial, however I am trying to get this to run _as fast_ as I possibly can.
->  
-> Currently I am using a `bool` array for representing the numbers. However, since the sieve only uses the numbers 0 and 1, and the bool implementation uses one byte per data type, for each number I use 7 bits more than I actually need.
-> 
-> Unfortunately, c doesn't offer a data type that only uses one bit, so I have to manually come up with something. The best way to do this is probably to use bit-shifters in for-loops and work without any proper structure, only looking at the memory directly. However, if there is a way to use a custom `typedef struct`, that would be cool, since c would reserve memory for that - otherwise I would have to be guessing and hoping that I don't write into something important.
-> 
-> For your information: I am using the sieve until 100 000 000. So ideally, there would be a data type using exactly 100 000 000 bits.
-
---> seems _complicated_
-maybe this can be done using only `malloc` 
-
-## Attempt 5: Segmented Sieve
---> found [[Segmented Sieve]] --> scratch the data structure
-![[Segmented Sieve]]
+## Attempt 4: Segmented Sieve
+![[Implementation Segmented Sieve]]
 
