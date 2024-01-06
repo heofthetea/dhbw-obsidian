@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "604aa2134d7710a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fdd04b08ae9b4a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9d3eaca753c9e175",
             "type": "leaf",
             "state": {
@@ -47,12 +21,12 @@
             }
           },
           {
-            "id": "0d9eccc8a80d4477",
+            "id": "6f61097271876fc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
+                "file": "notes/Daily Note 24-12-2023.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,8 +40,39 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "2b106a39b0dba992",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf"
+              }
+            }
+          },
+          {
+            "id": "8d2f5f036236a886",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_1.pdf"
+              }
+            }
+          },
+          {
+            "id": "5f6014eeefb38591",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -133,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md"
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf"
               }
             }
           },
@@ -211,10 +216,18 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "604aa2134d7710a7",
+  "active": "5f6014eeefb38591",
   "lastOpenFiles": [
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_1.pdf",
+    "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf",
+    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
+    "notes/Daily Note 24-12-2023.md",
+    "notes/Daily Notes Master.md",
+    "notes/Daily Note 06-01-2024.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
+    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve",
     "semester-1/programmieren/code/sieve_of_eratosthenes/hello_world.py",
     "semester-1/programmieren/code/sieve of erathostenes/output/go_for_it",
     "semester-1/programmieren/code/sieve of erathostenes/output/Nimmzeit",
@@ -222,15 +235,8 @@
     "semester-1/programmieren/code/sieve of erathostenes",
     "semester-1/programmieren/code/sieve_of_eratosthenes/output/sieveWithoutArray",
     "semester-1/programmieren/code/sieve_of_eratosthenes/output/sieve",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve_stolen",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve.exe",
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
-    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
-    "notes/Daily Note 06-01-2024.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/programmieren/code/Code Master.md",
-    "notes/Daily Note 24-12-2023.md",
-    "notes/Daily Notes Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
     "semester-1/programmieren/code/004/Code 004 Master.md",
     "semester-1/programmieren/code/003/Code 003 Master.md",
