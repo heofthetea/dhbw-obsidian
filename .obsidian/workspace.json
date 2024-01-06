@@ -67,7 +67,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf"
+                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
+                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
+                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf"
+                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf"
               }
             }
           },
@@ -218,12 +218,14 @@
   },
   "active": "5f6014eeefb38591",
   "lastOpenFiles": [
+    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/Uebungen.pdf",
+    "notes/Daily Note 06-01-2024.md",
+    "notes/Daily Note 24-12-2023.md",
+    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
     "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_1.pdf",
     "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf",
-    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
-    "notes/Daily Note 24-12-2023.md",
     "notes/Daily Notes Master.md",
-    "notes/Daily Note 06-01-2024.md",
     "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
@@ -233,8 +235,6 @@
     "semester-1/programmieren/code/sieve of erathostenes/output/Nimmzeit",
     "semester-1/programmieren/code/sieve of erathostenes/output",
     "semester-1/programmieren/code/sieve of erathostenes",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/sieveWithoutArray",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/sieve",
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
     "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",

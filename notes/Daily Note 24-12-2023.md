@@ -33,9 +33,9 @@
 	- [x] structs
 		--> learned indirectly through Sieve of Eratosthenes
 - [ ] Lineare Algebra
-	- [ ] RSA encryption
+	- [x] RSA encryption
 		- [ ] programmieren?
 	- [ ] Induktionen
 - [ ] Digitaltechnik
-	- [ ] Blatt 1
+	- [x] Blatt 1
 	- [ ] Blatt 2
