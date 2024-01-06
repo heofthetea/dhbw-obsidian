@@ -3,7 +3,7 @@
 #include <time.h>
 
 // #define UPPER_LIMIT 100000000
-#define UPPER_LIMIT 10000
+#define UPPER_LIMIT (long int) 1e9
 
 void populateArray();
 void sieve();
@@ -17,7 +17,7 @@ int main()
     double mw1, mw2, mw3, mw4;
     int primes;
 
-    printf("\nCalculation for number of primes until %lu:\n\n", UPPER_LIMIT);
+    printf("\nCalculation for number of primes until %ld:\n\n", UPPER_LIMIT);
     // mw1 = nimmzeit();
     mw1 = (double)clock() / CLOCKS_PER_SEC;
     populateArray();

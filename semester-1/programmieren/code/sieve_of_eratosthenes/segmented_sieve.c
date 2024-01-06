@@ -6,12 +6,19 @@
 #include <math.h>
 #include <time.h>
 
-#define UPPER_LIMIT 100000000
+#define UPPER_LIMIT (uint64_t) 1e8
 #define SEGMENT_SIZE 32768
 #define PRIMES_UNTIL_SQRT 1229
-// #define UPPER_LIMIT 1000000000
+
+//-----------------------------------------------------------------------------------------------
+
+// #define UPPER_LIMIT  (uint64_t)  1e9
 // #define SEGMENT_SIZE 40000
 // #define PRIMES_UNTIL_SQRT 32000
+
+// #define UPPER_LIMIT  (uint64_t) 1e10
+// #define SEGMENT_SIZE 64000
+// #define PRIMES_UNTIL_SQRT 27294
 
 void sieve(bool *, size_t);
 
@@ -51,7 +58,7 @@ int main()
     int num_primes;
 
 
-    printf("\nCalculation for number of primes until %llu \n\n", UPPER_LIMIT);
+    printf("\nCalculation for number of primes until %lu \n\n", UPPER_LIMIT);
     t1 = (double)clock() / CLOCKS_PER_SEC;
     bool is_prime[(size_t)sqrt(UPPER_LIMIT)];
     memset(is_prime + 2, true, sizeof(is_prime) - 2);
