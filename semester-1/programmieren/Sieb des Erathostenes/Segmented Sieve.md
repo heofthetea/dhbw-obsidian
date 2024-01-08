@@ -1,4 +1,3 @@
-## Idea
 1) search for all primes up to $\sqrt{n}$
 	- reason (trivial): $a*b > n\ (if\quad a>b \ \lor \ b > a)$ for $a, b, c,\in \mathbb{N}$
 	- uses _regular_ [[Sieve of Erathostenes]]
@@ -17,7 +16,7 @@
 		--> since $2p$ is obviously _even_, it gets ignored by _every_ part of the program, thus its state is irrelevant    
 	==> this means that when counting primes, _2 is never included_ --> thus, the number of found primes is always _one less_ than the actual number of primes
 
-
+### pseudo code
 ```python
 is_prime[] = regular_sieve(until sqrt(n))
 num_primes = 1 # compensates for ignoring 2
@@ -44,5 +43,5 @@ A regular sieve is _massively_ ineffient when it comes to caching, as each time,
 
 ### Ignoring even numbers
 Only dealing with uneven numbers essentially _halves_ the workload. This can also be observed in the time: When processing _all_ numbers, runtime jumps from _~250 ms_ all the 
-## Implementation:
+## Implementation
 [[Implementation Segmented Sieve]]

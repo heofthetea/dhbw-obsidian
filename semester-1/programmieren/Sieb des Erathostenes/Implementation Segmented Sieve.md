@@ -1,22 +1,39 @@
-[[segmented_sieve.c]]
-[[Segmented Sieve]]
 ## Code
+[[segmented_sieve.c]]
 
 ### Runtime
 **Time Complexity:** $O(n\;log(n))$ 
-**Space Complexity:** $O(\sqrt{n}$
+**Space Complexity:** $O(\sqrt{n})$
 
 **Timed** (average-case):
 	as _linux executable_: ~225 ms
 	as _windows executable_ under `wine`: ~260 ms
 
-|  | Segmented Sieve | Segmented Sieve (under `wine`) | Benchmark |
-| ---- | ---- | ---- | ---- |
-| battery power | 230 ms | 260 ms | 700 ms |
-| performance mode | 225 ms | 260 ms | 370 ms |
+### Comparison
+This compares the _average case_ approximate runtime of the following entities:
+- Segmented Sieve (with hardcoded values): [[segmented_sieve_hardcoded.c]]
+- Segmented Sieve: [[segmented_sieve.c]]
+	- under `wine`: Compiled to `exe`, then ran via the wine linux library. This serves to better compare the Benchmark, which is provided as a windows executable.
+- Benchmark: https://elearning.dhbw-stuttgart.de/moodle/pluginfile.php/660507/mod_folder/content/0/PrimDynC.exe?forcedownload=1 --> _PrimDynC.exe_
+	- This is the program that also allows for User Input. _PrimOpt2_, which does not do so, is faster, but is hardcoded to 10⁸.
+#### 10⁸
+|  | Segmented Sieve (with hardcoded values) | Segmented Sieve | Segmented Sieve (under `wine`) | Benchmark (under `wine`) | Benchmark (with hardcoded values) |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| battery power | 230 ms | 280 ms | 340 ms | 850 ms | 700 ms |
+| performance mode | 225 ms | ?? ms | ?? ms | ?? ms | 340 ms |
 --> As _space complexity_ is optimized, Segmented Sieve runs basically equally fast regardless of available resources
 --> `wine` emulator adds ~40 ms of runtime
 
+#### 10⁹
+|  | Segmented Sieve (with hardcoded values) | Segmented Sieve | Segmented Sieve (under `wine`) | Benchmark (under `wine`) |
+| ---- | ---- | ---- | ---- | ---- |
+| battery power | 2450 ms | 2900 ms | 3300 ms | 6900 ms |
+#### 10¹⁰
+In this case, we'll only compare the windows executables.
+
+|  | Segmented Sieve (under `wine`) | Benchmark (under `wine`) |
+| ---- | ---- | ---- |
+| battery power |  |  |
 
 ### Inspired by:
 [[segmented_sieve_stolen.c]]
@@ -27,15 +44,11 @@
 > since I need `stdio` for this and it redefines `timeval` from `linux/time.h`, I'm not working with the provided Nimmzeit module, instead using `clock()` to measure the time. A giant Fuck You to hoever wrote that stupid module.
 > 
 > Futhermore, since the evaluation happens _inside_ the sieving, it cannot be timed seperately. Of course one could time _each_ individual sub-evaluation, however that slows the program down by ~50 ms, which is about 20% of total runtime and thus not feasible.
-### Storage of primes 
-we _could_ simply use an array of size _5 761 455_ , because we only need to search until 10⁸
-	 _Problem_: how do we know what place we're in?
-		--> use seperate variable for this
-	==> runs straight into a _Segmentation fault_
 
-==> scratch that, HERE GOES LISTS WITH MANUAL MEMORY ALLOCATION
+### Storage of Sieving primes
 
-#### Store primes
+#### Structure list_uint64
+Roughly emulates a _list_ in python. 
 ```c
 typedef struct
 {
@@ -44,6 +57,16 @@ typedef struct
     uint64_t length;
 } list_uint64;
 
+```
+##### Attributes
+-  _data_ -> Pointer to where the _actual data_ of the list lies. This can be used synonimously with an array using bracket syntax: `list.data[index]`.
+- _max_size_ -> How much _memory_ has been allocated. Is used when creating the `multiples` list, to keep its size in sync with the `primes` list.
+- _length_ -> equivalent to the return value of `len(list)` in python. Stores how many elements the list currently holds. Can be used to iterate over only the parts of the list that actually store values.
+
+#### Initialization with default values
+_Parameter_ size: The maximum size the List should be.
+_Return value_: The newly created list. Since structs don't need explicit pointers to be passed around, the list instance can simply be returned.
+```c
 // creates a new list filled with default values
 list_uint64 new_list(uint64_t size)
 {
@@ -55,19 +78,18 @@ list_uint64 new_list(uint64_t size)
 
     return list;
 }
-
+```
+- _data_: Manually allocates $size * sizeof(uint64\_t)$ of memory. This way there can be _size_ Elements of the type _uint64_t_ stored in the list.
+- _max_length_: This is initialized to the given _size_ of the wanted list.
+- _length_: Trivial - As there are no initial elements in the list, its size should be 0.
+#### Appending
+```c
 // appends an item to given list. List is passed as reference.
 void list_append(list_uint64 *list, uint64_t value) {
     list->data[list->length++] = value;
 }
 ```
 
-The _list_uint64_ struct roughly emulates a _list_ in python.
-##### Attributes
--  _data_ -> Pointer to where the _actual data_ of the list lies. This can be used synonimously with an array using bracket syntax: `list.data[index]`.
-- _max_size_ -> How much _memory_ has been allocated. Can be used to reallocate in case there should ever be Segmentation faults to occur.
-- _length_ -> equivalent to the return value of `len(list)` in python. Stores how many elements the list currently holds.
-##### Appending
 This is more or less a very fancy _array syntax_. It first accesses the data list via pointer operations (`list->data`), then stores the value at the end (`list->length`) and then increases the length attribute by one.
 
 
@@ -77,19 +99,43 @@ This is more or less a very fancy _array syntax_. It first accesses the data lis
 3) run a regular [[Sieve of Erathostenes#C implementation]] on the `is_prime` array
 	--> places all indexes of primes until $\sqrt{n}$ with 1, else 0
 	--> using `is_prime[index]` will return whether *index* is _prime_
-4) create a `list_uint64` instance to later store the primes in
-	- cheats a little because we already know how big the array has to be
-		- we're only searching until $\sqrt{n} = 10\ 000$ for $n = 10^8$ 
-			--> running a regular sieve with _upper limit_ 10 000 returns _1229_ primes 
+4) create a `list_uint64` instance to later store the sieving primes in
+	- The size of the array is approximated: [[#Approximation of Primes]]
 ```c
-bool is_prime[(size_t)sqrt(UPPER_LIMIT)];
+bool is_prime[(size_t)sqrt(upper_limit)];
 memset(is_prime + 2, true, sizeof(is_prime) - 2);
 sieve(is_prime, sizeof(is_prime));
 
 list_uint64 primes = new_list(PRIMES_UNTIL_SQRT);
 ```
 
-### Segmented Sieve
+#### Approximation of Primes
+> The [prime number theorem](https://en.wikipedia.org/wiki/Prime_number_theorem) suggests that $\lim_{x\to\infty}x\ log_{10}(x) = \pi(x)$ 
+
+Since $x\ log(x)$ generally falls short of the actual number of primes, however we want to rather _overshoot_ than _underestimate_, The result has to be increased. by some amount.
+
+Let $A_{x} = \frac{\pi(x)}{x\log_{10}(x)}$
+
+| x | $\pi(x)$ | $A_{x}$ |
+| ---- | ---- | ---- |
+| 10 | 4 | 0.921 |
+| 10² | 25 | 1.151 |
+| 10³ | 168 | 1.161 |
+| 10⁴ | 1229 | 1.132 |
+| 10⁵ | 9592 | 1.104 |
+| 10⁶ | 78498 | 1.084 |
+| 10⁷ | 664579 | 1.071 |
+| 10⁸ | 5761455 | 1.061 |
+| 10⁹ | 50847534 | 1.054 |
+| 10¹⁰ | 455052511 | 1.048 |
+In this table can be seen, that $\forall_{x} A_{x} \leq 1.52$. So, to get a number a bit larger than the actual number of primes until a parameter _n_, this code can be used:
+
+```c
+int n;
+(n / (uint64_t)log10(n)) * 1.2
+```
+
+### Algorithm
 #### 1. Initialization of relevant variables
 ##### Scope of function
 > Variables that will be used over and over again and incremented in each segment
@@ -100,7 +146,7 @@ uint64_t sieving_prime_candidate = 3;
 uint64_t prime_counter = 3;
 list_uint64 multiples = new_list(sieving_primes.max_size);
 
-bool segment[SEGMENT_SIZE];
+bool segment[segment_size];
 ```
 - _low, high_: control boundaries of each segment
 - _num_primes_: serves as counter for the total number of primes
@@ -120,12 +166,12 @@ bool segment[SEGMENT_SIZE];
 ##### Scope of outer loop
 > Sets environment for the current segment.
 ```c
-for (low = 0; low <= UPPER_LIMIT; low += SEGMENT_SIZE)
+for (low = 0; low <= upper_limit; low += segment_size)
     {
         memset(segment, true, sizeof(segment));
-        high = low + SEGMENT_SIZE - 1; 
-        if (high > UPPER_LIMIT)
-            high = UPPER_LIMIT;
+        high = low + segment_size - 1; 
+        if (high > upper_limit)
+            high = upper_limit;
 ```
 - Loop condition is trivial
 - sets _every_ element of the `segment` array to _true_
@@ -153,14 +199,14 @@ for (; sieving_prime_canidate * sieving_prime_canidate <= high; sieving_prime_ca
 	- The default value for the new `multiples` entry can be derived from the common standard sieve optimization, to start eliminating from $p*p$ instead of $p$
 #### 3. Eliminating multiples
 ```c
-for (int i = 0; i < sieving_primes.length; i++)
+for (uint64_t i = 0; i < sieving_primes.length; i++)
 {
-	int j = multiples.data[i];
-	for (; j < SEGMENT_SIZE; j += sieving_primes.data[i] * 2)
+	uint64_t j = multiples.data[i];
+	for (; j < segment_size; j += sieving_primes.data[i] * 2)
 	{
 		segment[j] = false;
 	}
-	multiples.data[i] = j - SEGMENT_SIZE;
+	multiples.data[i] = j - segment_size;
 }
 ```
 - Iterator variable $j$ is assigned the corresponding `multiples` entry
@@ -182,3 +228,8 @@ for (; prime_counter <= high; prime_counter += 2)
 }
 ```
 - Works the same way as the evaluation of a regular Sieve of Eratosthenes.
+
+---
+
+## Idea
+![[Segmented Sieve]]
