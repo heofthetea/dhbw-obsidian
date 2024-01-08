@@ -36,6 +36,6 @@
 	- [x] RSA encryption
 		- [ ] programmieren?
 	- [ ] Induktionen
-- [ ] Digitaltechnik
+- [x] Digitaltechnik
 	- [x] Blatt 1
-	- [ ] Blatt 2
+	- [x] Blatt 2

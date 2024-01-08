@@ -30,5 +30,5 @@ def replace_umlauts(directory):
                 print(f'Renamed: {original_path} -> {new_path}')
 
 if __name__ == "__main__":
-    directory_path = os.getcwd()  # Replace with the actual path to your root directory
+    directory_path = os.getcwd() 
     replace_umlauts(directory_path)

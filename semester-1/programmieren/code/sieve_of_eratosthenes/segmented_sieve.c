@@ -6,13 +6,13 @@
 #include <math.h>
 #include <time.h>
 
-#define UPPER_LIMIT (uint64_t) 1e8
-#define SEGMENT_SIZE 32768
-#define PRIMES_UNTIL_SQRT 1229
+// #define UPPER_LIMIT (uint64_t) 1e8
+// #define SEGMENT_SIZE 32768
+// #define PRIMES_UNTIL_SQRT 1229
 
-// #define UPPER_LIMIT  (uint64_t)  1e9
-// #define SEGMENT_SIZE 40000
-// #define PRIMES_UNTIL_SQRT 32000
+#define UPPER_LIMIT  (uint64_t)  1e9
+#define SEGMENT_SIZE 40000
+#define PRIMES_UNTIL_SQRT 32000
 
 // #define UPPER_LIMIT  (uint64_t) 1e10
 // #define SEGMENT_SIZE 64000

@@ -7,6 +7,8 @@
 ##### h5: `#e83e3e` (_default_)
 ###### h6:  `#5ad651`
 
+[Accent Colour]: `#8a5cf5`
+
 ---
 ## Graph:
 Orientate at theme colours to keep consistency
@@ -19,4 +21,3 @@ Orientate at theme colours to keep consistency
 `#097710` - forest green
 
 ### Different Approach: Just let the thing auto-generate because why the fuck not
-

@@ -1,5 +1,6 @@
-## Code
 [[segmented_sieve.c]]
+[[Segmented Sieve]]
+## Code
 
 ### Runtime
 **Time Complexity:** $O(n\;log(n))$ 

@@ -1,7 +1,7 @@
 {
   "extensions": [
     "c",
-    " py\n"
+    "py\n"
   ],
   "folding": true,
   "lineNumbers": true,

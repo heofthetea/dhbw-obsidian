@@ -1,5 +1,6 @@
 ## script
 [[Digitaltechnik-1.pdf]]
+[[Digitaltechnik_2.pdf]]
 
 ## GoodNotes
 [[Digitaltechnik GoodNotes]]
