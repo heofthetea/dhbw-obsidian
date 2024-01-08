@@ -62,17 +62,33 @@
             }
           },
           {
-            "id": "5f6014eeefb38591",
+            "id": "7e4a6cba45a1c98e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf"
+                "file": "semester-1/Logik/Logik GoodNotes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf972ffee755e18f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/Logik/Logik Master.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -122,7 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 492.5026054382324
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -138,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf",
+                "file": "semester-1/Logik/Logik Master.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf",
+                "file": "semester-1/Logik/Logik Master.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf"
+                "file": "semester-1/Logik/Logik Master.md"
               }
             }
           },
@@ -216,25 +232,26 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5f6014eeefb38591",
+  "active": "bf972ffee755e18f",
   "lastOpenFiles": [
-    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_2.pdf",
-    "semester-1/goodnotes/Lineare Algebra/Aufgaben/Uebungen.pdf",
+    "semester-1/goodnotes/Programmieren/Mitschrieb/Prog1 Mitschrieb.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufschrieb/Notationen.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufschrieb/Induktion.pdf",
+    "semester-1/goodnotes/Programmieren/Scripts/C Vorlesung 1.pdf",
+    "semester-1/goodnotes/Lineare Algebra/LAlg Aufschrieb.pdf",
+    "semester-1/goodnotes/Logik/LgK 1.1 Mengenlehre.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufschrieb",
+    "semester-1/goodnotes/Programmieren/Scripts",
+    "semester-1/Logik/uebungennn you stupid fucking idiot shit.pdf",
+    "semester-1/Logik/Logik GoodNotes.md",
+    "semester-1/goodnotes/Logik/Lgk 1 Uebungen.pdf",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_1.pdf",
     "notes/Daily Note 06-01-2024.md",
     "notes/Daily Note 24-12-2023.md",
-    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
-    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_1.pdf",
-    "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf",
     "notes/Daily Notes Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/hello_world.py",
-    "semester-1/programmieren/code/sieve of erathostenes/output/go_for_it",
-    "semester-1/programmieren/code/sieve of erathostenes/output/Nimmzeit",
-    "semester-1/programmieren/code/sieve of erathostenes/output",
-    "semester-1/programmieren/code/sieve of erathostenes",
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
     "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
@@ -253,7 +270,6 @@
     "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/List of potential optimizations.md",
-    "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/complexities.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
