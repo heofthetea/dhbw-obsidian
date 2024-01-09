@@ -149,7 +149,7 @@ void sieve(bool *sieving_array, size_t len_sieving_array)
 void init_global_config() {
     SEGMENT_SIZE = 32768;
     uint64_t n = sqrt(UPPER_LIMIT);
-    PRIMES_UNTIL_SQRT = (uint64_t)((n / log10(n)) * 1.2);
+    PRIMES_UNTIL_SQRT = (uint64_t)((n / log10(n)) * 1.152);
 }
 
 

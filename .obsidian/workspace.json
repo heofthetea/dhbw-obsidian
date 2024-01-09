@@ -4,51 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0d588b80ad18a7cd",
+        "id": "5754913e249b75e9",
         "type": "tabs",
         "children": [
           {
-            "id": "74da3f44ccd298e9",
+            "id": "1b1dd3681019a1b5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf"
-              }
-            }
-          },
-          {
-            "id": "53ec1721a6e253a1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "semester-1/lineare-algebra/scripts/math-script.pdf"
-              }
-            }
-          },
-          {
-            "id": "9f2b5048e851b433",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
-              }
-            }
-          },
-          {
-            "id": "98623fbe6188c912",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "exports/Implementation Segmented Sieve.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5026054382324
+    "width": 388.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -114,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -178,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,23 +156,27 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "9f2b5048e851b433",
+  "active": "1b1dd3681019a1b5",
   "lastOpenFiles": [
     "exports/Implementation Segmented Sieve.pdf",
+    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
+    "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
+    "semester-1/ICC/presentation vietnam/map.png",
+    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/Abgabe Sieb des Eratosthenes.md",
+    "semester-1/ICC/presentation vietnam/Slides Vietnam.md",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/sieve.c",
+    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+    "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf",
+    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "semester-1/programmieren/Sieb des Erathostenes/abgabe_sieve_of_eratosthenes.zip",
     "semester-1/programmieren/Sieb des Erathostenes/ziX3WOCG",
-    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
     "exports/Segmented Sieve.pdf",
     "semester-1/programmieren/Sieb des Erathostenes/Abgabe/segmented_sieve_hardcoded.c",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "semester-1/programmieren/code/sieve_of_eratosthenes/segmented_sieve.c",
-    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/segmented_sieve.c",
-    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/Implementation Segmented Sieve.pdf",
-    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Abgabe",
-    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
     "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
     "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
@@ -226,18 +195,13 @@
     "semester-1/Semester 1 Master.md",
     "notes/Daily Note 06-01-2024.md",
     "semester-1/Logik/Logik Master.md",
-    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
-    "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
     "notes/Daily Notes Master.md",
-    "semester-1/programmieren/code/004/Code 004 Master.md",
-    "semester-1/programmieren/code/003/Code 003 Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/complexities.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
     "semester-1/projektmanagement/images/gesamtorganisation.png",
     "projektmanagement/images/Pasted image 20231220111558.png",
     "projektmanagement/images/gesamtorganisation.png",
-    "projektmanagement/images/diagramm 3 Arten Projektmanagement.png",
-    "Pasted image 20231220103523.png"
+    "projektmanagement/images/diagramm 3 Arten Projektmanagement.png"
   ]
 }

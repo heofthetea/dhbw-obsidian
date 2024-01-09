@@ -31,11 +31,11 @@ This compares the _average case_ approximate runtime of the following entities:
 #### 10¹⁰
 Sadly, under `wine`, both programs don't run properly anymore, as theyre lacking storage space. This is a shame.
 
-The regular [[segmented_sieve.c]] needs ~ 35 seconds.The regular [[segmented_sieve.c]] needs ~35 seconds.
+The regular [[segmented_sieve.c]], on my machine, needs ~35 seconds.
 
 
 ## Documentation
-> since I need `stdio` for this and it redefines `timeval` from `linux/time.h`, I'm not working with the provided Nimmzeit module, instead using `clock()` to measure the time. A giant Fuck You to hoever wrote that stupid module.
+> since I need `stlib` for this and it redefines `timeval` from `linux/time.h`, I'm not working with the provided Nimmzeit module, instead using `clock()` to measure the time. A giant Fuck You to hoever wrote that stupid module.
 > 
 > Futhermore, since the evaluation happens _inside_ the sieving, it cannot be timed seperately. Of course one could time _each_ individual sub-evaluation, however that slows the program down by ~50 ms, which is about 20% of total runtime and thus not feasible.
 
@@ -106,7 +106,7 @@ list_uint64 primes = new_list(PRIMES_UNTIL_SQRT);
 #### Approximation of Primes
 > The [prime number theorem](https://en.wikipedia.org/wiki/Prime_number_theorem) suggests that $\lim_{x\to\infty}x\ log_{10}(x) = \pi(x)$ 
 
-Since $x\ log(x)$ generally falls short of the actual number of primes, however we want to rather _overshoot_ than _underestimate_, The result has to be increased. by some amount.
+Since $x\ log(x)$ generally falls short of the actual number of primes, however we want to rather _overshoot_ than _underestimate_, The result has to be increased by some amount.
 
 Let $A_{x} = \frac{\pi(x)}{x\log_{10}(x)}$
 
@@ -122,11 +122,11 @@ Let $A_{x} = \frac{\pi(x)}{x\log_{10}(x)}$
 | 10⁸ | 5761455 | 1.061 |
 | 10⁹ | 50847534 | 1.054 |
 | 10¹⁰ | 455052511 | 1.048 |
-In this table can be seen, that $\forall_{x} A_{x} \leq 1.52$. So, to get a number a bit larger than the actual number of primes until a parameter _n_, this code can be used:
+In this table can be seen, that $\forall_{x} A_{x} \leq 1.152$. So, to get a number a bit larger than the actual number of primes until a parameter _n_, this code can be used:
 
 ```c
 int n;
-(n / (uint64_t)log10(n)) * 1.2
+(n / (uint64_t)log10(n)) * 1.52
 ```
 
 ### Algorithm

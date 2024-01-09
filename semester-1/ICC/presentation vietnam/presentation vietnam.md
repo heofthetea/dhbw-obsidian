@@ -1,5 +1,9 @@
+
 ## 1. intro
 _include map_ lul
+![[map.png]]
+- Go over outline
+- Talk a bit about setting
 
 ## 2. history
 ---
@@ -14,8 +18,9 @@ vietnam: "viet" --> outsiders, "nam" --> south
 
 ### dynasties under china
 region incorporated into chinese empire ~ 100 a.C.
-chinese ruled for 1700 years
-	--> independence under Nguyen-Dynasty in 19. century
+rule until ~1000
+	--> Long decentralized / power struggle period
+Independence under Nguyen-Dynasty in 19. century
 ### colonialism
 1860 colonized by france --> exploitation of resources and workers
 in WW2 briefly taken control by japan due to germany's victory over france
@@ -25,6 +30,11 @@ in WW2 briefly taken control by japan due to germany's victory over france
 vietnam war: 1955 - 1975
 	won by _communist Vietkong_ ==> Vietnam becomes socialist republic
 
+
+### what to say:
+- Go over every event
+- Then go on to highlight where Vietnam was independent
+
 ## 3. Economy 
 1986: _Đổi Mới_ reforms transform planned economy into free market structure
 - liberizing trade, dismantle state-owned enterprises (SOEs)
@@ -33,7 +43,7 @@ vietnam war: 1955 - 1975
 
 --> socialist republic with "mixed" economy
 _business-friendly_ reforms
-## 4. culture
+## 4. Culture
 structure of slides:
 	image of graph
 	explanation + hypothesis of why it is that way
@@ -61,21 +71,32 @@ _definitely_ rooted in socialist history
 - Vietnam pretty neutral(40)
 	--> generally not driven by competition, instead "work to live"
 
-education of children with high pressure and high expectations
+- education of children with high pressure and high expectations
 	--> analog to east-asian cultures
 --> rooted in [[#2. history]] and need to achieve living standards (?)
+- _Germany_: High MAS --> Very orientated towards and driven by competition
 
 ##### Uncertainty avoidance
 - *Low* uncertainty avoidance
 	- shows in tonal language?
+	- People maintain "relaxed attitude" towards rules and principles
+		--> spontaniously change paths
+- _Germany_ --> very high: 
 
-##### Long-Tern Orientation & Indulgence
-_?? SPLIT UP_
-###### Long-term orientation
-one should honour and thank his ancestors:
+##### Long-Tern Orientation
+
+Both _traditional_ and open to new ideas:
+- one should honour and thank his ancestors:
 	Bàn Thờ (_include image_)
 	--> shrines with pictures of ancestors (with buddha statue)
 	food offerings and asking for help 
+- See reforms in [[#3. Economy]]
+
+##### Indulgence
+- _low score_, about equal to germany
+- indicates low emphasis on leisure time
+- People feel restrained by social norms
+	- example: Hanh
 
 ### ?? Language & Communication
 Focus on respect and formalities
@@ -91,14 +112,19 @@ tonal languge
 
 ## 5. Everyday Life
 Hanh: Foreigners super popular
-- cuisine
-- vibrant culture
-
+- Great Cuisine (if you like asian food of course)
+- Tropical Climate + Beautiful Nature
+- Vibrant Culture:
+	- Historical Sights, Festivals
+- Affordable, qualitative Healthcare
 
 ## 6. Take-aways for expansion
 _?? move this into their respective slides_
 [[#Power Distance]] --> vietnamese workers will stick to given instructions for how to do a task
 [[#Individualism]] --> discussions need to reach a common consensus, but once they do, plans get implemented real fast
+[[#Motivation towards Achievement and Success]] --> Employees may not be very interested in career (positive and negative aspects)
+[[#Uncertainty avoidance]] --> Contracts may be deviated from, and People tend to switch jobs more often => Loads of personnel changes. Key: Develop Trust with employees, personal connections
+
 
 
 ## notes
@@ -108,5 +134,5 @@ _?? move this into their respective slides_
 ### sources
 [[chatGPT prompts vietnam presentation]]
 my girlfriend
-the hofstede comparison tool
+https://www.hofstede-insights.com/country-comparison-tool?countries=germany%2Cvietnam
 https://www.linkedin.com/pulse/hofstede-peek-vietnams-business-culture-bj%C3%B6rn-koslowski
