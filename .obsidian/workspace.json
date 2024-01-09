@@ -4,36 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "2db5fc2ce991fce9",
+        "id": "0d588b80ad18a7cd",
         "type": "tabs",
         "children": [
           {
-            "id": "4687221f7f165fbc",
+            "id": "74da3f44ccd298e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf"
               }
             }
           },
           {
-            "id": "465a9e43a7e2a4e0",
+            "id": "53ec1721a6e253a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "semester-1/lineare-algebra/scripts/math-script.pdf"
+              }
+            }
+          },
+          {
+            "id": "9f2b5048e851b433",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
+              }
+            }
+          },
+          {
+            "id": "98623fbe6188c912",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "exports/Implementation Segmented Sieve.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md"
+                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
               }
             }
           },
@@ -159,13 +174,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,35 +188,39 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "4687221f7f165fbc",
+  "active": "9f2b5048e851b433",
   "lastOpenFiles": [
-    "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+    "exports/Implementation Segmented Sieve.pdf",
+    "semester-1/programmieren/Sieb des Erathostenes/abgabe_sieve_of_eratosthenes.zip",
+    "semester-1/programmieren/Sieb des Erathostenes/ziX3WOCG",
+    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "exports/Segmented Sieve.pdf",
+    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/segmented_sieve_hardcoded.c",
+    "semester-1/lineare-algebra/scripts/math-script.pdf",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/segmented_sieve.c",
+    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/segmented_sieve.c",
+    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/Implementation Segmented Sieve.pdf",
+    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve_hardcoded.exe",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve_hardcoded",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/segmented_sieve_hardcoded.c",
+    "semester-1/programmieren/Sieb des Erathostenes/Abgabe",
+    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
+    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
+    "semester-1/lineare-algebra/Lineare Algebra Master.md",
+    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
     "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
     "semester-1/bwl/planspiel/Planspiel Master.md",
     "semester-1/digitaltechnik/scripts/Zweispeicher-FF.png",
     "notes/Daily Note 24-12-2023.md",
     "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",
-    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
     "semester-1/digitaltechnik/Digitaltechnik Master.md",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/PrimDynC.exe",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others/output/PrimDynC.exe",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others/PrimDynC.exe",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others/output/chatGPT_sieve",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others/output",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others/chatGPT_sieve.c",
     "semester-1/Logik/Logik GoodNotes.md",
     "semester-1/bwl/planspiel/Periode 4.md",
     "semester-1/bwl/BWL Master.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
-    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/Programmieren Master.md",
     "semester-1/Semester 1 Master.md",
@@ -212,12 +229,8 @@
     "semester-1/ICC/presentation vietnam/presentation vietnam.md",
     "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
     "notes/Daily Notes Master.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
     "semester-1/programmieren/code/004/Code 004 Master.md",
     "semester-1/programmieren/code/003/Code 003 Master.md",
-    "semester-1/programmieren/code/002/Code 002 Master.md",
-    "semester-1/programmieren/code/001/Code 001 Master.md",
-    "semester-1/programmieren/concepts/Functions.md",
     "semester-1/programmieren/Sieb des Erathostenes/complexities.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
     "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png",

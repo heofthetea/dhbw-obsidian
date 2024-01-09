@@ -8,21 +8,21 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:projektmanagement  ",
+      "query": "path:semester-1/projektmanagement ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:semester-1/digitaltechnik  ",
+      "query": "path:semester-1/digitaltechnik",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:semester-1/ICC  ",
+      "query": "path:semester-1/ICC",
       "color": {
         "a": 1,
         "rgb": 11657298
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:semester-1/lineare-algebra  ",
+      "query": "path:semester-1/lineare-algebra",
       "color": {
         "a": 1,
         "rgb": 5431473
@@ -50,7 +50,7 @@
       }
     },
     {
-      "query": "path:semester-1/Logik  ",
+      "query": "path:semester-1/Logik",
       "color": {
         "a": 1,
         "rgb": 5395168
@@ -66,14 +66,14 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.3,
-  "nodeSizeMultiplier": 0.99527083333333,
-  "lineSizeMultiplier": 1.02283333333333,
+  "textFadeMultiplier": 0.9,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 0.951052631578947,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 11.8532557195072,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.460714418073081,
+  "scale": 0.46482951705192643,
   "close": true
 }

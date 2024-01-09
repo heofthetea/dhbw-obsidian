@@ -32,9 +32,6 @@ This compares the _average case_ approximate runtime of the following entities:
 Sadly, under `wine`, both programs don't run properly anymore, as theyre lacking storage space. This is a shame.
 
 The regular [[segmented_sieve.c]] needs ~ 35 seconds.The regular [[segmented_sieve.c]] needs ~35 seconds.
-### Inspired by:
-[[segmented_sieve_stolen.c]]
---> explanation of algorithm: https://github.com/kimwalisch/primesieve/wiki/Segmented-sieve-of-Eratosthenes
 
 
 ## Documentation
@@ -230,3 +227,7 @@ for (; prime_counter <= high; prime_counter += 2)
 
 ## Idea
 ![[Segmented Sieve]]
+
+### Reference
+[[segmented_sieve_stolen.c]]
+explanation of algorithm: https://github.com/kimwalisch/primesieve/wiki/Segmented-sieve-of-Eratosthenes
