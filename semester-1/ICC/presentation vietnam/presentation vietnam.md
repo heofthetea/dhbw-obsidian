@@ -43,6 +43,10 @@ vietnam war: 1955 - 1975
 
 --> socialist republic with "mixed" economy
 _business-friendly_ reforms
+
+### what to say
+- Keep with slide
+- ask people if that seems familiar
 ## 4. Culture
 structure of slides:
 	image of graph
@@ -51,6 +55,10 @@ structure of slides:
 ### Hofstede
 First compare all aspects to different countries
 Only compare to germany in individual points
+	![[hofstede_vietnam.png]]
+### what to say
+- a lot to unpack
+- highlight similarities to other SE-Asian countries - except in [[#Uncertainty avoidance]] and [[#Long-Tern Orientation]]
 
 ##### Power Distance
 - oldest male usually "head of family"
@@ -83,7 +91,7 @@ _definitely_ rooted in socialist history
 		--> spontaniously change paths
 - _Germany_ --> very high: 
 
-##### Long-Tern Orientation
+##### Long-Term Orientation
 
 Both _traditional_ and open to new ideas:
 - one should honour and thank his ancestors:
