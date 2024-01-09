@@ -2,7 +2,11 @@
 `\not{command}` --> $\not{command}$
 	==> `\not=` --> $\not=$
 
-
+`command^{upper}` --> $command^{upper}$ 
+`command_{lower}` --> $command_{lower}$
+--> can be nested:
+	`c_{low}^{high}` --> $c_{low}^{high}$
+	
 ### Logic
 ###### not
 `\lnot` --> $\lnot$
@@ -16,6 +20,9 @@
 ###### equvalence
 `\leftrightarrow` --> $\leftrightarrow$  
 `\Leftrightarrow` --> $\Leftrightarrow$
+
+###### Quantors
+`\forall` --> $\forall$ 
 
 
 
@@ -44,5 +51,10 @@
 `\ ` --> regular spac
 `\quad` --> big space
 `\qquad` --> way too big space
+
+
+### Operations
+`\leq` --> $\leq$
+
 
 

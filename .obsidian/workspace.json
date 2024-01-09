@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48a3e9e52c255719",
+        "id": "2db5fc2ce991fce9",
         "type": "tabs",
         "children": [
           {
-            "id": "41d4ba8a7c90e3f6",
+            "id": "4687221f7f165fbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/bwl/planspiel/Planspiel Master.md",
+                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,30 +21,19 @@
             }
           },
           {
-            "id": "354497b8edcbf37c",
+            "id": "465a9e43a7e2a4e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+                "file": "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "61c837952e8a76de",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 492.5026054382324
+    "width": 388.5026054382324
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -110,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",
+                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",
+                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png"
+                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md"
               }
             }
           },
@@ -170,11 +159,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,33 +179,35 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "61c837952e8a76de",
+  "active": "4687221f7f165fbc",
   "lastOpenFiles": [
-    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",
-    "semester-1/digitaltechnik/Digitaltechnik Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve_hardcoded.exe",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/segmented_sieve_hardcoded",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/segmented_sieve_hardcoded.c",
+    "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
+    "semester-1/bwl/planspiel/Planspiel Master.md",
+    "semester-1/digitaltechnik/scripts/Zweispeicher-FF.png",
+    "notes/Daily Note 24-12-2023.md",
+    "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",
+    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/digitaltechnik/Digitaltechnik Master.md",
     "semester-1/programmieren/code/sieve_of_eratosthenes/output/PrimDynC.exe",
     "semester-1/programmieren/code/sieve_of_eratosthenes/others/output/PrimDynC.exe",
     "semester-1/programmieren/code/sieve_of_eratosthenes/others/PrimDynC.exe",
     "semester-1/programmieren/code/sieve_of_eratosthenes/others/output/chatGPT_sieve",
     "semester-1/programmieren/code/sieve_of_eratosthenes/others/output",
     "semester-1/programmieren/code/sieve_of_eratosthenes/others/chatGPT_sieve.c",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others/chatGPT_sieve",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others/sieb.c",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/others",
-    "semester-1/bwl/planspiel/Planspiel Master.md",
     "semester-1/Logik/Logik GoodNotes.md",
     "semester-1/bwl/planspiel/Periode 4.md",
     "semester-1/bwl/BWL Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
     "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/Programmieren Master.md",
     "semester-1/Semester 1 Master.md",
     "notes/Daily Note 06-01-2024.md",
-    "notes/Daily Note 24-12-2023.md",
     "semester-1/Logik/Logik Master.md",
     "semester-1/ICC/presentation vietnam/presentation vietnam.md",
     "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
@@ -224,7 +217,6 @@
     "semester-1/programmieren/code/003/Code 003 Master.md",
     "semester-1/programmieren/code/002/Code 002 Master.md",
     "semester-1/programmieren/code/001/Code 001 Master.md",
-    "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
     "semester-1/programmieren/concepts/Functions.md",
     "semester-1/programmieren/Sieb des Erathostenes/complexities.png",
     "semester-1/projektmanagement/images/Pasted image 20231220111558.png",

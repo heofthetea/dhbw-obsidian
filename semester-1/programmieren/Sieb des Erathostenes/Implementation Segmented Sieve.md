@@ -22,19 +22,16 @@ This compares the _average case_ approximate runtime of the following entities:
 | battery power | 230 ms | 280 ms | 340 ms | 850 ms | 700 ms |
 | performance mode | 225 ms | ?? ms | ?? ms | ?? ms | 340 ms |
 --> As _space complexity_ is optimized, Segmented Sieve runs basically equally fast regardless of available resources
---> `wine` emulator adds ~40 ms of runtime
+--> `wine` emulator adds 20% of runtime
 
 #### 10⁹
 |  | Segmented Sieve (with hardcoded values) | Segmented Sieve | Segmented Sieve (under `wine`) | Benchmark (under `wine`) |
 | ---- | ---- | ---- | ---- | ---- |
 | battery power | 2450 ms | 2900 ms | 3300 ms | 6900 ms |
 #### 10¹⁰
-In this case, we'll only compare the windows executables.
+Sadly, under `wine`, both programs don't run properly anymore, as theyre lacking storage space. This is a shame.
 
-|  | Segmented Sieve (under `wine`) | Benchmark (under `wine`) |
-| ---- | ---- | ---- |
-| battery power |  |  |
-
+The regular [[segmented_sieve.c]] needs ~ 35 seconds.The regular [[segmented_sieve.c]] needs ~35 seconds.
 ### Inspired by:
 [[segmented_sieve_stolen.c]]
 --> explanation of algorithm: https://github.com/kimwalisch/primesieve/wiki/Segmented-sieve-of-Eratosthenes
@@ -194,7 +191,7 @@ for (; sieving_prime_canidate * sieving_prime_canidate <= high; sieving_prime_ca
 ```
 - sieving prime candidates always get increased by 2
 	--> since `sieving_prime_candidate` is initialized to 3, this ignores _all even numbers_
-- If a cancidate is in fact a prime, it is appended to the _list_ `sieving_primes`
+- If a candidate is in fact a prime, it is appended to the _list_ `sieving_primes`
 	- also, a corresponding entry is appended to the `multiples` list to be able to be used _later on_
 	- The default value for the new `multiples` entry can be derived from the common standard sieve optimization, to start eliminating from $p*p$ instead of $p$
 #### 3. Eliminating multiples
@@ -210,7 +207,7 @@ for (uint64_t i = 0; i < sieving_primes.length; i++)
 }
 ```
 - Iterator variable $j$ is assigned the corresponding `multiples` entry
-	--> if the sieving prime $p$ has been used in the loop before, this will be the first multiple of $p$ in the current segment
+	--> if the sieving prime $p$ has been used in the segment before, this will be the first multiple of $p$ in the current segment
 - Since all even indexes get ignored, we can only check every _other_ multiple of $p$
 	-   $2 \not\mid p \rightarrow 2\not\mid (2a+1)p \land 2 \mid 2a*p$, therefore $2a*p \not\in \mathbb{P}$
 - Finally, the `multiples` entry is updated to store the _next_ multiple, that doesn't lie in the current segment
