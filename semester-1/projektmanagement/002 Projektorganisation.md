@@ -1,3 +1,10 @@
+# Key Takeaways
+[[#3 Arten des Projektmanagements]] - und wofür sie geeignet sind
+[[#Aufgaben eines Projektmanagers]]
+[[#Gesamtorganisation eines Projekts]]
+
+---
+
 ![[PM Kap_03 Projektorganisation.pdf]]
 # 3 Arten des Projektmanagements
 ### 1. Einfluss-Projektmanagement
@@ -75,10 +82,6 @@ ist Wolpertinger
 Aufgaben:
 - Planen 
 - etc.
-# Key Takeaways
-[[#3 Arten des Projektmanagements]] - und wofür sie geeignet sind
-[[#Aufgaben eines Projektmanagers]]
-[[#Gesamtorganisation eines Projekts]]
 
 
 

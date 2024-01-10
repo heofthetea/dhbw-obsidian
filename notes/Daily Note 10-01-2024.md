@@ -1,0 +1,5 @@
+- [ ] Zusammenfassung Lineare Algebra
+- [ ] rename daily notes for quicker overview
+- [ ] restructure [[Lineare Algebra Master|Lineare Algebra Obsidian]] 
+- [ ] Zusammenfassung Logik
+- [ ] Digitaltechnik anschauen

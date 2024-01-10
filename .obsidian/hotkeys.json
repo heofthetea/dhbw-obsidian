@@ -96,5 +96,15 @@
       ],
       "key": "B"
     }
+  ],
+  "quick-latex:addBlockMath": [],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
   ]
 }

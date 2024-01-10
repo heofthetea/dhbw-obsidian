@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5754913e249b75e9",
+        "id": "ddd6551c528bade1",
         "type": "tabs",
         "children": [
           {
-            "id": "1b1dd3681019a1b5",
+            "id": "dea360e822f76075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
+                "file": "notes/Daily Note 10-01-2024.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "a9b501ab045c79d5",
+            "id": "6227e293b2b1fd68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+                "file": "semester-1/lineare-algebra/Lineare Algebra Master.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5026054382324,
-    "collapsed": true
+    "width": 388.5026054382324
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
+                "file": "notes/Daily Note 10-01-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
+                "file": "notes/Daily Note 10-01-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md"
+                "file": "notes/Daily Note 10-01-2024.md"
               }
             }
           },
@@ -178,10 +177,42 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "1b1dd3681019a1b5",
+  "active": "dea360e822f76075",
   "lastOpenFiles": [
-    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
+    "notes/Daily Notes Master.md",
+    "notes/Daily Note 06-01-2024.md",
+    "notes/Daily Note 25-12-2023.md",
+    "semester-1/lineare-algebra/Lineare Algebra Master.md",
+    "semester-1/lineare-algebra/Definitionen LAlg.md",
+    "semester-1/projektmanagement/Projektmanagement GoodNotes.md",
+    "notes/Daily Note 10-01-2024.md",
+    "semester-1/projektmanagement/Fragenkatalog Master.md",
+    "semester-1/projektmanagement/004 Arbeitspakete.md",
+    "semester-1/projektmanagement/definitions/Arbeitspaket.md",
+    "semester-1/projektmanagement/definitions/Schätzung.md",
+    "semester-1/projektmanagement/sources/Übung Elbphilharmonie.md",
+    "semester-1/projektmanagement/Fragenkataloge",
+    "semester-1/projektmanagement/scripts/05-Planungsprozess und Aufwandsschaetzung_vorl.pdf",
+    "semester-1/projektmanagement/definitions/Projektstrukturplan.md",
+    "semester-1/projektmanagement/definitions/Projektdefinition.md",
+    "semester-1/projektmanagement/definitions",
+    "semester-1/projektmanagement/001 Ziele.md",
+    "semester-1/projektmanagement/Projektmanagement Master.md",
+    "semester-1/projektmanagement/images/Aufgaben_bei_Projektorganisation.png",
+    "semester-1/projektmanagement/images/Planungsprozess.png",
+    "semester-1/projektmanagement/sources/Fragenkataloge.pdf",
+    "semester-1/goodnotes/Projektmanagement/scripts/PM Kap_04 Unterlagen Projektplanung_vorl.pdf",
+    "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 002.md",
+    "semester-1/projektmanagement/002 Projektorganisation.md",
+    "semester-1/projektmanagement/sources/Uebung Elbphilharmonie.pdf",
+    "semester-1/projektmanagement/003 Projektplanung.md",
+    "semester-1/projektmanagement/scripts/lu135411312b.tmp",
+    "semester-1/projektmanagement/sources/PM Kap_05 Planungsprozess und Aufwandsschätzung_vorl.wmf",
+    "semester-1/projektmanagement/sources/lu1354113129.tmp",
+    "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 003.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+    "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
+    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
     "semester-1/ICC/presentation vietnam/natureee.png",
     "semester-1/ICC/presentation vietnam/nature.webp",
     "semester-1/ICC/presentation vietnam/nature.png",
@@ -190,40 +221,9 @@
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
     "semester-1/ICC/presentation vietnam/hofstede_vietnam.png",
     "exports/Implementation Segmented Sieve.pdf",
-    "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
     "semester-1/ICC/presentation vietnam/map.png",
-    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
-    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/Abgabe Sieb des Eratosthenes.md",
-    "semester-1/ICC/presentation vietnam/Slides Vietnam.md",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/sieve.c",
-    "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
-    "semester-1/lineare-algebra/aufgaben/Aufg-04_Zahlentheorie.pdf",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
-    "semester-1/programmieren/Sieb des Erathostenes/abgabe_sieve_of_eratosthenes.zip",
-    "semester-1/programmieren/Sieb des Erathostenes/ziX3WOCG",
-    "exports/Segmented Sieve.pdf",
-    "semester-1/programmieren/Sieb des Erathostenes/Abgabe/segmented_sieve_hardcoded.c",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/segmented_sieve.c",
-    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
-    "semester-1/lineare-algebra/Lineare Algebra Master.md",
-    "semester-1/lineare-algebra/Lineare Algebra GoodNotes.md",
-    "semester-1/lineare-algebra/LaTex Cheat Sheet.md",
-    "semester-1/bwl/planspiel/Planspiel Master.md",
     "semester-1/digitaltechnik/scripts/Zweispeicher-FF.png",
-    "notes/Daily Note 24-12-2023.md",
     "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",
-    "semester-1/digitaltechnik/Digitaltechnik Master.md",
-    "semester-1/Logik/Logik GoodNotes.md",
-    "semester-1/bwl/planspiel/Periode 4.md",
-    "semester-1/bwl/BWL Master.md",
-    "semester-1/programmieren/code/Code Master.md",
-    "semester-1/programmieren/Programmieren Master.md",
-    "semester-1/Semester 1 Master.md",
-    "notes/Daily Note 06-01-2024.md",
-    "semester-1/Logik/Logik Master.md",
-    "notes/Daily Notes Master.md",
-    "semester-1/programmieren/Sieb des Erathostenes/complexities.png",
-    "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
-    "semester-1/projektmanagement/images/diagramm 3 Arten Projektmanagement.png"
+    "semester-1/programmieren/Sieb des Erathostenes/complexities.png"
   ]
 }
