@@ -19,6 +19,7 @@ You are quite satisfied with this outline, but to be sure you show it to a frien
 
 You think this feedback is vallid and adjust your outline accordingly.
 
+## Information
 #### 3. vietnamese economy
 Tell me a bit about the vietnamese economic system. Focus especially on the unique constellation of the country having a socialist leadership, but through reforms in the 80's adopted a system more closely resembling the free market economy of western countries. Highlight key points which those reforms adressed, and outline how the current state of the economy has similarities with the western free market, and how it differs from it.
 

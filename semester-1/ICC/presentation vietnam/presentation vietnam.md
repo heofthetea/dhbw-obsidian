@@ -125,6 +125,7 @@ Hanh: Foreigners super popular
 - Vibrant Culture:
 	- Historical Sights, Festivals
 - Affordable, qualitative Healthcare
+ ![[natureee.png]]
 
 ## 6. Take-aways for expansion
 _?? move this into their respective slides_

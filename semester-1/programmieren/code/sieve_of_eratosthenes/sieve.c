@@ -3,7 +3,7 @@
 #include <time.h>
 
 // #define UPPER_LIMIT 100000000
-#define UPPER_LIMIT (long int) 1e8
+#define UPPER_LIMIT (long int) 1e10
 
 void populateArray();
 void sieve();

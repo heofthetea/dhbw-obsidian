@@ -46,7 +46,7 @@ int main()
 {
 
     double t1, t2, t3, t4;
-    int num_primes;
+    uint64_t num_primes;
 
     printf("Enter upper limit for prime calculation: ");
     scanf("%lu", &UPPER_LIMIT);
@@ -78,7 +78,7 @@ int main()
     printf("\n----------------------------------------");
     printf("\ntime total: \t\t\t %.5f", time_total);
 
-    printf("\n\nnumber of primes: %d\n\n", num_primes);
+    printf("\n\nnumber of primes: %lu\n\n", num_primes);
 
     return 0;
 }
