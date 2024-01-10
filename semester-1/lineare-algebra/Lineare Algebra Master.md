@@ -6,7 +6,10 @@
 
 
 ## Good Notes
-[[Lineare Algebra GoodNotes]]
+[[Lineare Algebra Aufschriebe]]
+[[Lineare Algebra Mitschriebe]]
 
 ## Aufgaben
 [[Lineare Algebra Aufgaben Master]]
+### Template
+[[Lineare Algebra Aufgaben Template]]

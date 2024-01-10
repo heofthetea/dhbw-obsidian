@@ -1,8 +1,8 @@
+
 ```expander
-path:"semester-1/lineare-algebra/aufgaben"
+path:lineare-algebra/aufgaben file:"LAlg Aufg-"
 ```
-- [[Aufg-02_Mengen.pdf]]
-- [[semester-1/lineare-algebra/aufgaben/Aufg-03_Induktion.pdf]]
-- [[Aufg-04_Zahlentheorie.pdf]]
-- [[scribbles]]
-<-->
+[[LAlg Aufg-01 tout]]
+[[LAlg Aufg-02 Mengen]]
+[[LAlg Aufg-03 Induktion]]
+[[LAlg Aufg-04 Zahlentheorie]]

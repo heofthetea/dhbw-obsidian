@@ -8,12 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dea360e822f76075",
+            "id": "0f93cc2ca0ffc61d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "33bea92da44688a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Daily Note 10-01-2024.md",
+                "file": "semester-1/Semester 1 Master.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +29,25 @@
             }
           },
           {
-            "id": "6227e293b2b1fd68",
+            "id": "c3953e9069ec7823",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/lineare-algebra/Lineare Algebra Master.md",
+                "file": "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d431020d0fcb2d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Daily Note 10-01-2024.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:semester-1/lineare-algebra/aufgaben path:\"semester-1/goodnotes/Lineare Algebra/Aufgaben\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,29 +115,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9059d624f66ce9d5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "notes/Daily Note 10-01-2024.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "898bcd44224d2ad2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Daily Note 10-01-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +141,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notes/Daily Note 10-01-2024.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,13 +159,29 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "d1efd26b085abc20",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,50 +194,50 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "dea360e822f76075",
+  "active": "0f93cc2ca0ffc61d",
   "lastOpenFiles": [
+    "semester-1/lineare-algebra/Lineare Algebra Master.md",
+    "semester-1/Semester 1 Master.md",
+    "DHBW Master.md",
+    "templates/Lineare Algebra Aufgaben Template.md",
+    "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
+    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "notes/Daily Notes Master.md",
+    "exports/Exports Master.md",
+    "Untitled",
+    "semester-1/lineare-algebra/aufgaben/scribbles.md",
+    "notes/Daily Note 10-01-2024.md",
+    "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
+    "semester-1/goodnotes/Lineare Algebra/Aufschriebe/RSA - Zahlentheorie.pdf",
+    "semester-1/digitaltechnik/Digitaltechnik Master.md",
+    "semester-1/lineare-algebra/Lineare Algebra Mitschriebe.md",
+    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-03 Induktion.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-04 Zahlentheorie.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-01 tout.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-02 Mengen.md",
+    "templates",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
     "notes/Daily Note 06-01-2024.md",
     "notes/Daily Note 25-12-2023.md",
-    "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/lineare-algebra/Definitionen LAlg.md",
     "semester-1/projektmanagement/Projektmanagement GoodNotes.md",
-    "notes/Daily Note 10-01-2024.md",
     "semester-1/projektmanagement/Fragenkatalog Master.md",
     "semester-1/projektmanagement/004 Arbeitspakete.md",
     "semester-1/projektmanagement/definitions/Arbeitspaket.md",
     "semester-1/projektmanagement/definitions/Schätzung.md",
     "semester-1/projektmanagement/sources/Übung Elbphilharmonie.md",
-    "semester-1/projektmanagement/Fragenkataloge",
-    "semester-1/projektmanagement/scripts/05-Planungsprozess und Aufwandsschaetzung_vorl.pdf",
-    "semester-1/projektmanagement/definitions/Projektstrukturplan.md",
-    "semester-1/projektmanagement/definitions/Projektdefinition.md",
-    "semester-1/projektmanagement/definitions",
-    "semester-1/projektmanagement/001 Ziele.md",
-    "semester-1/projektmanagement/Projektmanagement Master.md",
     "semester-1/projektmanagement/images/Aufgaben_bei_Projektorganisation.png",
     "semester-1/projektmanagement/images/Planungsprozess.png",
-    "semester-1/projektmanagement/sources/Fragenkataloge.pdf",
-    "semester-1/goodnotes/Projektmanagement/scripts/PM Kap_04 Unterlagen Projektplanung_vorl.pdf",
-    "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 002.md",
-    "semester-1/projektmanagement/002 Projektorganisation.md",
-    "semester-1/projektmanagement/sources/Uebung Elbphilharmonie.pdf",
-    "semester-1/projektmanagement/003 Projektplanung.md",
-    "semester-1/projektmanagement/scripts/lu135411312b.tmp",
-    "semester-1/projektmanagement/sources/PM Kap_05 Planungsprozess und Aufwandsschätzung_vorl.wmf",
-    "semester-1/projektmanagement/sources/lu1354113129.tmp",
-    "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 003.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
-    "semester-1/ICC/presentation vietnam/chatGPT prompts vietnam presentation.md",
-    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
     "semester-1/ICC/presentation vietnam/natureee.png",
     "semester-1/ICC/presentation vietnam/nature.webp",
     "semester-1/ICC/presentation vietnam/nature.png",
-    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
     "semester-1/ICC/presentation vietnam/hofstede_vietnam.png",
-    "exports/Implementation Segmented Sieve.pdf",
     "semester-1/ICC/presentation vietnam/map.png",
     "semester-1/digitaltechnik/scripts/Zweispeicher-FF.png",
     "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",

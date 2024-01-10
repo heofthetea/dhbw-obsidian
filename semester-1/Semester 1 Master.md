@@ -1,3 +1,4 @@
+#master
 [[Programmieren Master]]
 [[Projektmanagement Master]]
 [[BWL Master]]
