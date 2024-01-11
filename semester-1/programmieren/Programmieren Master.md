@@ -11,6 +11,8 @@
 [[semester-1/programmieren/concepts/Strings|Strings]]
 [[Structs]]
 [[switch-case]]
+[[Floating Points]]
+[[Recursion]]
 
 ## Code
 [[Code Master]]

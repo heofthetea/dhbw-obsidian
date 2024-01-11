@@ -11,11 +11,82 @@
             "id": "5868f11e95a09f84",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/code/005/Code 005 Master.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c03598a36cc28f82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/code/004/Code 004 Master.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2410bb51333a5515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e35714e25660a6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/Programmieren Master.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4cd6f92828f34b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Floating Points.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa2bb58157fdb115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/concepts/Recursion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -65,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5026054382324
+    "width": 388.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -76,13 +148,41 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d1efd26b085abc20",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "semester-1/programmieren/concepts/Recursion.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
             "id": "898bcd44224d2ad2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "semester-1/programmieren/concepts/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "778eaad8ebc359e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "semester-1/programmieren/concepts/Recursion.md"
               }
             }
           },
@@ -98,51 +198,20 @@
             }
           },
           {
-            "id": "778eaad8ebc359e5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
             "id": "7f948703aae021b3",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "f84849a312b86f07",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "d1efd26b085abc20",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 519.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,44 +224,46 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5868f11e95a09f84",
+  "active": "fa2bb58157fdb115",
   "lastOpenFiles": [
+    "semester-1/programmieren/concepts/Strings.md",
+    "semester-1/programmieren/concepts/Recursion.md",
+    "semester-1/programmieren/code/005/output/knight",
+    "semester-1/programmieren/code/005/knight.c",
+    "semester-1/programmieren/A5 Schach.pdf",
+    "semester-1/programmieren/code/examples/output/hanoi",
+    "semester-1/programmieren/code/examples/output",
+    "semester-1/programmieren/code/examples/hanoi.c",
+    "semester-1/programmieren/code/005/hanoi.c",
+    "semester-1/programmieren/code/002/output/factorial",
+    "semester-1/programmieren/code/002/output",
+    "Pasted image 20240111105539.png",
+    "semester-1/programmieren/concepts/C concepts.md",
+    "Floating Points.md",
+    "semester-1/programmieren/Programmieren Master.md",
+    "semester-1/programmieren/negative_powerd_of_2.pdf",
+    "semester-1/programmieren/double_in_memory.png",
+    "semester-1/programmieren/concepts/Structs.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
+    "semester-1/programmieren/code/Code Master.md",
+    "semester-1/programmieren/code/005/Code 005 Master.md",
+    "semester-1/programmieren/code/004/Code 004 Master.md",
+    "semester-1/programmieren/code/004/Untitled.md",
     "semester-1/Semester 1 Master.md",
     "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
     "notes/Daily Note 10-01-2024.md",
     "semester-1/Logik/Logik Master.md",
     "semester-1/lineare-algebra/Lineare Algebra Master.md",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/chatGPT_sieve_segmented",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/chatGPT_sieve_segmented.c",
     "DHBW Master.md",
     "templates/Lineare Algebra Aufgaben Template.md",
     "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "notes/Daily Notes Master.md",
     "exports/Exports Master.md",
-    "Untitled",
     "semester-1/lineare-algebra/aufgaben/scribbles.md",
-    "semester-1/goodnotes/Lineare Algebra/Aufschriebe/RSA - Zahlentheorie.pdf",
     "semester-1/digitaltechnik/Digitaltechnik Master.md",
     "semester-1/lineare-algebra/Lineare Algebra Mitschriebe.md",
-    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-03 Induktion.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-04 Zahlentheorie.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-01 tout.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-02 Mengen.md",
-    "templates",
-    "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
-    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
-    "notes/Daily Note 06-01-2024.md",
-    "notes/Daily Note 25-12-2023.md",
-    "semester-1/lineare-algebra/Definitionen LAlg.md",
-    "semester-1/projektmanagement/Projektmanagement GoodNotes.md",
-    "semester-1/projektmanagement/Fragenkatalog Master.md",
-    "semester-1/projektmanagement/004 Arbeitspakete.md",
-    "semester-1/projektmanagement/definitions/Arbeitspaket.md",
-    "semester-1/projektmanagement/definitions/Schätzung.md",
     "semester-1/projektmanagement/images/Aufgaben_bei_Projektorganisation.png",
     "semester-1/projektmanagement/images/Planungsprozess.png",
     "semester-1/ICC/presentation vietnam/natureee.png",
@@ -200,8 +271,6 @@
     "semester-1/ICC/presentation vietnam/nature.png",
     "semester-1/ICC/presentation vietnam/hofstede_vietnam.png",
     "semester-1/ICC/presentation vietnam/map.png",
-    "semester-1/digitaltechnik/scripts/Zweispeicher-FF.png",
-    "semester-1/digitaltechnik/scripts/Clock-gesteuerte Flip Flops.png",
-    "semester-1/programmieren/Sieb des Erathostenes/complexities.png"
+    "semester-1/digitaltechnik/scripts/Zweispeicher-FF.png"
   ]
 }

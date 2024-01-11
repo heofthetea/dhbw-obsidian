@@ -101,6 +101,33 @@ t_dhler hannes, lisa; // etc
 ```
 
 
+## Size of a struct
+In memory, the _size_ of a struct is the size of _all_ its attributes combined
+
+```c
+struct
+{
+	int i; // 4 byte
+	float f; // 4 byte
+	char c[4]; // 4 byte
+} data;
+```
+==> Size: 4 + 4 + 4 byte = 12 byte
+
+
+
+## Unions
+Difference: Data gets _overwritten_
+```c
+union
+{
+	int i;
+	float f;
+	char c[4];
+} data;
+```
+only 4 bytes reserved in total
+
 ## Traps
 ### size limit
 A struct gets a certain amount of Memory reserved (~2 MB)
