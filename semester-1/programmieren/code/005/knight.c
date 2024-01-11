@@ -4,7 +4,7 @@
 #include <math.h>
 #include <stdint.h>
 
-int knight_jump(int x, int y, int[8][8]);
+int knight_jump(int x, int y, int[8][8], int);
 int calculate_possible_jumps(int x, int y, int[8][2]);
 void copy_board(int from[8][8], int to[8][8]);
 int board_full(int board[8][8]);
@@ -22,12 +22,13 @@ int main()
     start_x -= 'a';
     start_y -= '1';
 
-    knight_jump(start_x, start_y, board);
+    int count = knight_jump(start_x, start_y, board, 1);
+    print_board(board);
 
     return 0;
 }
 
-int knight_jump(int x, int y, int board[8][8])
+int knight_jump(int x, int y, int board[8][8], int moves)
 {
     // low-level data structures are a pain in the ass
     int possible_jumps[8][2];
@@ -43,8 +44,12 @@ int knight_jump(int x, int y, int board[8][8])
     {
         int board_copy[8][8];
         copy_board(board, board_copy);
-        
-        if (knight_jump(possible_jumps[i][0], possible_jumps[i][1], board_copy))
+
+        int temp_x = possible_jumps[i][0];
+        int temp_y = possible_jumps[i][1];
+
+        board[temp_x][temp_y] = moves;
+        if (knight_jump(temp_x, temp_y, board_copy, moves + 1))
         {
             return 1;
         }
@@ -76,6 +81,16 @@ int board_full(int board[8][8])
     }
     return 1;
 }
+
+void print_board(int board[8][8]) {
+    for(int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            printf("%d ", board[i][j]);
+        }
+        printf("\n");
+    }
+}
+
 
 // i should have done this way differently
 int calculate_possible_jumps(int x, int y, int target[8][2])

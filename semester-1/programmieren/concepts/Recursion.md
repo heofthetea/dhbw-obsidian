@@ -2,7 +2,7 @@
 
 
 ## Beispiel: Fakultät
-![[Pasted image 20240111105539.png]]
+![[recursion_in_memory.png]]
 
 ```c
 int factorial(int n) {
@@ -53,6 +53,7 @@ to get temp_pos index:
 ```python
 temp_pos = (1 + 2 + 3) - (from + to)
 ```
+
 
 
 ## Knight jumps

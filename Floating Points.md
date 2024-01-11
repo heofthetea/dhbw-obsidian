@@ -29,10 +29,9 @@ $Offset + Potenz = 127 + 3 = 130 = 1000\ 0010_2$
 
 ==> Wird Zusammengefügt mit Vorzeichenbit
 
+==>zusammengefügt:
+$1100\,0001\,0100\,1010_2$
 
-==> Erst wird Charakteristik in Memory geschrieben, dann der Rest ?
-
-_TODO: ZUSAMMENFÜGEN_
 
 
 ## Doubles
@@ -40,27 +39,18 @@ Offset = 1023
 Charakteristik hier länger (11 bit)
 
 
-## GLEIT-Kommazahl
+## Warum? GLEIT-Kommazahl
+Charakteristik beschreibt: _wo_ steht das Komma
 Kommt ins Spiel bei der Normalisierung:
 $12.625 = 0.12625 * 10^{2}$ 
 $= 0.0012625 * 10^4$
 
-Charakteristik beschreibt: _wo_ steht das Komma
 --> Liegt daran, dass 1.xxx multipliziert wird - "1." als multiplikatives Element useless
-
-
-
 
 ## Aufgabe: Das ganze Programmieren
 
-The easy way, simply sending pointers around, doesn't work for some reason
-IT DOES
-FOR SOME REASON YOU SIMPLY WERE TOO STUPID
-
-BRO I FUCKING HATE C AND ITS ENDLESS POINTERS AAAAAAA
 
 [[double_conversion.c]]
-
 
 ### Little endian Darstellung
 Bytes in reihenfolge tauschen --> kleinstes Byte steht vorne
