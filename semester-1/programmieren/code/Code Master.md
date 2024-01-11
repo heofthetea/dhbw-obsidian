@@ -20,6 +20,19 @@
 
 ## Vorlesung 005
 ---
+### Knight jumps
+[[A5 Schach.pdf]]
+
+#### python implementation because i hate c
+[[knights.py]]
+
+input: koordinates
+output: chess board with  "after which move the knight is where"
+(also output: the move)
+
+==> backtracking
+Optimizing strategy: Prioritize squares with _less_ opportunities to jump forward (Warnsdorf)
+
 ![[Code 005 Master]]
 
 

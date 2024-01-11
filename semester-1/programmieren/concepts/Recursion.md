@@ -1,6 +1,5 @@
 > Function, that calls itself
 
-
 ## Beispiel: Fakultät
 ![[recursion_in_memory.png]]
 
@@ -38,6 +37,7 @@ CPU takt = 4 GHz
 
 ### Implementation
 
+Pseudo-Code:
 ```python
 def hanoi(from, to, disc):
 	temp_pos = position \ {from, to}
@@ -54,14 +54,5 @@ to get temp_pos index:
 temp_pos = (1 + 2 + 3) - (from + to)
 ```
 
+[[hanoi.c]]
 
-
-## Knight jumps
-[[A5 Schach.pdf]]
-
-input: koordinates
-output: chess board with  "after which move the knight is where"
-(also output: the move)
-
-==> backtracking
-Optimizing strategy: Prioritize squares with _less_ opportunities to jump forward (Warnsdorf)

@@ -4,73 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "63042ecff990bf29",
+        "id": "17ec7776788fd2d1",
         "type": "tabs",
         "children": [
           {
-            "id": "2c5e0a2d4708f6e3",
+            "id": "aec0607dbb091cfe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e090033f22742570",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "semester-1/lineare-algebra/scripts/math-script.pdf"
-              }
-            }
-          },
-          {
-            "id": "2b05917479f6733d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Programmieren Master.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dded3abb07fc734b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/concepts/Recursion.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2b96d8b8df35509",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/code/005/Code 005 Master.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/code/005/Code 005 Master.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/code/005/Code 005 Master.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "semester-1/programmieren/code/005/Code 005 Master.md"
-              }
+              "state": {}
             }
           },
           {
@@ -205,38 +146,37 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e2b96d8b8df35509",
+  "active": "aec0607dbb091cfe",
   "lastOpenFiles": [
+    "semester-1/programmieren/code/005/Code 005 Master.md",
+    "semester-1/programmieren/concepts/Recursion.md",
+    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
+    "semester-1/lineare-algebra/scripts/math-script.pdf",
+    "semester-1/programmieren/code/Code Master.md",
+    "semester-1/programmieren/Programmieren Master.md",
     "semester-1/programmieren/code/005/knights.py",
     "semester-1/programmieren/code/005/knight.py",
     "semester-1/programmieren/code/005/kinght_bad_practices.c",
     "semester-1/programmieren/code/005/double_conversion.c",
-    "semester-1/programmieren/code/005/Code 005 Master.md",
     "semester-1/programmieren/code/002/factorial.c",
     "semester-1/programmieren/code/examples/hanoi.c",
-    "semester-1/programmieren/concepts/Recursion.md",
     "semester-1/programmieren/sources/A5 Schach.pdf",
-    "semester-1/programmieren/Programmieren Master.md",
     "semester-1/programmieren/sources/recursion_in_memory.png",
     "Floating Points.md",
     "semester-1/programmieren/sources",
     "semester-1/programmieren/Untitled.md",
-    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
     "semester-1/lineare-algebra/aufgaben/Aufg-05_Geometrie.pdf",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-03 Induktion.md",
     "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/programmieren/code/004/Code 004 Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
     "semester-1/programmieren/concepts/Strings.md",
-    "semester-1/programmieren/code/005/output/knight",
     "semester-1/programmieren/concepts/C concepts.md",
     "semester-1/programmieren/sources/double_in_memory.png",
     "semester-1/programmieren/concepts/Structs.md",
     "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
-    "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/code/004/Untitled.md",
     "semester-1/Semester 1 Master.md",
     "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
