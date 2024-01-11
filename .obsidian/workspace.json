@@ -4,54 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ddd6551c528bade1",
+        "id": "7bbe2dd85df206ff",
         "type": "tabs",
         "children": [
           {
-            "id": "0f93cc2ca0ffc61d",
+            "id": "5868f11e95a09f84",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
-            }
-          },
-          {
-            "id": "33bea92da44688a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/Semester 1 Master.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3953e9069ec7823",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d431020d0fcb2d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Daily Note 10-01-2024.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
             }
           }
         ]
@@ -194,10 +155,15 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "0f93cc2ca0ffc61d",
+  "active": "5868f11e95a09f84",
   "lastOpenFiles": [
-    "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/Semester 1 Master.md",
+    "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
+    "notes/Daily Note 10-01-2024.md",
+    "semester-1/Logik/Logik Master.md",
+    "semester-1/lineare-algebra/Lineare Algebra Master.md",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/output/chatGPT_sieve_segmented",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/chatGPT_sieve_segmented.c",
     "DHBW Master.md",
     "templates/Lineare Algebra Aufgaben Template.md",
     "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
@@ -206,8 +172,6 @@
     "exports/Exports Master.md",
     "Untitled",
     "semester-1/lineare-algebra/aufgaben/scribbles.md",
-    "notes/Daily Note 10-01-2024.md",
-    "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
     "semester-1/goodnotes/Lineare Algebra/Aufschriebe/RSA - Zahlentheorie.pdf",
     "semester-1/digitaltechnik/Digitaltechnik Master.md",
     "semester-1/lineare-algebra/Lineare Algebra Mitschriebe.md",
@@ -221,8 +185,6 @@
     "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
     "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
     "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
-    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
     "notes/Daily Note 06-01-2024.md",
     "notes/Daily Note 25-12-2023.md",
     "semester-1/lineare-algebra/Definitionen LAlg.md",
@@ -231,7 +193,6 @@
     "semester-1/projektmanagement/004 Arbeitspakete.md",
     "semester-1/projektmanagement/definitions/Arbeitspaket.md",
     "semester-1/projektmanagement/definitions/Schätzung.md",
-    "semester-1/projektmanagement/sources/Übung Elbphilharmonie.md",
     "semester-1/projektmanagement/images/Aufgaben_bei_Projektorganisation.png",
     "semester-1/projektmanagement/images/Planungsprozess.png",
     "semester-1/ICC/presentation vietnam/natureee.png",
