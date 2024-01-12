@@ -1,14 +1,17 @@
+# NEED TO IMPLEMENT THE WARNDORFF HEURISTIC
+
+board = []
+
 def main():
+    dimensions = input("enter dimenstions of board: ")
     start = input("enter starting coordinate: ")
     start = (ord(start[0]) - 97, int(start[1]) - 1)
 
     print(start)
+    for _ in range(0, int(dimensions)):
+        board.append([0] * int(dimensions))
 
-    board = []
-    for _ in range(0, 8):
-        board.append([0] * 8)
-
-    board = knight_jump(start, board, 1)
+    knight_jump(start, 1)
     print_board(board)
 
 
@@ -19,6 +22,9 @@ def print_board(board):
             row_format += "{0:02d}, ".format(cell)
         print(f"{row_format[:-2]}]")
 
+def is_valid(coordinate, bo):
+    return (coordinate[0] in range(0, len(bo[0]))) and (coordinate[1] in range(0, len(bo)))
+
 
 def full(board):
     for row in board:
@@ -28,51 +34,63 @@ def full(board):
     return True
 
 # it's actually not working aaaaa
-def knight_jump(coordinates, board:list, move):
-    updated_board = [row[:] for row in board]
-    updated_board[coordinates[0]][coordinates[1]] = move
+def knight_jump(coordinates, move):
+    board[coordinates[0]][coordinates[1]] = move
 
-    if full(updated_board):
-        return updated_board
+    if full(board):
+        return True
 
-    jumps = get_possible_jumps(coordinates, updated_board)
+    jumps = get_possible_jumps(coordinates, board)
     for jump in jumps:
-        result = knight_jump(jump, updated_board, move + 1)
-        if result:
-            return result
+        if knight_jump(jump, move + 1):
+            return True
         
-    updated_board[coordinates[0]][coordinates[1]] = 0
-
-    return None
+    board[coordinates[0]][coordinates[1]] = 0
+    return False
 
 
 knight_jumps = {
-    (-1, -2),
-    (-1, 2),
-    (1, -2),
+    (2, 1),
     (1, 2),
+    (2, -1),
+    (1, -2),
+    (-1, 2),
+    (-1, -2),
     (-2, -1),
     (-2, 1),
-    (2, -1),
-    (2, 1),
 }
 
-def get_possible_jumps(current: tuple, board):
+def get_possible_jumps(current: tuple, bo):
     jumps = []
     for relative in knight_jumps:
         jump_to = (current[0] + relative[0], current[1] + relative[1])
-
-        if (jump_to[0] not in range(0, 8)) or (jump_to[1] not in range(0, 8)):
+        if not is_valid(jump_to, bo):
             continue
-        jumps.append(jump_to)
+        degree = get_degree(jump_to, bo)
+        
+        pos = 0
+        for i in range(len(jumps)):
+            if get_degree(jumps[i], bo) < degree:
+                pos += 1
+        jumps.insert(pos, jump_to)
+
 
     possible_jumps = []
     for option in jumps:
-        if not board[option[0]][option[1]]:
+        if not bo[option[0]][option[1]]:
             possible_jumps.append(option)
 
     return possible_jumps
 
+
+def get_degree(coordinate, bo):
+    count = 0
+    for relative in knight_jumps:
+        temp = (coordinate[0] + relative[0], coordinate[1] + relative[1])
+        if is_valid(temp, bo):
+            if not bo[temp[0]][temp[1]]:
+                count += 1 
+    return count
 
 if __name__ == "__main__":
     main()

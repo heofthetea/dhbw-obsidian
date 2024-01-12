@@ -14,8 +14,35 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "d19a36fb81615496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/ICC/Hall & Hofstede.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a2eaaebda22137a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ICC 002.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5026054382324
+    "width": 388.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -81,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ICC 002.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ICC 002.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ICC 002.md"
+              }
             }
           },
           {
@@ -133,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 519.5
+    "width": 519.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,8 +179,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "aec0607dbb091cfe",
+  "active": "2a2eaaebda22137a",
   "lastOpenFiles": [
+    "semester-1/ICC/ICC Master.md",
+    "ICC 002.md",
+    "semester-1/ICC/Hall & Hofstede.md",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/programmieren/code/005/knights_stolen.py",
     "semester-1/programmieren/code/005/Code 005 Master.md",
     "semester-1/programmieren/concepts/Recursion.md",
     "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
@@ -163,9 +201,7 @@
     "semester-1/programmieren/sources/A5 Schach.pdf",
     "semester-1/programmieren/sources/recursion_in_memory.png",
     "Floating Points.md",
-    "semester-1/programmieren/sources",
     "semester-1/programmieren/Untitled.md",
-    "semester-1/lineare-algebra/aufgaben/Aufg-05_Geometrie.pdf",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-03 Induktion.md",
     "semester-1/lineare-algebra/Lineare Algebra Master.md",
@@ -183,8 +219,6 @@
     "notes/Daily Note 10-01-2024.md",
     "semester-1/Logik/Logik Master.md",
     "DHBW Master.md",
-    "templates/Lineare Algebra Aufgaben Template.md",
-    "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
     "semester-1/projektmanagement/images/Aufgaben_bei_Projektorganisation.png",
     "semester-1/projektmanagement/images/Planungsprozess.png",
     "semester-1/ICC/presentation vietnam/natureee.png",

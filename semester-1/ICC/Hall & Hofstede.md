@@ -96,8 +96,14 @@ shows in language
 ### MAS - Motivation towards Achievement and Success
 originally named "Masculinity" - because these aspects are generally attributed to males
 
+- **high**: combatitive society - preference for achievement, heroism (i need to be the best mentality)
+- **high**: opposite: preference for cooperation, modesty + quality of life
 ### Uncertainty Avoidance (UA)
-example: Insurance for stuff (avoids uncertainty)
+example: Insurance for stuff (avoids uncertainty)#
+Measure of how a country deals with rules
+
+- **high**: Strictly following rules
+- **low**: Spontaneous
 
 
 ## (newer dimensions)
