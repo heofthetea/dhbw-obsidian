@@ -27,9 +27,9 @@ def full(board):
                 return False
     return True
 
-
+# it's actually not working aaaaa
 def knight_jump(coordinates, board:list, move):
-    updated_board = board.copy()
+    updated_board = [row[:] for row in board]
     updated_board[coordinates[0]][coordinates[1]] = move
 
     if full(updated_board):
@@ -37,8 +37,11 @@ def knight_jump(coordinates, board:list, move):
 
     jumps = get_possible_jumps(coordinates, updated_board)
     for jump in jumps:
-        if knight_jump(jump, updated_board, move + 1):
-            return updated_board
+        result = knight_jump(jump, updated_board, move + 1)
+        if result:
+            return result
+        
+    updated_board[coordinates[0]][coordinates[1]] = 0
 
     return None
 
