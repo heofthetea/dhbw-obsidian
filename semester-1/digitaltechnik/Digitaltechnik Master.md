@@ -8,3 +8,5 @@
 ## Aufgaben
 [[Digitaltechnik_Uebung_1.pdf]]
 [[Digitaltechnik_Uebung_2.pdf]]
+
+[[tipps klausur]]

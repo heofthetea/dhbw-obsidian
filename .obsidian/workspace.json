@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "17ec7776788fd2d1",
+        "id": "dc41c18cbfe3eef5",
         "type": "tabs",
         "children": [
           {
-            "id": "aec0607dbb091cfe",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "d19a36fb81615496",
+            "id": "089bb9e5cccdd1c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/ICC/Hall & Hofstede.md",
+                "file": "tipps klausur.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,15 +21,27 @@
             }
           },
           {
-            "id": "ae4d9d6438fa521b",
+            "id": "013a6cfb03ee8207",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf"
+              }
+            }
+          },
+          {
+            "id": "f2e52322e808a740",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf"
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5026054382324,
-    "collapsed": true
+    "width": 279.5026054382324
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -104,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf"
+              }
             }
           },
           {
@@ -170,9 +177,17 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ae4d9d6438fa521b",
+  "active": "013a6cfb03ee8207",
   "lastOpenFiles": [
+    "tipps klausur.md",
+    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
+    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/digitaltechnik/Digitaltechnik Master.md",
+    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "semester-1/bwl/planspiel/Periode 3.md",
     "semester-1/ICC/Hall & Hofstede.md",
+    "semester-1/bwl/planspiel/Planspiel Master.md",
+    "semester-1/bwl/planspiel/Periode 4.md",
     "ICC 002.md",
     "semester-1/ICC/ICC Master.md",
     "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
@@ -187,9 +202,6 @@
     "semester-1/programmieren/code/005/knight.py",
     "semester-1/programmieren/code/005/kinght_bad_practices.c",
     "semester-1/programmieren/code/005/double_conversion.c",
-    "semester-1/programmieren/code/002/factorial.c",
-    "semester-1/programmieren/code/examples/hanoi.c",
-    "semester-1/programmieren/sources/A5 Schach.pdf",
     "semester-1/programmieren/sources/recursion_in_memory.png",
     "Floating Points.md",
     "semester-1/programmieren/Untitled.md",
@@ -204,12 +216,6 @@
     "semester-1/programmieren/concepts/Structs.md",
     "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
     "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
-    "semester-1/programmieren/code/004/Untitled.md",
-    "semester-1/Semester 1 Master.md",
-    "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
-    "notes/Daily Note 10-01-2024.md",
-    "semester-1/Logik/Logik Master.md",
-    "DHBW Master.md",
     "semester-1/projektmanagement/images/Aufgaben_bei_Projektorganisation.png",
     "semester-1/projektmanagement/images/Planungsprozess.png",
     "semester-1/ICC/presentation vietnam/natureee.png",
