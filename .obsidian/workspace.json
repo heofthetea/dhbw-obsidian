@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ca18ae3e5e8f8c8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master DHBW.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/Knight's Journey.md",
+                "file": "Master DHBW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/Knight's Journey.md",
+                "file": "Master DHBW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/programmieren/Knight's Journey.md"
+                "file": "Master DHBW.md"
               }
             }
           },
@@ -155,25 +169,26 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a962fc26fee23bdb",
+  "active": "ca18ae3e5e8f8c8b",
   "lastOpenFiles": [
-    "semester-1/programmieren/code/Code Master.md",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
+    "modulhandbuch.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
+    "semester-1/goodnotes/Digitaltechnik/Übungen/D-Technik Aufg 02.pdf",
+    "semester-1/goodnotes/Digitaltechnik/Übungen/D-Technik Aufg 01.pdf",
+    "semester-1/goodnotes/Digitaltechnik/Übungen/practice D-technik.pdf",
+    "semester-1/goodnotes/Digitaltechnik/Übungen",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_1.pdf",
     "semester-1/programmieren/Knight's Journey.md",
-    "semester-1/programmieren/code/005/knights.c",
-    "semester-1/programmieren/sources/A5 Schach.pdf",
+    "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/concepts/Recursion.md",
     "Master DHBW.md",
-    "modulhandbuch.pdf",
-    "semester-1/programmieren/sources/creferenz.pdf",
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
     "semester-1/ICC/presentation vietnam/presentation vietnam.md",
-    "semester-1/programmieren/code/005/abgabe.zip",
-    "semester-1/programmieren/code/005/abgabe/knights.py",
-    "semester-1/programmieren/code/005/abgabe/knights.c",
-    "semester-1/programmieren/code/005/abgabe",
-    "semester-1/programmieren/code/sieve_of_eratosthenes/output/sieve",
     "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
     "cre.md",
     "semester-1/ICC/ICC Master.md",
