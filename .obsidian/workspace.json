@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tipps klausur.md",
+                "file": "semester-1/ICC/ICC Master.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,25 +21,48 @@
             }
           },
           {
-            "id": "f2e52322e808a740",
+            "id": "bf6a370ac7af6a14",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf"
+                "file": "semester-1/lineare-algebra/aufgaben/Aufg-05_Geometrie.pdf"
               }
             }
           },
           {
-            "id": "bf6a370ac7af6a14",
+            "id": "7c8a08a0abde09de",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "c09fe22ce03f1a62",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/Logik/altklausuren/20BE.pdf"
+              }
+            }
+          },
+          {
+            "id": "e9f3a2b10009c404",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "semester-1/Logik/altklausuren/20BE.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "semester-1/Logik/altklausuren/20BE.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "semester-1/Logik/altklausuren/20BE.pdf"
+              }
             }
           },
           {
@@ -171,45 +198,46 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "bf6a370ac7af6a14",
+  "active": "c09fe22ce03f1a62",
   "lastOpenFiles": [
-    "tipps klausur.md",
-    "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
-    "semester-1/programmieren/code/005/output/knights",
-    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/digitaltechnik/Digitaltechnik Master.md",
+    "semester-1/Logik/altklausuren/Master Logik Altklausuren.md",
+    "semester-1/Logik/Master Logik.md",
+    "semester-1/Logik/altklausuren/20BE.pdf",
+    "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
     "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "semester-1/Logik/altklausuren",
+    "semester-1/Logik/altklausuren/20BE - WH.pdf",
+    "semester-1/Master Semester 1.md",
+    "Master DHBW.md",
+    "semester-1/lineare-algebra/aufgaben/Aufg-05_Geometrie.pdf",
+    "semester-1/digitaltechnik/Aufgaben/tipps klausur.md",
+    "semester-1/programmieren/code/005/Code 005 Master.md",
+    "semester-1/programmieren/code/005/knights.c",
+    "semester-1/ICC/ICC Master.md",
+    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/lineare-algebra/Master Lineare Algebra.md",
+    "semester-1/digitaltechnik/Master Digitaltechnik.md",
+    "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf",
+    "semester-1/programmieren/code/005/output/knights",
+    "semester-1/programmieren/code/005/output",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
+    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
     "semester-1/bwl/planspiel/Periode 3.md",
     "semester-1/ICC/Hall & Hofstede.md",
     "semester-1/bwl/planspiel/Planspiel Master.md",
     "semester-1/bwl/planspiel/Periode 4.md",
     "ICC 002.md",
-    "semester-1/ICC/ICC Master.md",
-    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/programmieren/code/005/knights_stolen.py",
-    "semester-1/programmieren/code/005/Code 005 Master.md",
     "semester-1/programmieren/concepts/Recursion.md",
-    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
     "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/Programmieren Master.md",
-    "semester-1/programmieren/code/005/knights.py",
-    "semester-1/programmieren/code/005/knight.py",
-    "semester-1/programmieren/code/005/kinght_bad_practices.c",
     "semester-1/programmieren/sources/recursion_in_memory.png",
     "Floating Points.md",
     "semester-1/programmieren/Untitled.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-03 Induktion.md",
-    "semester-1/lineare-algebra/Lineare Algebra Master.md",
     "semester-1/programmieren/code/004/Code 004 Master.md",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
     "semester-1/programmieren/concepts/Strings.md",
-    "semester-1/programmieren/concepts/C concepts.md",
     "semester-1/programmieren/sources/double_in_memory.png",
-    "semester-1/programmieren/concepts/Structs.md",
-    "semester-1/programmieren/Sieb des Erathostenes/implementation Sieb des Eratosthenes.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Aufgabe - Sieb des Eratosthenes.md",
     "semester-1/projektmanagement/images/Aufgaben_bei_Projektorganisation.png",
     "semester-1/projektmanagement/images/Planungsprozess.png",
     "semester-1/ICC/presentation vietnam/natureee.png",

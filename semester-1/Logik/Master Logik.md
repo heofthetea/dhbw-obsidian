@@ -6,3 +6,6 @@
 
 ## Mitschriebe
 [[semester-1/Logik/Begrifflichkeiten Aussagenlogik|Begrifflichkeiten Aussagenlogik]]
+
+## Altklausuren
+[[Master Logik Altklausuren]]

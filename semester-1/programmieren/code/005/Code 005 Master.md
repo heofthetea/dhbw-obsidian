@@ -1,6 +1,6 @@
 ### Exercises
 [[double_conversion.c]]
-[[knight.c]]
+[[knights.c]]
 
 ### Examples
 [[hanoi.c]]

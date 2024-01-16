@@ -88,7 +88,6 @@ def full(board):
     return True
 
 
-# it's actually not working aaaaa
 def knight_jump(coordinates, move):
     board[coordinates[0]][coordinates[1]] = move
 

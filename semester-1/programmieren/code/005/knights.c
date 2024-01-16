@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <math.h>
 #include <stdint.h>
 #include <stdbool.h>
+#include <time.h>
 
 #define DIMENSIONS 8
 
@@ -67,7 +66,7 @@ void print_board()
     {
         for (int j = 0; j < DIMENSIONS; j++)
         {
-            printf("%2.0f", BOARD[i][j]);
+            printf("%02d ", BOARD[i][j]);
         }
         printf("\n");
     }
@@ -87,8 +86,8 @@ bool is_full(int board[DIMENSIONS][DIMENSIONS])
             if (!board[i][j])
                 return false;
         }
-        return true;
     }
+    return true;
 }
 
 int get_degree(tuple coordinate)
@@ -116,7 +115,6 @@ int get_degree(tuple coordinate)
 list_tuple get_possible_jumps(tuple current)
 {
     list_tuple jumps = new_list(8);
-    int jumps_degree[jumps.length];
     int length_knight_jumps = 8;
     for (int i = 0; i < length_knight_jumps; i++)
     {
@@ -127,12 +125,12 @@ list_tuple get_possible_jumps(tuple current)
         {
             continue;
         }
-        jumps_degree[i] = get_degree(jump_to);
+        int degree = get_degree(jump_to);
 
         int pos = 0;
         for (int j = 0; j < jumps.length; j++)
         {
-            if (get_degree(jumps.data[j]) < jumps_degree[i])
+            if (get_degree(jumps.data[j]) < degree)
             {
                 pos++;
             }
@@ -171,20 +169,24 @@ bool knight_jump(tuple coordinates, int move)
 
 int main()
 {
-    int start_x, start_y;
+    char start_x, start_y;
+    double time_start, time_end;
     printf("Enter starting coordinate (e.g. a1, g7): ");
     scanf("%c%c", &start_x, &start_y);
-
     // format coordinates to match array
     tuple start = {
         start_x - 'a',
         start_y - '1'};
 
     printf("%d, %d\n", start.x, start.y);
+    time_start = (double)clock() / CLOCKS_PER_SEC;
 
     knight_jump(start, 1);
 
+    time_end = (double)clock() / CLOCKS_PER_SEC;
+
     print_board(BOARD);
     printf("\n");
+    printf("time taken: %lf\n", time_end - time_start);
     return 0;
 }

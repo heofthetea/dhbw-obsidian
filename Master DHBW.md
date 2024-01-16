@@ -1,5 +1,5 @@
 #master
-[[Semester 1 Master]]
+[[Master Semester 1]]
 
 [[Exports Master]]
 [[Daily Notes Master]]
