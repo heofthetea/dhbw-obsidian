@@ -9,3 +9,6 @@
 
 ## Altklausuren
 [[Master Logik Altklausuren]]
+
+## Übungen zu Erfüllbarkeit
+Seite auf: cs.utexas.edu/users/novak/reso.html

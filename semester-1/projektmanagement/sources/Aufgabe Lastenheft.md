@@ -33,3 +33,6 @@ Abgabe bis 7. Januar --> Feedback
 
 
 - Zugriff nur über internes Netzwerk bzw. VPN
+
+## Bearbeitung 
+![[Lastenheft_Zeiterfassungssystem01_feedback.pdf]]

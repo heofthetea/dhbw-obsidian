@@ -36,6 +36,7 @@ CPU takt = 4 GHz
 
 
 ### Implementation
+[[hanoi.c]]
 
 Pseudo-Code:
 ```python
@@ -54,5 +55,4 @@ to get temp_pos index:
 temp_pos = (1 + 2 + 3) - (from + to)
 ```
 
-[[hanoi.c]]
 
