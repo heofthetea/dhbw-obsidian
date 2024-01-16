@@ -28,7 +28,7 @@ tuple KNIGHT_JUMPS[] = {
 
 typedef struct
 {
-    tuple *data;    // pointer indicates where the memory of the struct instance lies
+    tuple *data;       // pointer indicates where the memory of the struct instance lies
     uint64_t max_size; // the size of memory allocated
     uint64_t length;   // equivalent to java `array.length` attribute
 } list_tuple;
@@ -45,23 +45,29 @@ list_tuple new_list(uint64_t size)
     return list;
 }
 
-// appends an item to given list. List is passed as reference.
-void list_append(list_tuple *list, tuple value)
+void list_tuple_insert(list_tuple *list, int index, tuple element)
 {
-    list->data[list->length++] = value; // stores the value, then increases the lists length attribute by 1
+    // since we'll only use this to append knight jumps - 8 at maximum - we don't need to handle the case of length > max_size
+    for (int i = list->length; i >= index; i--)
+    {
+        list->data[i] = list->data[i - 1];
+    }
+    list->data[index] = element;
+    list->length++;
 }
+
 
 int BOARD[DIMENSIONS][DIMENSIONS];
 
 //--------------------------------------------------------------------
 
-void print_board(int board[DIMENSIONS][DIMENSIONS])
+void print_board()
 {
     for (int i = 0; i < DIMENSIONS; i++)
     {
         for (int j = 0; j < DIMENSIONS; j++)
         {
-            printf("%2.0f", board[i][j]);
+            printf("%2.0f", BOARD[i][j]);
         }
         printf("\n");
     }
@@ -69,7 +75,7 @@ void print_board(int board[DIMENSIONS][DIMENSIONS])
 
 bool is_valid(tuple coordinate)
 {
-    return (coordinate.x > 0 && coordinate.x < DIMENSIONS) && (coordinate.y > 0 && coordinate.y < DIMENSIONS);
+    return (coordinate.x >= 0 && coordinate.x < DIMENSIONS) && (coordinate.y >= 0 && coordinate.y < DIMENSIONS);
 }
 
 bool is_full(int board[DIMENSIONS][DIMENSIONS])
@@ -85,10 +91,10 @@ bool is_full(int board[DIMENSIONS][DIMENSIONS])
     }
 }
 
-int get_degree(tuple coordinate, int board[DIMENSIONS][DIMENSIONS])
+int get_degree(tuple coordinate)
 {
     int count = 0;
-    int length_knight_jumps = sizeof(KNIGHT_JUMPS) / sizeof(tuple);
+    int length_knight_jumps = 8;
     for (int i = 0; i < length_knight_jumps; i++)
     {
         tuple temp = {
@@ -97,7 +103,7 @@ int get_degree(tuple coordinate, int board[DIMENSIONS][DIMENSIONS])
         if (is_valid(temp))
         {
 
-            if (!board[temp.x][temp.y])
+            if (!BOARD[temp.x][temp.y])
             {
                 count++;
             }
@@ -107,37 +113,78 @@ int get_degree(tuple coordinate, int board[DIMENSIONS][DIMENSIONS])
     return count;
 }
 
-list_tuple get_possible_jumps(tuple current, int board[DIMENSIONS][DIMENSIONS]) {
+list_tuple get_possible_jumps(tuple current)
+{
     list_tuple jumps = new_list(8);
-    int length_knight_jumps = sizeof(KNIGHT_JUMPS) / sizeof(tuple);
-    for(int i = 0; i < length_knight_jumps; i++) {
+    int jumps_degree[jumps.length];
+    int length_knight_jumps = 8;
+    for (int i = 0; i < length_knight_jumps; i++)
+    {
         tuple jump_to = {
             current.x + KNIGHT_JUMPS[i].x,
             current.y + KNIGHT_JUMPS[i].y};
-        if(!is_valid(jump_to)) {
+        if (!is_valid(jump_to))
+        {
             continue;
         }
-        int degree = get_degree(jump_to, board);
+        jumps_degree[i] = get_degree(jump_to);
 
         int pos = 0;
-        for(int j = 0; j < jumps.length; j++) {
-            if(get_degree(jumps.data[j], board) < degree) {
-                pos ++;
+        for (int j = 0; j < jumps.length; j++)
+        {
+            if (get_degree(jumps.data[j]) < jumps_degree[i])
+            {
+                pos++;
             }
         }
-        // FUCK I NEED INSERTING SYNTAX
+        list_tuple_insert(&jumps, pos, jump_to);
     }
 
+    // filters out squares that already have been visited
+    list_tuple possible_jumps = new_list(8);
+    for (int i = 0; i < jumps.length; i++)
+    {
+        if (!BOARD[jumps.data[i].x][jumps.data[i].y])
+        {
+            list_tuple_insert(&possible_jumps, possible_jumps.length, jumps.data[i]);
+        }
+    }
+    free(jumps.data);
+    return possible_jumps;
 }
 
+bool knight_jump(tuple coordinates, int move)
+{
+    BOARD[coordinates.x][coordinates.y] = move;
+    if (is_full(BOARD))
+        return true;
 
+    list_tuple jumps = get_possible_jumps(coordinates);
+    for (int i = 0; i < jumps.length; i++)
+    {
+        if (knight_jump(jumps.data[i], move + 1))
+            return true;
+    }
+    BOARD[coordinates.x][coordinates.y] = 0;
+    return false;
+}
 
 int main()
 {
+    int start_x, start_y;
+    printf("Enter starting coordinate (e.g. a1, g7): ");
+    scanf("%c%c", &start_x, &start_y);
+
+    // format coordinates to match array
+    tuple start = {
+        start_x - 'a',
+        start_y - '1'};
+
+    printf("%d, %d\n", start.x, start.y);
+
+    knight_jump(start, 1);
 
     print_board(BOARD);
-    // get_degree(KNIGHT_JUMPS[0], BOARD);
-
     printf("\n");
     return 0;
 }

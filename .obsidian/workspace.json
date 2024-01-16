@@ -21,16 +21,6 @@
             }
           },
           {
-            "id": "013a6cfb03ee8207",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf"
-              }
-            }
-          },
-          {
             "id": "f2e52322e808a740",
             "type": "leaf",
             "state": {
@@ -39,9 +29,17 @@
                 "file": "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf"
               }
             }
+          },
+          {
+            "id": "bf6a370ac7af6a14",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -177,10 +171,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "013a6cfb03ee8207",
+  "active": "bf6a370ac7af6a14",
   "lastOpenFiles": [
     "tipps klausur.md",
     "semester-1/digitaltechnik/Aufgaben/Digitaltechnik_Uebung_1.pdf",
+    "semester-1/programmieren/code/005/output/knights",
     "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
     "semester-1/digitaltechnik/Digitaltechnik Master.md",
     "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
@@ -201,7 +196,6 @@
     "semester-1/programmieren/code/005/knights.py",
     "semester-1/programmieren/code/005/knight.py",
     "semester-1/programmieren/code/005/kinght_bad_practices.c",
-    "semester-1/programmieren/code/005/double_conversion.c",
     "semester-1/programmieren/sources/recursion_in_memory.png",
     "Floating Points.md",
     "semester-1/programmieren/Untitled.md",
