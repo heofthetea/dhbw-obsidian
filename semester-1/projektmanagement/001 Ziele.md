@@ -1,3 +1,4 @@
+[[Fragenkatalog 001]]
 ### in 5 minuten 30 wichtigste Telefonnummern zusammen tragen
 1) Telefonbuch beschaffen
 2) definiere "wichtig"
@@ -38,9 +39,10 @@ Das Sachbuch "Projektmanagement" ist bis zum 1. Februar 2024 fertiggestellt, umf
 
 
 ### Magisches Dreieck
+[[Magisches Dreieck]]
 zu [[#in 5 minuten 30 wichtigste Telefonnummern zusammen tragen]]
 1) mehr als 5 minuten benötigen, aber nicht haben ==> höhere Kosten, geringere Qualität
-2) mehr als 5 minuten, aber gleiche Vorraussetzungen ==> ihöhere Kosten, eventuell Qualität
+2) mehr als 5 minuten, aber gleiche Vorraussetzungen ==> höhere Kosten, eventuell Qualität
 3) mehr Zeit, aber Termin _muss_ eingehalten werden ==> mehr Budget (= mehr Mitarbeiter)
 
 
@@ -67,3 +69,9 @@ Boden mit Laminat gestrichen
 - "Die Wohnung soll schön sein" --> _kein_ Ziel
 - Umbau an der Wohnung vornehmen --> Nichtziel
 - Alle Decken weiß streichen --> Arbeitsanweisung (fehlt ein Zweck)
+
+## Hauptaktivitäten zur Erreichung der Projektziele
+1) _Zielbestimmung_: Planen / Entscheiden 
+2) _Zielrealisierung_: Durchführung / Steuerung
+3) _Zielerreichung_: Einführung / Nutzung
+4) _Zielüberwachung_: Controlling / Berichtswesen

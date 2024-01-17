@@ -23,6 +23,7 @@ Muss nicht ein riesiges Ziel sein, sondern können kleinere Teilzei
 	--> welches Budget muss eingehalten werden?
 
 #### 10. Magisches Dreieck
+[[Magisches Dreieck]]
 Ziele sind voneinander abhängig: 
 Wenn eins verändert wird, verändern sich die anderen auch.
 

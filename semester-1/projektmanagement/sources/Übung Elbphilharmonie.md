@@ -30,7 +30,7 @@ Heizungen zu laut --> Innenräume heraus gerissen
 	- im Wesentlichen die Architekten (evt. Baufirma)
 2) scheiß Kommunikation
 	- Lange Bauunterbrechung
-3) Magisches Dreieck
+3) [[Magisches Dreieck]]
 	Zeitliche Verzögerung 
 	Sachziele verschoben
 		--> mehr Budget

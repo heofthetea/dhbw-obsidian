@@ -1,3 +1,5 @@
+[[Fragenkatalog 004]]
+
 ![[05-Planungsprozess und Aufwandsschaetzung_vorl.pdf]]
 ## Einstieg: Elbphilharmonie
 [[Übung Elbphilharmonie]]
@@ -63,6 +65,8 @@ So _detailliert_ wie _nötig_, nicht so detailliert wie _möglich_ !!
 --> Leaves sind immer Arbeitspakete!! Können aber auch in höheren Ebenen auftreten.
 
 
+## Aufgaben bei der Planung
+![[Aufgaben_bei_Projektorganisation.png]]
 ## Projektstrukturplan
 ![[Projektstrukturplan]]
 
@@ -124,8 +128,9 @@ streichen = {{Decken streichen}, {Wände streichen}}
 ```
 ==> End-Ergebnis: 1.5 Tage
 
-## Aufgaben bei der Planung
-![[Aufgaben_bei_Projektorganisation.png]]
+### Musterlösung
+--> Baumstruktur !!!!!
+![[Projektstrukturplan_Musterloesung.png]]
 
 
 ## References

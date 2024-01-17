@@ -7,8 +7,11 @@
 ## Mitschriebe
 [[semester-1/Logik/Begrifflichkeiten Aussagenlogik|Begrifflichkeiten Aussagenlogik]]
 
-## Altklausuren
-[[Master Logik Altklausuren]]
+## Prolog
+[[Master Prolog]]
 
-## Übungen zu Erfüllbarkeit
+## Übungen
+### Übungen zu Erfüllbarkeit
 Seite auf: cs.utexas.edu/users/novak/reso.html
+### Altklausuren
+[[Master Logik Altklausuren]]

@@ -11,6 +11,9 @@ Immer, wenn man Dinge zusammen fassen kann
 1) Infrastruktur --> Infrastruktur-01, Server, PC's, Inbetriebnahme
 2) Infrastruktur-01 --> Verkabelung, ...
 3) weiter aufdröseln bis zu [[Arbeitspaket]]
+
+In jedem Objekt taucht dasselbe Arbeitspaket auf (z.B. Vorbereitungsphase)
+--> Polymorphism lol
 ##### Funktionsorientierter PSP
 
 Orientiert sich normalerweise an Funktion der Firma

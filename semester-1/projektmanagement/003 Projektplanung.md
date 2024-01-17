@@ -1,3 +1,6 @@
+[[Fragenkatalog 003]]
+
+
 ![[04-Projektplanung.pdf]]
 
 
@@ -40,8 +43,8 @@ passiert in: _Konzept/Studie / Pflichtenheft_
 "Wer macht Was, Wie, Wann, Wo und Warum?"
 
 ### Begriffe#
-1) Requirements Specificatio = Anforderungsspezifikation = Systemanalyse ==> [[#Lastenheft]]
-2) Fachspezifikation = Grobspezifikation + Feinkonzept ==> [[#Pflichtenheft]]
+1) Requirements Specificatio = Anforderungsspezifikation = Systemanalyse ==> [[Lastenheft]]
+2) Fachspezifikation = Grobspezifikation + Feinkonzept ==> [[Pflichtenheft]]
 3) IT- Spezifikation = DV-Konzept (manchmal Teil des _Lastenhefts_)
 	- Datenbankmodell
 	- Programmiersprache festgelegt
@@ -51,32 +54,15 @@ passiert in: _Konzept/Studie / Pflichtenheft_
 
 # Unterlagen
 ## Lastenheft
-Beschreibung aller fachlichen Basisanforderungen, die das zu entwickelnde Produkt erfüllen muss.
-==> Beschreibt, **was** und **wie** etwas gemacht werden soll, aus Sicht des **_Auftraggebers_**
-
---> wenn ich das mache: In Auftraggeber hineinversetzen
-	--> Braucht _Fachkenntnisse_ im Bereich des Auftraggebers!!
-		
-enthält _NICHT_, _wie_ das Projekt realisiert werden soll
-	--> beschreibt nur IST-Zustand
+![[Lastenheft]]
 
 
 ## Pflichtenheft
-reflektiert das [[#Lastenheft]] aus Sicht des ***Auftragnehmners*** 
-==> Beschreibt das **wie** und **womit** 
-Dient als Grundlage des Vertrags
-
-Enthält:
-- Detaillierte Beschreibung der Aufgaben und Anforderungen
-- wer ist Auftraggeber, Kunde, Betroffener
-- Spezifikationen zu Zeit, Geld, Ressourcen, etc.
-
-Auftraggeber _muss_ Pflichtenheft validieren!
---> Sonst Konflikte mit Endprodukt
+![[Pflichtenheft]]
 
 
 ## Projektplan
-entsteht auf Basis von [[#Pflichtenheft]]
+entsteht auf Basis von [[Pflichtenheft]]
 
 
 1) Terminplan
@@ -95,8 +81,8 @@ Inhalte:
 
 ### Wasserfallmodell
 fester Ablauf:
-1) Anforderungsanalyse --> [[#Lastenheft]], passiert beim Kunden
-2) Spezifikatioin --> [[#Pflichtenheft]]
+1) Anforderungsanalyse --> [[Lastenheft]], passiert beim Kunden
+2) Spezifikatioin --> [[Pflichtenheft]]
 3) Systementwurf
 4) Programmierung
 5) Integration

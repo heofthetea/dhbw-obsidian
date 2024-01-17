@@ -1,3 +1,4 @@
+[[Fragenkatalog 002]]
 # Key Takeaways
 [[#3 Arten des Projektmanagements]] - und wofür sie geeignet sind
 [[#Aufgaben eines Projektmanagers]]
