@@ -41,15 +41,22 @@
             }
           },
           {
-            "id": "a5e559b34b7fe69d",
+            "id": "5532e5976853d901",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "semester-1/Logik/Master Logik.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "semester-1/Logik/altklausuren/20BE.pdf"
+              }
+            }
+          },
+          {
+            "id": "b9dea05733e3d51b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
               }
             }
           }
@@ -121,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/Logik/Master Logik.md",
+                "file": "semester-1/Logik/altklausuren/20BE.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/Logik/Master Logik.md",
+                "file": "semester-1/Logik/altklausuren/20BE.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/Logik/Master Logik.md"
+                "file": "semester-1/Logik/altklausuren/20BE.pdf"
               }
             }
           },
@@ -191,9 +198,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a5e559b34b7fe69d",
+  "active": "5532e5976853d901",
   "lastOpenFiles": [
+    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "semester-1/Logik/altklausuren/20BE.pdf",
+    "semester-1/Logik/altklausuren/Master Logik Altklausuren.md",
     "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf",
+    "semester-1/Logik/Master Logik.md",
     "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
     "semester-1/projektmanagement/definitions/Magisches Dreieck.md",
     "semester-1/projektmanagement/001 Ziele.md",
@@ -233,10 +244,7 @@
     "semester-1/projektmanagement/definitions/GANTT-Chart Netzwerkplan.md",
     "semester-1/projektmanagement/sources/aufgabe_netzplan.png",
     "semester-1/projektmanagement/sources/simple_terminplan.png",
-    "semester-1/projektmanagement/definitions/CPM Netzplan.md",
     "Pasted image 20240117100008.png",
-    "semester-1/projektmanagement/sources/cpm_plan.png",
-    "semester-1/projektmanagement/sources/lu124681vfuf.tmp",
-    "semester-1/Logik/Master Logik.md"
+    "semester-1/projektmanagement/sources/cpm_plan.png"
   ]
 }
