@@ -12,7 +12,7 @@ Jeder Abschnitt hat mehrere [[Arbeitspaket]]e --> Diese können _immernoch_ para
 4) Integration
 5) Einführung
 
-![[Pasted image 20240117112912.png]]
+![[sequentiell.png]]
 
 - Jede Aktivität muss beendet sein, bevor die nächste beginnt
 - Jede Aktivität ist vollständig und in _richtiger Reihenfolge_ durchzuführen

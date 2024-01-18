@@ -5,7 +5,7 @@ _dicker Balken_ kennzeichnet _kritischen_ Pfad
 | frühester Anfangszeitpunkt | Dauer | frühester Endzeitpunkt |
 | ---- | ---- | ---- |
 | Spätester Anfangszeitpunkt | Puffer | spätester Endzeitpunkt |
-![[Pasted image 20240117100008.png]]
+![[mpm_example.png]]
 
 ### verschiedene Arten von Abfolgen
 In naiver Darstellung: _Normalfolge_ --> Wenn ein Prozess aufhört, fängt der nächste an

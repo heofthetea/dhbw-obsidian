@@ -1,5 +1,4 @@
-> Function, that calls itself
-
+> Function that calls itself
 ## Beispiel: Fakultät
 ![[recursion_in_memory.png]]
 

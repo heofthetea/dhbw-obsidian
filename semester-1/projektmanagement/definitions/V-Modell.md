@@ -7,4 +7,4 @@ _getestet_ wird trotzdem erst am Ende !!!
 - **Verifikation**: Ist alles so erstellt, wie es das [[Pflichtenheft]] vorgibt?
 - **Validierung**: Funktioniert es tatsächlich so, wie der Kunde es wollte?
 
-![[Pasted image 20240117113408.png]]Rechte Seite: _Testseite_
+![[v-modell.png]]Rechte Seite: _Testseite_

@@ -4,23 +4,24 @@
 
 
 ## stdio
-###### printf
+### printf
 prints out something
 use: `printf("...", )` 
 
 
-|placeholder | datatype |
-|-------------|----------|
-|`%d`, `%i"` | integer |
-|`%f` | float |
-|`%lf` | double|
-|`%c` |char|
-|`%u` | unsigned integer|
-|`%s` | string|
-|`%x, %X` | hex-darstellung |
-
-###### scanf
-
+| placeholder | datatype |
+| ---- | ---- |
+| `%d`, `%i"` | integer |
+| `%f` | float |
+| `%lf` | double |
+| `%c` | char |
+| `%u` | unsigned integer |
+| `%s` | string |
+| `%x, %X` | hex-darstellung |
+|  |  |
+%20d --> _always_ prints out value with 20 bytes (uses _leading_ blanks)
+%-20d --> same, but puts blanks on the right side
+### scanf
 **Achtung:** input buffer löschen:
 ```c
 scanf("%i" &i);
@@ -41,7 +42,16 @@ scanf("%lf", &lf);
 scanf("%s", text) // here no address operator, because complex data type
 ```
 
-###### character array
+
+### gets
+Alternative to [[#scanf]]
+```c
+char str[20];
+gets(str);
+```
+==> stroresl input to `str`.
+
+### character array
 **Strings need ending character** ==> `char[64]` can only hold 63 characters
 
 
@@ -172,3 +182,13 @@ Zahlen folgen _immer_ gleichem System
 ## Segmentation Fault
 Occurs whenever program tries to write to memory it is not allowed to 
 --> usually because something is too big (similar to `OutOfBoundsException` in Java)
+
+
+
+## malloc
+Manually allocates memory of a given byte size.
+```c
+uint64_t *temp =(uint64t *) malloc(sizeof(uint64_t));
+```
+Reserves 8 byte of memory. Returns the pointer _to_ that reserved memory.
+**Attention !!** Always cast to correct type!! Only this way, memory will behave as expected.

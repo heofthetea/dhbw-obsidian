@@ -8,11 +8,12 @@
 ## Contents
 [[C concepts]]
 [[Functions]]
-[[semester-1/programmieren/concepts/Strings|Strings]]
+[[Strings|Strings]]
 [[Structs]]
 [[switch-case]]
 [[Floating Points]]
 [[Recursion]]
+[[Doubly linked list]]
 
 ## Code
 [[Code Master]]

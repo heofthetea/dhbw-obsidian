@@ -4,26 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "cb46081e39f2c53c",
+        "id": "b2a4d4dfa45ac28c",
         "type": "tabs",
         "children": [
           {
-            "id": "029262decf07168d",
+            "id": "5b720e3014fe2472",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "semester-1/lineare-algebra/scripts/math-script.pdf"
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "39c68955a0c8eb8c",
+            "id": "670d0ec088162f82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/projektmanagement/definitions/Magisches Dreieck.md",
+                "file": "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -31,37 +29,67 @@
             }
           },
           {
-            "id": "28da9004fa8a3816",
+            "id": "ba27b70937a3d856",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf"
+                "file": "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
           {
-            "id": "5532e5976853d901",
+            "id": "aaddcce95a0e62f2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "e5fba5c85c1f914a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "semester-1/Logik/altklausuren/20BE.pdf"
+                "file": "semester-1/programmieren/Eigene Datenbank/File Handling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
           {
-            "id": "b9dea05733e3d51b",
+            "id": "655ed48d9061a440",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
+                "file": "semester-1/programmieren/Eigene Datenbank/Menu.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d6b3f237b296389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/concepts/Functions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -107,12 +135,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279.5026054382324
+    "width": 434.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -128,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/Logik/altklausuren/20BE.pdf",
+                "file": "semester-1/programmieren/concepts/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/Logik/altklausuren/20BE.pdf",
+                "file": "semester-1/programmieren/concepts/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/Logik/altklausuren/20BE.pdf"
+                "file": "semester-1/programmieren/concepts/Functions.md"
               }
             }
           },
@@ -198,53 +226,53 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5532e5976853d901",
+  "active": "5d6b3f237b296389",
   "lastOpenFiles": [
-    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
-    "semester-1/Logik/altklausuren/20BE.pdf",
+    "semester-1/programmieren/concepts/Strings.md",
+    "semester-1/programmieren/Eigene Datenbank/File Handling.md",
+    "semester-1/programmieren/code/examples/files/file_handling.c",
+    "semester-1/programmieren/Eigene Datenbank/Menu.md",
+    "semester-1/programmieren/code/examples/files/output/file_processing",
+    "semester-1/programmieren/code/examples/files/output",
+    "semester-1/programmieren/code/examples/files/test.txt",
+    "semester-1/programmieren/code/examples/files/file_processing.c",
+    "semester-1/programmieren/code/examples/files",
+    "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
+    "semester-1/programmieren/Eigene Datenbank/Datenbank Programmiersprachen.md",
+    "semester-1/programmieren/concepts/Functions.md",
+    "semester-1/programmieren/code/examples/d_linked_list_local.h",
+    "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+    "semester-1/programmieren/code/Code 006 Master.md",
+    "semester-1/projektmanagement/images/v-modell.png",
+    "semester-1/projektmanagement/images/wasserfall.png",
+    "semester-1/projektmanagement/images/sequentiell.png",
+    "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
+    "semester-1/projektmanagement/images/mpm_example.png",
+    "semester-1/projektmanagement/images/gantt.png",
+    "semester-1/projektmanagement/images/gantt 1.png",
+    "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
+    "semester-1/programmieren/Knight's Journey.md",
+    "semester-1/goodnotes/Programmieren/Mitschrieb/Prog 1 aufgaben.pdf",
+    "semester-1/programmieren/code/005/Code 005 Master.md",
+    "semester-1/programmieren/concepts/linked-list",
+    "semester-1/programmieren/Eigene Datenbank",
+    "semester-1/programmieren/Master Programmieren.md",
+    "semester-1/programmieren/concepts/C concepts.md",
+    "semester-1/programmieren/concepts/Structs.md",
+    "semester-1/programmieren/concepts/Recursion.md",
+    "concet.md",
+    "semester-1/projektmanagement/definitions/Magisches Dreieck.md",
     "semester-1/Logik/altklausuren/Master Logik Altklausuren.md",
-    "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf",
     "semester-1/Logik/Master Logik.md",
     "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
-    "semester-1/projektmanagement/definitions/Magisches Dreieck.md",
     "semester-1/projektmanagement/001 Ziele.md",
-    "semester-1/projektmanagement/scripts/PM Kap_02 Auftrag und Ziele_vorl.pdf",
     "semester-1/projektmanagement/sources/Übung Elbphilharmonie.md",
-    "semester-1/projektmanagement/sources/Uebung Elbphilharmonie.pdf",
     "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 002.md",
     "semester-1/projektmanagement/005 Terminmanagement.md",
-    "semester-1/projektmanagement/sources/magisches_dreieck.png",
-    "semester-1/goodnotes/Digitaltechnik/Übungen/D-Technik Aufg 02.pdf",
-    "semester-1/goodnotes/Projektmanagement/scripts/SKRIPT PM 1.1 Grundlagen.pdf",
-    "semester-1/projektmanagement/sources/abfolgen_mpm.png",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
+    "semester-1/projektmanagement/images/magisches_dreieck.png",
+    "semester-1/projektmanagement/images/abfolgen_mpm.png",
     "semester-1/lineare-algebra/Master Lineare Algebra.md",
-    "semester-1/projektmanagement/scripts/PM Kap_09 Phasenmodelle_vorl.pdf",
     "semester-1/projektmanagement/006 Phasenmodelle.md",
-    "semester-1/projektmanagement/Master Projektmanagement.md",
-    "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 004.md",
-    "semester-1/projektmanagement/definitions/V-Modell.md",
-    "semester-1/projektmanagement/003 Projektplanung.md",
-    "semester-1/projektmanagement/definitions/Rein Sequentielles Modell.md",
-    "semester-1/projektmanagement/definitions/Wasserfallmodell.md",
-    "semester-1/projektmanagement/definitions/Pflichtenheft.md",
-    "semester-1/projektmanagement/definitions/Lastenheft.md",
-    "semester-1/projektmanagement/004 Arbeitspakete.md",
-    "Pasted image 20240117113408.png",
-    "Pasted image 20240117113228.png",
-    "Pasted image 20240117112912.png",
-    "semester-1/projektmanagement/002 Projektorganisation.md",
-    "semester-1/projektmanagement/sources/Aufgabe Lastenheft.md",
-    "semester-1/projektmanagement/sources/Lastenheft_Zeiterfassungssystem01_feedback.pdf",
-    "semester-1/projektmanagement/definitions/MPM Netzplan.md",
-    "semester-1/projektmanagement/scripts/PM Kap_06 Terminplanung_vorl.pdf",
-    "templates/Lineare Algebra Aufgaben Template.md",
-    "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 001.md",
-    "semester-1/projektmanagement/sources/loesung_aufgabe_netzplan.png",
-    "semester-1/projektmanagement/definitions/GANTT-Chart Netzwerkplan.md",
-    "semester-1/projektmanagement/sources/aufgabe_netzplan.png",
-    "semester-1/projektmanagement/sources/simple_terminplan.png",
-    "Pasted image 20240117100008.png",
-    "semester-1/projektmanagement/sources/cpm_plan.png"
+    "semester-1/projektmanagement/images/loesung_aufgabe_netzplan.png"
   ]
 }
