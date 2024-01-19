@@ -88,7 +88,7 @@ int main()
             db = manual_entry(db);
             break;
         case 3:
-            show_datasets(db);
+            print_datasets(db);
             break;
 
         default:
@@ -143,20 +143,23 @@ show *show_from_console()
 
 void read_text_file() {}
 
-void show_datasets(Node *db)
-{
-    printf("\n          %-17s %-20s %-20s %-128s", "date", "venue", "headliner", "support acts");
-    printf("\n-----------------------------------------------------------------------------------------------------------------------------");
-    __show_datasets(db, 0);
-}
 
-void __show_datasets(Node *n, int index)
+void __print_datasets(Node *n, int index)
 {
     show *s = n->data;
     printf("\nnode %3d: %-17s %-20s %-20s %-128s", index, s->date, s->venue, s->headliner, s->support_acts);
     if (n->next == 0)
         return n;
-    return __show_datasets(n->next, index + 1);
+    return __print_datasets(n->next, index + 1);
+}
+
+void print_datasets(Node *db)
+{
+    printf("\n          %-17s %-20s %-20s %-128s", "date", "venue", "headliner", "support acts");
+    printf("\n-----------------------------------------------------------------------------------------------------------------------------");
+    __print_datasets(db, 0);
+    printf("\n\n");
+    
 }
 
 void __up_hex(Node *list, int index)
@@ -177,4 +180,73 @@ void up_hex(Node *db)
     printf("\n-------------------------------------------------------");
     __up_hex(db, 0);
     printf("\n-------------------------------------------------------\n");
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------
+
+void write_to_file(Node *head, const char *filename)
+{
+    FILE *file = fopen(filename, "w");
+    if (file == NULL)
+    {
+        fprintf(stderr, "Error opening file for writing: %s\n", filename);
+        exit(EXIT_FAILURE);
+    }
+
+    Node *current = head;
+    int index = 0;
+
+    while (current != NULL)
+    {
+        show *s = current->data;
+        fprintf(file, "%d: %-17s %-20s %-20s %-64s\n",
+                index, s->date, s->venue, s->headliner, s->support_acts);
+        current = current->next;
+        index++;
+    }
+
+    fclose(file);
+}
+
+Node *read_from_file(const char *filename)
+{
+    FILE *file = fopen(filename, "r");
+    if (file == NULL)
+    {
+        fprintf(stderr, "Error opening file for reading: %s\n", filename);
+        exit(EXIT_FAILURE);
+    }
+
+    Node *head = NULL;
+    Node *tail = NULL;
+
+    char line[256];
+    while (fgets(line, sizeof(line), file) != NULL)
+    {
+        show *s = (show *)malloc(sizeof(show));
+        Node *newNode = (Node *)malloc(sizeof(Node));
+
+        int index;
+        sscanf(line, "%d: %16s %19s %19s %63[^\n]",
+               &index, s->date, s->venue, s->headliner, s->support_acts);
+
+        newNode->data = s;
+        newNode->next = NULL;
+        newNode->previous = NULL;
+
+        if (head == NULL)
+        {
+            head = newNode;
+            tail = newNode;
+        }
+        else
+        {
+            tail->next = newNode;
+            newNode->previous = tail;
+            tail = newNode;
+        }
+    }
+
+    fclose(file);
+    return head;
 }
