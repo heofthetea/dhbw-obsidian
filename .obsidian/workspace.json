@@ -48,48 +48,9 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "e5fba5c85c1f914a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/File Handling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "655ed48d9061a440",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/Menu.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d6b3f237b296389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/concepts/Functions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/concepts/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/concepts/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "semester-1/programmieren/concepts/Functions.md"
-              }
+              "state": {}
             }
           },
           {
@@ -226,23 +183,39 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5d6b3f237b296389",
+  "active": "aaddcce95a0e62f2",
   "lastOpenFiles": [
-    "semester-1/programmieren/concepts/Strings.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-06 LGs.md",
+    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-01 tout.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-04 Zahlentheorie.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-03 Induktion.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-02 Mengen.md",
+    "semester-1/lineare-algebra/Master Lineare Algebra.md",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1.1 UEbungen Erfuellbarkeit.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/Übungen.pdf",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/Aufg-06_LGS.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRÄDIKATENLOGIK.pdf",
+    "semester-1/goodnotes/Logik/Lgk 1 Übungen.pdf",
     "semester-1/programmieren/Eigene Datenbank/File Handling.md",
-    "semester-1/programmieren/code/examples/files/file_handling.c",
     "semester-1/programmieren/Eigene Datenbank/Menu.md",
-    "semester-1/programmieren/code/examples/files/output/file_processing",
-    "semester-1/programmieren/code/examples/files/output",
-    "semester-1/programmieren/code/examples/files/test.txt",
-    "semester-1/programmieren/code/examples/files/file_processing.c",
-    "semester-1/programmieren/code/examples/files",
+    "semester-1/programmieren/concepts/Functions.md",
+    "semester-1/projektmanagement/definitions/Projektstrukturplan.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
+    "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
+    "semester-1/programmieren/code/Code Master.md",
+    "semester-1/programmieren/code/Code 006 Master.md",
+    "semester-1/programmieren/concepts/Strings.md",
     "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
     "semester-1/programmieren/Eigene Datenbank/Datenbank Programmiersprachen.md",
-    "semester-1/programmieren/concepts/Functions.md",
-    "semester-1/programmieren/code/examples/d_linked_list_local.h",
     "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
-    "semester-1/programmieren/code/Code 006 Master.md",
     "semester-1/projektmanagement/images/v-modell.png",
     "semester-1/projektmanagement/images/wasserfall.png",
     "semester-1/projektmanagement/images/sequentiell.png",
@@ -252,27 +225,11 @@
     "semester-1/projektmanagement/images/gantt 1.png",
     "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
     "semester-1/programmieren/Knight's Journey.md",
-    "semester-1/goodnotes/Programmieren/Mitschrieb/Prog 1 aufgaben.pdf",
     "semester-1/programmieren/code/005/Code 005 Master.md",
-    "semester-1/programmieren/concepts/linked-list",
-    "semester-1/programmieren/Eigene Datenbank",
     "semester-1/programmieren/Master Programmieren.md",
     "semester-1/programmieren/concepts/C concepts.md",
-    "semester-1/programmieren/concepts/Structs.md",
-    "semester-1/programmieren/concepts/Recursion.md",
-    "concet.md",
-    "semester-1/projektmanagement/definitions/Magisches Dreieck.md",
-    "semester-1/Logik/altklausuren/Master Logik Altklausuren.md",
-    "semester-1/Logik/Master Logik.md",
-    "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
-    "semester-1/projektmanagement/001 Ziele.md",
-    "semester-1/projektmanagement/sources/Übung Elbphilharmonie.md",
-    "semester-1/projektmanagement/Fragenkataloge/Fragenkatalog 002.md",
-    "semester-1/projektmanagement/005 Terminmanagement.md",
     "semester-1/projektmanagement/images/magisches_dreieck.png",
     "semester-1/projektmanagement/images/abfolgen_mpm.png",
-    "semester-1/lineare-algebra/Master Lineare Algebra.md",
-    "semester-1/projektmanagement/006 Phasenmodelle.md",
     "semester-1/projektmanagement/images/loesung_aufgabe_netzplan.png"
   ]
 }

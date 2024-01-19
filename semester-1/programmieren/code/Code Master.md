@@ -24,4 +24,9 @@
 
 ![[Code 005 Master]]
 
+## Vorlesung 007
+---
+[[Aufgabe - eigene Datenbank]]
+![[Code 006 Master]]
+
 
