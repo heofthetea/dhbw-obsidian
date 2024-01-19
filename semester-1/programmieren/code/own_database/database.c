@@ -35,11 +35,11 @@ typedef struct
 } programming_language;
 
 
-typedef struct
+typedef struct Node
 {
     programming_language data;
-    Node next;
-    Node previous;
+    struct Node *next;
+    struct Node *previous;
 } Node;
 
 //---------------------------------------------------------------------------------
@@ -51,5 +51,5 @@ int main()
 }
 
 int choose_action() {
-
+    
 }

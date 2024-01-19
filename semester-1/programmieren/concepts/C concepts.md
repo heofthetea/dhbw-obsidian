@@ -51,13 +51,17 @@ gets(str);
 ```
 ==> stroresl input to `str`.
 
-### character array
-**Strings need ending character** ==> `char[64]` can only hold 63 characters
 
+### clear terminal
+```c
+system("clear");
+```
 
 
 ## Arrays
 **You know what an array is, you're only here for the syntax**
+### character array
+**Strings need ending character** ==> `char[64]` can only hold 63 characters
 
 Beispiel: Temperatur
 - stets drei Messwerte pro Tag (mogen, mittag, abend)

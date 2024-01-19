@@ -24,7 +24,6 @@ typedef struct
     students *temp;
 } input_student;
 
-// only use global variables for now
 
 int main()
 {
@@ -79,7 +78,7 @@ void struct_to_list(input_student *input)
 void up_hex(input_student *input)
 {
     input->current = input->start;
-    int i;
+    int i = 0;
     while (input->current)
     {
         printf("\nelemtent %-3d: %20s %10x %10x %10x",

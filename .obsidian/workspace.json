@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
+                "file": "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+                "file": "semester-1/programmieren/Eigene Datenbank/Datenbank Ideen.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,15 +42,46 @@
             }
           },
           {
-            "id": "aaddcce95a0e62f2",
+            "id": "904ee8a853ddf0af",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efb20aac9276bcce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/Eigene Datenbank/File Handling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d02bae409a84b82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -117,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md"
+              }
             }
           },
           {
@@ -183,8 +218,20 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "aaddcce95a0e62f2",
+  "active": "5d02bae409a84b82",
   "lastOpenFiles": [
+    "semester-1/programmieren/code/own_database/output/shows",
+    "semester-1/programmieren/Eigene Datenbank/File Handling.md",
+    "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
+    "semester-1/programmieren/Eigene Datenbank/Menu.md",
+    "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
+    "semester-1/programmieren/concepts/C concepts.md",
+    "semester-1/programmieren/Eigene Datenbank/Datenbank Ideen.md",
+    "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+    "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
+    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/digitaltechnik/Aufgaben/tipps klausur.md",
+    "semester-1/digitaltechnik/Master Digitaltechnik.md",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-06 LGs.md",
     "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
@@ -201,10 +248,6 @@
     "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
     "semester-1/goodnotes/Lineare Algebra/Aufgaben/Übungen.pdf",
     "semester-1/goodnotes/Lineare Algebra/Aufgaben/Aufg-06_LGS.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRÄDIKATENLOGIK.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1 Übungen.pdf",
-    "semester-1/programmieren/Eigene Datenbank/File Handling.md",
-    "semester-1/programmieren/Eigene Datenbank/Menu.md",
     "semester-1/programmieren/concepts/Functions.md",
     "semester-1/projektmanagement/definitions/Projektstrukturplan.md",
     "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
@@ -212,10 +255,6 @@
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
     "semester-1/programmieren/code/Code Master.md",
     "semester-1/programmieren/code/Code 006 Master.md",
-    "semester-1/programmieren/concepts/Strings.md",
-    "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
-    "semester-1/programmieren/Eigene Datenbank/Datenbank Programmiersprachen.md",
-    "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
     "semester-1/projektmanagement/images/v-modell.png",
     "semester-1/projektmanagement/images/wasserfall.png",
     "semester-1/projektmanagement/images/sequentiell.png",
@@ -223,11 +262,6 @@
     "semester-1/projektmanagement/images/mpm_example.png",
     "semester-1/projektmanagement/images/gantt.png",
     "semester-1/projektmanagement/images/gantt 1.png",
-    "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
-    "semester-1/programmieren/Knight's Journey.md",
-    "semester-1/programmieren/code/005/Code 005 Master.md",
-    "semester-1/programmieren/Master Programmieren.md",
-    "semester-1/programmieren/concepts/C concepts.md",
     "semester-1/projektmanagement/images/magisches_dreieck.png",
     "semester-1/projektmanagement/images/abfolgen_mpm.png",
     "semester-1/projektmanagement/images/loesung_aufgabe_netzplan.png"
