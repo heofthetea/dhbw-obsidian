@@ -9,12 +9,18 @@ int main()
     if (!file)
         printf("Scheise, isch konnt' die Dadei ned öffne");
 
-    fgets(text, 80, file); // Vorlesen
+    // fgets(text, 80, file); // Vorlesen
 
-    while (!feof(file))
-    {
-        printf("%s", text);    // processing
-        fgets(text, 80, file); // Nachlesen
-    }
+    // while (!feof(file))
+    // {
+    //     printf("%s", text);    // processing
+    //     fgets(text, 80, file); // Nachlesen
+    // }
+
+    do {
+        fgets(text, 80, file);
+        printf("%s", text);
+    } while (!feof(file));
+    
     fclose(file);
 }

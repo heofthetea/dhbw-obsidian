@@ -13,16 +13,16 @@ typedef struct
     char headliner[20];
     char support_acts[64];
 
-} show;
+} Show;
 
 typedef struct Node
 {
-    show *data;
+    Show *data;
     struct Node *next;
     struct Node *previous;
 } Node;
 
-Node *new_node(show *data, Node *previous, Node *next)
+Node *new_node(Show *data, Node *previous, Node *next)
 {
     Node *new = malloc(sizeof(Node));
     new->data = data;
@@ -39,7 +39,7 @@ Node *get_last_node(Node *n)
     return get_last_node(n->next);
 }
 
-Node *add_to_list(show *s, Node *list)
+Node *add_to_list(Show *s, Node *list)
 {
     if (!list)
     {
@@ -47,19 +47,20 @@ Node *add_to_list(show *s, Node *list)
         return list;
     }
     Node *last = get_last_node(list);
-    Node *temp = new_node(s, last, last->next);
-    last->next = temp;
+    last->next = new_node(s, last, last->next);
 
     return list;
 }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
-show *show_from_console();
-void up_hex(Node *db);
-void read_text_file();
+Show *show_from_console();
+Show *show_from_row(char *row);
 Node *manual_entry(Node *db);
-void show_datasets(Node *db);
+Node *read_text_file(Node *db);
+void write_text_file(Node *db);
+void up_hex(Node *db);
+void print_datasets(Node *db);
 void render_menu();
 
 //--------------------------------------------------------------------------------------------------------------------------------------------
@@ -81,7 +82,7 @@ int main()
             up_hex(db);
             break;
         case 1:
-            read_text_file();
+            db = read_text_file(db);
             break;
         case 2:
             printf("Please enter the prompted attribute of your data set.\n\n");
@@ -89,6 +90,9 @@ int main()
             break;
         case 3:
             print_datasets(db);
+            break;
+        case 4:
+            write_text_file(db);
             break;
 
         default:
@@ -104,52 +108,56 @@ void render_menu()
     printf("\n1: read .txt file");
     printf("\n2: manually enter dataset");
     printf("\n3: show all datasets");
-    printf("\n\n-1: up_hex() as control");
+    printf("\n4: write to .txt file");
 
+    printf("\n\n-1: up_hex() as debugging tool");
     printf("\n\n> ");
 }
 
 Node *manual_entry(Node *db)
 {
-    show *s = show_from_console();
+    Show *s = show_from_console();
     db = add_to_list(s, db);
     return db;
 }
 
 // i need to find a different representation, strings are bullshit
-show *show_from_console()
+Show *show_from_console()
 {
-    show *temp = malloc(sizeof(show));
+    Show *temp = malloc(sizeof(Show));
     printf("enter date of show: ");
     // scanf("%s",&temp->date);
-    fgets(temp->date, sizeof(temp->date) / sizeof(char), stdin);
+    fgets(temp->date, sizeof(temp->date), stdin);
     temp->date[strcspn(temp->date, "\n")] = 0;
 
     printf("enter venue of show: ");
     // scanf("%s", &temp->date);
-    fgets(temp->venue, sizeof(temp->venue) / sizeof(char), stdin);
+    fgets(temp->venue, sizeof(temp->venue), stdin);
     temp->venue[strcspn(temp->venue, "\n")] = 0;
 
     printf("enter headliner: ");
-    fgets(temp->headliner, sizeof(temp->headliner) / sizeof(char), stdin);
+    fgets(temp->headliner, sizeof(temp->headliner), stdin);
     temp->headliner[strcspn(temp->headliner, "\n")] = 0;
 
     printf("enter support acts (seperated by commata): ");
-    fgets(temp->support_acts, sizeof(temp->support_acts) / sizeof(char), stdin);
+    fgets(temp->support_acts, sizeof(temp->support_acts), stdin);
     temp->support_acts[strcspn(temp->support_acts, "\n")] = 0;
 
     return temp;
 }
 
-void read_text_file() {}
-
-
 void __print_datasets(Node *n, int index)
 {
-    show *s = n->data;
+    if (!n)
+    {
+        printf("\nThere are no entries yet");
+        return;
+    }
+
+    Show *s = n->data;
     printf("\nnode %3d: %-17s %-20s %-20s %-128s", index, s->date, s->venue, s->headliner, s->support_acts);
     if (n->next == 0)
-        return n;
+        return;
     return __print_datasets(n->next, index + 1);
 }
 
@@ -159,15 +167,20 @@ void print_datasets(Node *db)
     printf("\n-----------------------------------------------------------------------------------------------------------------------------");
     __print_datasets(db, 0);
     printf("\n\n");
-    
 }
 
 void __up_hex(Node *list, int index)
 {
-    printf("\nelement %3d: %20s %10x %10x",
+    if (!list)
+    {
+        printf("\nList is empty");
+        return;
+    }
+    printf("\nelement %3d: %20s %10x %10x %10x",
            index,
            list->data->headliner,
            list->previous,
+           list,
            list->next);
     if (!list->next)
         return;
@@ -176,77 +189,90 @@ void __up_hex(Node *list, int index)
 
 void up_hex(Node *db)
 {
-    printf("\nelement      %20s %10s %10s", "headliner", "previous", "next");
+    printf("\nelement      %20s %10s %10s %10s", "headliner", "previous", "current", "next");
     printf("\n-------------------------------------------------------");
     __up_hex(db, 0);
     printf("\n-------------------------------------------------------\n");
 }
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
+// File handling stuff
 
-void write_to_file(Node *head, const char *filename)
+void write_text_file(Node *db)
 {
+    // char filename[] = "db.txt";
+    char filename[16];
+    printf("Enter name of file to write to: ");
+    scanf("%s", filename);
+    fflush(stdin);
+
     FILE *file = fopen(filename, "w");
     if (file == NULL)
     {
-        fprintf(stderr, "Error opening file for writing: %s\n", filename);
-        exit(EXIT_FAILURE);
+        fprintf(stderr, "\nError opening file for writing: %s\n", filename);
+        return;
     }
 
-    Node *current = head;
+    Node *current = db;
     int index = 0;
 
     while (current != NULL)
     {
-        show *s = current->data;
-        fprintf(file, "%d: %-17s %-20s %-20s %-64s\n",
-                index, s->date, s->venue, s->headliner, s->support_acts);
+        Show *s = current->data;
+        // lul this really does the exact same as printing to console xd
+        fprintf(file, "%-17s%-20s%-20s%-64sX\n",
+                s->date, s->venue, s->headliner, s->support_acts); // no spaces here
         current = current->next;
         index++;
     }
 
     fclose(file);
+    printf("\nSuccessfully wrote %i lines to file %s!\n\n", index, filename);
 }
 
-Node *read_from_file(const char *filename)
+Show *show_from_row(char *row)
 {
+    Show *new = malloc(sizeof(Show));
+    int col = 0;
+    strncpy(new->date, row + col, sizeof(new->date));
+    col += sizeof(new->date);
+    strncpy(new->venue, row + col, sizeof(new->venue));
+    col += sizeof(new->venue);
+    strncpy(new->headliner, row + col, sizeof(new->headliner));
+    col += sizeof(new->headliner);
+    strncpy(new->support_acts, row + col, sizeof(new->support_acts));
+
+    new->date[sizeof(new->date) - 1] = 0; //putting string teriminators everywhere to actually mark the end of a line
+    new->venue[sizeof(new->venue) - 1] = 0; 
+    new->headliner[sizeof(new->headliner) - 1] = 0; 
+    new->support_acts[sizeof(new->support_acts) - 1] = 0; // IT PHYSICALLY HURTS ME AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+    return new;
+}
+
+// returns the updated linked list
+Node *read_text_file(Node *db)
+{
+    char filename[16];
+    printf("Enter name of file to read from: ");
+    scanf("%s", filename);
+    fflush(stdin);
+
     FILE *file = fopen(filename, "r");
     if (file == NULL)
     {
-        fprintf(stderr, "Error opening file for reading: %s\n", filename);
-        exit(EXIT_FAILURE);
+        fprintf(stderr, "\nError opening file for reading: %s\n", filename);
+        return db;
     }
 
-    Node *head = NULL;
-    Node *tail = NULL;
+    char row[128];
 
-    char line[256];
-    while (fgets(line, sizeof(line), file) != NULL)
+    do
     {
-        show *s = (show *)malloc(sizeof(show));
-        Node *newNode = (Node *)malloc(sizeof(Node));
+        fgets(row, sizeof(row), file);
+        Show *temp_show = show_from_row(row);
+        db = add_to_list(temp_show, db);
+    } while (!feof(file));
 
-        int index;
-        sscanf(line, "%d: %16s %19s %19s %63[^\n]",
-               &index, s->date, s->venue, s->headliner, s->support_acts);
-
-        newNode->data = s;
-        newNode->next = NULL;
-        newNode->previous = NULL;
-
-        if (head == NULL)
-        {
-            head = newNode;
-            tail = newNode;
-        }
-        else
-        {
-            tail->next = newNode;
-            newNode->previous = tail;
-            tail = newNode;
-        }
-    }
-
-    fclose(file);
-    return head;
+    return db;
 }

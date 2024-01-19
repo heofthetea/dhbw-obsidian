@@ -32,6 +32,7 @@ Address Operator:
 !! Variablen müssen deklariert sein 
 ![[Begriffe Programmieren#Deklaration / Definition]]
 
+**DON'T USE & OPERATOR FOR ARRAYS ETC. THAT ARE POINTERS!!!!**
 ```c
 float f1;
 char c;
@@ -39,7 +40,7 @@ char c;
 scanf("%f" &f1);
 scanf("%c", &c);
 scanf("%lf", &lf);
-scanf("%s", text) // here no address operator, because complex data type
+scanf("%s", text) // here no address operator, because already is a pointer
 ```
 
 

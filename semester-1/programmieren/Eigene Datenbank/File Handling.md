@@ -56,4 +56,12 @@ int main()
 }
 ```
 
-> **ACHTUNG!!!** To work properly, the opened file _has_ to end with an empty line!!
+This can also be done using a _do while_ loop:
+```c
+do {
+	fgets(text, 80, file);
+	printf("%s", text);
+} while (!feof(file));
+```
+
+> **ATTENTION!!!** To work properly, the opened file _has_ to end with an empty line!!

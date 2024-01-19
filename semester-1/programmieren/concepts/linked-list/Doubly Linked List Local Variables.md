@@ -66,7 +66,7 @@ void list_add(input_student *input)
 ```
 
 
-#### output of list data
+#### Output node attributes
 ```c
 // gib mer mal alles was du hasch aus
 void up_hex(input_student *input) 

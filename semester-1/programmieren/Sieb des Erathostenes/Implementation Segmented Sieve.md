@@ -21,6 +21,7 @@ This compares the _average case_ approximate runtime of the following entities:
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | battery power | 230 ms | 280 ms | 340 ms | 850 ms | 700 ms |
 | performance mode | 225 ms | ?? ms | ?? ms | ?? ms | 340 ms |
+
 --> As _space complexity_ is optimized, Segmented Sieve runs basically equally fast regardless of available resources
 --> `wine` emulator adds 20% of runtime
 
@@ -122,6 +123,7 @@ Let $A_{x} = \frac{\pi(x)}{x\log_{10}(x)}$
 | 10⁸ | 5761455 | 1.061 |
 | 10⁹ | 50847534 | 1.054 |
 | 10¹⁰ | 455052511 | 1.048 |
+
 In this table can be seen, that $\forall_{x} A_{x} \leq 1.152$. So, to get a number a bit larger than the actual number of primes until a parameter _n_, this code can be used:
 
 ```c
