@@ -1,5 +1,5 @@
 Verzögert Eingangssignal, bis Taktsignal anliegt
-![[Pasted image 20240120155444.png]]
+![[d_ff_symbol.png]]
 
 | $(t_{n})$ | $(t_{n+1})$ |
 | ---- | ---- |
@@ -7,6 +7,6 @@ Verzögert Eingangssignal, bis Taktsignal anliegt
 | 0 | 0 |
 | 1 | 1 |
 ### Aufbau
-![[Pasted image 20240120155603.png]]
+![[d_ff_aufbau.png]]
 D-Eingang wird invertiert
 --> $R = \lnot S$ --> _weder_ [[Speicherfall]] noch [[Verbotener Fall]] kann auftreten

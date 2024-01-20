@@ -8,9 +8,10 @@ Im wesentlichen eine _Erweiterung_ des [[T-Flipflop (Toggle-FF)|T-Flipflops]]:
 _Vorteil_:
 - [[Verbotener Fall]] wird durch Invertierung gelöst
 
-
+### Charakteristische Gleichung
+![[Charakteristische Gleichungen#JK-Flipflop]]
 ### Schaltsymbol
-![[Pasted image 20240120164038.png]]
+![[jk_ff_symbol.png]]
 #### Wahrheitstabelle
 | K | J | $Q_{1_{n}}$ |
 | ---- | ---- | ---- |
@@ -20,7 +21,7 @@ _Vorteil_:
 | 1 | 1 | $\lnot Q_{1_{n-1}}$ |
 
 ### Aufbau
-![[Pasted image 20240120163038.png]]
+![[jk_ff_aufbau.png]]
 
 [[Speicherfall]]: trivial
 [[Verbotener Fall]]: wird gehandlet, indem $Q_{1}$ invertiert wird

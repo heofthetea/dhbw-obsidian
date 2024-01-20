@@ -22,6 +22,22 @@ Werden von _einspeicher-Flipflop_ unterschieden durch $\lnot$ Symbole an den Aus
 
 ### Zweispeicher SR-Flipflop
 [[SR-Flipflop]]
-![[Pasted image 20240120171938.png]]
+![[sr_ff_ms.png]]
+![[sr_ms_aufbau.png]]
 
 ### Zweispeicher JK-Flipflop
+![[Zweiflankengesteuertes JK-FF]]
+
+### Zweispeicher T-Flipflop
+[[T-Flipflop (Toggle-FF)]]
+Entstehung aus [[Zweiflankengesteuertes JK-FF]]
+![[t_ms.png]]
+
+### Zweispeicher D-Flipflop
+[[D-Flipflop (Delay-FF)]]
+Entstehung aus [[Zweiflankengesteuertes JK-FF]]
+![[d_ff_ms.png]]
+
+### Zweispeicher DV-Flipflop
+Entstehung aus [[DV-Flipflop]]
+![[dv_flipflop_ms.png]]

@@ -14,4 +14,4 @@
 #### Flip-Flops
 _KEINE_ monostabilen Kippstufen + Verzögerungsglieder
 - [ ] Flip-Flops auswendig können
-	- [ ] Wahrheitstabelle für (taktgesteuerte) JK-FF (mitsamt charakteristischer Gleichung)
+	- [ ] Wahrheitstabelle für [[JK-Flipflop]] (mitsamt [[JK-Flipflop#Charakteristische Gleichung|charakteristischer Gleichung]]), am besten auswendig

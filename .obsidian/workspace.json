@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "606390e3936bc67a",
+        "id": "3e5c2fa69c3043b2",
         "type": "tabs",
         "children": [
           {
-            "id": "31e5ce8e02982610",
+            "id": "e44e2ab456f41ea3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,101 +21,15 @@
             }
           },
           {
-            "id": "bb6bd6a13951a62b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/digitaltechnik/flipflops/Taktsteuerung.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9cc2c5603019785",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6977d80e28d6ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/digitaltechnik/flipflops/Verbotener Fall.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41db71171473a4ac",
+            "id": "d3f583cc5e2c03ac",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "9c2ed881fe2a989d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "T-Flipflop (Toggle-FF).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ea1f8659da7aebb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/digitaltechnik/flipflops/Taktgesteuerter SR-Flipflop.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f52639f3af45439",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes Flipflop.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b8b5dd63face75b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5,
-    "collapsed": true
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,34 +208,38 @@
       }
     ]
   },
-  "active": "1b8b5dd63face75b",
+  "active": "d1efd26b085abc20",
   "lastOpenFiles": [
+    "semester-1/digitaltechnik/Aufgaben/tipps klausur.md",
+    "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
+    "semester-1/digitaltechnik/flipflops/images/ansteigende_flanke.png",
+    "semester-1/digitaltechnik/flipflops/images/abfallende_flanke.png",
+    "semester-1/digitaltechnik/flipflops/images/sr_ff_symbol.png",
+    "semester-1/digitaltechnik/flipflops/images/ff_nand.png",
+    "semester-1/digitaltechnik/flipflops/images/sr_ff_taktgesteuert.png",
+    "semester-1/digitaltechnik/flipflops/images/dom_r_symbol.png",
+    "semester-1/digitaltechnik/flipflops/images/sr_dom_s_symbol.png",
+    "semester-1/digitaltechnik/flipflops/images/dom_r_eingang.png",
+    "semester-1/digitaltechnik/flipflops/images/d_ff_symbol.png",
+    "semester-1/digitaltechnik/flipflops/images/d_ff_ms.png",
+    "Master DHBW.md",
     "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes Flipflop.md",
-    "Zweiflankengesteuertes JK-FF.md",
-    "Pasted image 20240120172821.png",
-    "JK-Flipflop.md",
-    "semester-1/digitaltechnik/scripts/durchrutschende_information_ff.png",
-    "Pasted image 20240120171938.png",
     "semester-1/digitaltechnik/flipflops/Taktsteuerung.md",
     "semester-1/digitaltechnik/flipflops/Flipflops.md",
-    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes JK-FF.md",
+    "semester-1/digitaltechnik/flipflops/Charakteristische Gleichungen.md",
+    "semester-1/digitaltechnik/flipflops/JK-Flipflop.md",
     "semester-1/digitaltechnik/flipflops/D-Flipflop (Delay-FF).md",
-    "Pasted image 20240120164038.png",
-    "semester-1/digitaltechnik/flipflops/Taktgesteuerter SR-Flipflop.md",
-    "T-Flipflop (Toggle-FF).md",
-    "semester-1/digitaltechnik/flipflops/Erweiterte Warheitstabelle.md",
-    "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
-    "semester-1/digitaltechnik/flipflops/Speicherfall.md",
-    "semester-1/digitaltechnik/flipflops/Verbotener Fall.md",
-    "Pasted image 20240120163038.png",
+    "semester-1/digitaltechnik/flipflops/DV-Flipflop.md",
+    "semester-1/digitaltechnik/flipflops/Taktgesteuertes SR-Flipflop.md",
     "semester-1/digitaltechnik/flipflops/Impulsglied.md",
-    "Pasted image 20240120162217.png",
-    "Pasted image 20240120162114.png",
-    "Pasted image 20240120161257.png",
-    "Pasted image 20240120161112.png",
-    "semester-1/digitaltechnik/flipflops/SR-Flipflop.md",
-    "Pasted image 20240120155603.png",
     "semester-1/digitaltechnik/Master Digitaltechnik.md",
+    "semester-1/digitaltechnik/flipflops/T-Flipflop (Toggle-FF).md",
+    "semester-1/digitaltechnik/flipflops/SR-Flipflop.md",
+    "semester-1/digitaltechnik/flipflops/Verbotener Fall.md",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/digitaltechnik/flipflops/Erweiterte Warheitstabelle.md",
+    "semester-1/digitaltechnik/flipflops/Speicherfall.md",
     "semester-1/digitaltechnik/flipflops/images",
     "semester-1/digitaltechnik/flip-flops/Untitled.md",
     "semester-1/digitaltechnik/flipflops",
@@ -333,9 +250,6 @@
     "semester-1/Logik/Master Logik.md",
     "semester-1/programmieren/concepts/Strings.md",
     "semester-1/programmieren/Eigene Datenbank/File Handling.md",
-    "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
-    "semester-1/programmieren/Eigene Datenbank/Datenbank Ideen.md",
-    "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
     "semester-1/programmieren/code/examples/files/output/file_handling",
     "semester-1/programmieren/code/own_database/output/shows",
     "semester-1/programmieren/code/own_database/db.txt",

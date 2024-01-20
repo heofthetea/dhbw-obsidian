@@ -6,7 +6,7 @@
 [[Digitaltechnik GoodNotes]]
 
 ## Contents
-[[Flipflops]]
+[[Master Flipflops]]
 
 ## Aufgaben
 [[Digitaltechnik_Uebung_1.pdf]]

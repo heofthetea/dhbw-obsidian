@@ -1,7 +1,7 @@
 Dominierende Eingänge handlen [[Verbotener Fall|verbotenen Fall]] 
 ## Dominierender R-Eingang
 [[Verbotener Fall]]: R-Eingang dominiert --> Reset wird ausgeführt
-![[Pasted image 20240120153341.png]]
+![[dom_r_symbol.png]]
 
 | S | R | $Q_1$ |
 | ---- | ---- | ---- |
@@ -12,10 +12,10 @@ Dominierende Eingänge handlen [[Verbotener Fall|verbotenen Fall]]
 ### Realisierung
 Dominierender Eingang wird _negiert_ und mit dominiertem Eingang verundet
 --> Alles bleibt gleich, außer wenn beide auf 1 liegen
-![[Pasted image 20240120154107.png]]
+![[dom_r_eingang.png]]
 ## Dominierender S-Eingang
 [[Verbotener Fall]]: S-Eingang dominiert
-![[Pasted image 20240120153350.png]]
+![[sr_dom_s_symbol.png]]
 
 | S | R | $Q_1$ |
 | ---- | ---- | ---- |

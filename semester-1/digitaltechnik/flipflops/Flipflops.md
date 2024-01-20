@@ -1,11 +1,9 @@
-[[Master Flipflops]]
-
 - _Bistabile_ Kippstufe: Sowohl Zustand $Q_{1} = 0$ als auch $Q_{1} = 1$ stabil
 	- --> stabil bedeutet: Zustand wird gehalten, bis er _manuell überschrieben wird_
 - Ausgänge sind _immer invers_ zueinander (außer in [[Verbotener Fall]])
 - Beide Eingänge auf 0 sind [[Speicherfall]] 
 ### Allgemeines Schaltzeichen
-![[Pasted image 20240120125144.png]]
+![[flipflop_basic.png]]
 - In Kästchen steht Information zu FF
 - "Bobbel" bedeutet: $A_{2} = \lnot A_{1}$ 
 	- ==> _wichtigste Prämisse!!_
@@ -27,6 +25,6 @@ Reagiert auf _Änderung_ im Wert des Eingangs
 
 Unterscheidung: _ansteigende_/_abfallende_ Flanke
 - ansteigend: Wert von 0 auf 1
-![[Pasted image 20240120125934.png]]
+![[ansteigende_flanke.png]]
 - abfallend: Wert von 1 auf 0
-![[Pasted image 20240120130000.png]]
+![[abfallende_flanke.png]]

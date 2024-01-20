@@ -4,6 +4,17 @@
 -  T-Eingang wird mit bereits existierenden Eingängen _verundet_ 
 	==> Dadurch kann Ausgang _nur_ verändert werden, wenn $T = 1$
 	- $T = 0$ ==> [[Speicherfall]]
+### Taktzustandsteuerung
+Takt ist [[Flipflops#Statisch|statischer]] Eingang
+
+Beispiel: [[Taktgesteuertes SR-Flipflop]]
+
+
+### Taktflankensteuerung
+Takt ist [[Flipflops#Dynamisch|dynamischer]] Eingang
+Zur Steuerung werden [[Impulsglied]]er verwendet
+
+Beispiel: [[JK-Flipflop]]
 
 ## Dominierende Eingänge
 Norm: 
@@ -11,16 +22,4 @@ Norm:
 - _Zahl Buchstabe_ --> Dominierter Eingang
 - Ein dominierender Eingang dominiert die Eingänge, die dieselbe Kennzahl haben!
 
-![[Pasted image 20240120152529.png]]
-## Taktzustandsteuerung
-Takt ist [[Flipflops#Statisch|statischer]] Eingang
-
-[[Taktgesteuerter SR-Flipflop]]
-
-## Taktflankensteuerung
-Takt ist [[Flipflops#Dynamisch|dynamischer]] Eingang
-
-### Einflankensteuerung
-
-
-### Zweiflankensteuerung
+![[sr_ff_taktgesteuert.png]]

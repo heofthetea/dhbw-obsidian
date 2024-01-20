@@ -1,9 +1,9 @@
-> AND-Glieder mit einem [[Flipflops#Dynamisch|dynamischen]] Eingang
+> AND-Glieder mit einem dynamischen Eingang
 
 Werden für Taktflankensteuerung benötigt
 ### 1. Art
 reagiert auf _abfallende_ Flanken
-![[Pasted image 20240120161112.png]]
+![[impulsglied_abfallend.png]]
 
 | A | T | Z |
 | ---- | ---- | ---- |
@@ -14,7 +14,7 @@ reagiert auf _abfallende_ Flanken
 
 ### 2.Art
 reagiert auf _ansteigende_ Flanken
-![[Pasted image 20240120161257.png]]
+![[impulsglied_ansteigend.png]]
 
 | A | T | Z |
 | ---- | ---- | ---- |

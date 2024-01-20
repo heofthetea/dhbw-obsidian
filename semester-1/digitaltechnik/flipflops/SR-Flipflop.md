@@ -1,8 +1,9 @@
 > Simpelster Flip-Flop
 > Auch genannt: "Latch"
+> Flipflop, der am günstigsten herzustellen ist
 
 ### Schaltsymbol
-![[Pasted image 20240120130044.png]]
+![[sr_ff_symbol.png]]
 Namensgebung:
 - **Set**: S-Eingang
 	- Setzt $Q_{1}$ auf 1
@@ -20,7 +21,7 @@ Namensgebung:
 ### Schaltungstechnischer Aufbau
 Aufbau ist analog mit NANDs und NORs
 
-![[Pasted image 20240120133401.png]]
+![[ff_nand.png]]
 #### Unterscheidung NAND/NOR-Latch#
 **Bei NAND Latches müssen die Eingänge invertiert werden!!**
 --> ansonsten: Set und Reset Eingänge machen genau das Gegenteil ihrer angedachten Funktion

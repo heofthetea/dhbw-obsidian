@@ -1,8 +1,19 @@
-### Nicht-Taktgesteuert
+## Mitschrieb
+[[D-Technik 2 Mitschrieb FlipFlop.pdf]]
+## Basics
+[[Flipflops]]
 [[SR-Flipflop]]
 
-### Taktgesteuert
+## Taktgesteuert
 [[Taktsteuerung]]
-[[Taktgesteuerter SR-Flipflop]]
+#### Einflankensteuerung
+[[Taktgesteuertes SR-Flipflop]]
+[[JK-Flipflop]]
 [[D-Flipflop (Delay-FF)]]
+[[DV-Flipflop]]
+[[T-Flipflop (Toggle-FF)]]
+
+#### Zweiflankensteuerung
+[[Zweiflankengesteuertes Flipflop]]
+
 
