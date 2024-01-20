@@ -4,11 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "b2a4d4dfa45ac28c",
+        "id": "606390e3936bc67a",
         "type": "tabs",
         "children": [
           {
-            "id": "5b720e3014fe2472",
+            "id": "31e5ce8e02982610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb6bd6a13951a62b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/digitaltechnik/flipflops/Taktsteuerung.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9cc2c5603019785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6977d80e28d6ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/digitaltechnik/flipflops/Verbotener Fall.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41db71171473a4ac",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +68,12 @@
             }
           },
           {
-            "id": "670d0ec088162f82",
+            "id": "9c2ed881fe2a989d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+                "file": "T-Flipflop (Toggle-FF).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,12 +81,12 @@
             }
           },
           {
-            "id": "ba27b70937a3d856",
+            "id": "5ea1f8659da7aebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/Datenbank Ideen.md",
+                "file": "semester-1/digitaltechnik/flipflops/Taktgesteuerter SR-Flipflop.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,12 +94,12 @@
             }
           },
           {
-            "id": "904ee8a853ddf0af",
+            "id": "3f52639f3af45439",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
+                "file": "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes Flipflop.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,33 +107,15 @@
             }
           },
           {
-            "id": "efb20aac9276bcce",
+            "id": "1b8b5dd63face75b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/File Handling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1a82a08792d33ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/concepts/Strings.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -131,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5026054382324,
-    "collapsed": true
+    "width": 330.5026054382324
   },
   "right": {
     "id": "94a3acffebf25680",
@@ -148,7 +181,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +197,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,9 +207,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md"
-              }
+              "state": {}
             }
           },
           {
@@ -200,8 +229,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,53 +247,100 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "904ee8a853ddf0af",
+  "floating": {
+    "id": "d6ba5b0ee3ec00a0",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4cfeb4112c597cc0",
+        "type": "window",
+        "children": [
+          {
+            "id": "8531fa02e38c0b93",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "feab5f5dbb40c4c8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf"
+                  }
+                }
+              },
+              {
+                "id": "b9ebb02edb5d492e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "semester-1/digitaltechnik/flipflops/D-Flipflop (Delay-FF).md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 70,
+        "y": 27,
+        "width": 1245,
+        "height": 1413,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "1b8b5dd63face75b",
   "lastOpenFiles": [
-    "semester-1/programmieren/Eigene Datenbank/File Handling.md",
-    "semester-1/programmieren/concepts/Strings.md",
-    "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
-    "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
-    "README.md",
-    "semester-1/programmieren/Eigene Datenbank/chatGPT prompts Shows Database.md",
+    "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes Flipflop.md",
+    "Zweiflankengesteuertes JK-FF.md",
+    "Pasted image 20240120172821.png",
+    "JK-Flipflop.md",
+    "semester-1/digitaltechnik/scripts/durchrutschende_information_ff.png",
+    "Pasted image 20240120171938.png",
+    "semester-1/digitaltechnik/flipflops/Taktsteuerung.md",
+    "semester-1/digitaltechnik/flipflops/Flipflops.md",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/digitaltechnik/flipflops/D-Flipflop (Delay-FF).md",
+    "Pasted image 20240120164038.png",
+    "semester-1/digitaltechnik/flipflops/Taktgesteuerter SR-Flipflop.md",
+    "T-Flipflop (Toggle-FF).md",
+    "semester-1/digitaltechnik/flipflops/Erweiterte Warheitstabelle.md",
+    "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
+    "semester-1/digitaltechnik/flipflops/Speicherfall.md",
+    "semester-1/digitaltechnik/flipflops/Verbotener Fall.md",
+    "Pasted image 20240120163038.png",
+    "semester-1/digitaltechnik/flipflops/Impulsglied.md",
+    "Pasted image 20240120162217.png",
+    "Pasted image 20240120162114.png",
+    "Pasted image 20240120161257.png",
+    "Pasted image 20240120161112.png",
+    "semester-1/digitaltechnik/flipflops/SR-Flipflop.md",
+    "Pasted image 20240120155603.png",
+    "semester-1/digitaltechnik/Master Digitaltechnik.md",
+    "semester-1/digitaltechnik/flipflops/images",
+    "semester-1/digitaltechnik/flip-flops/Untitled.md",
+    "semester-1/digitaltechnik/flipflops",
     "semester-1/programmieren/Sieb des Erathostenes/Implementation Segmented Sieve.md",
-    "semester-1/programmieren/code/examples/files/output/file_handling",
-    "semester-1/programmieren/code/own_database/output/shows",
-    "semester-1/programmieren/concepts/C concepts.md",
-    "semester-1/programmieren/code/own_database/db.txt",
+    "semester-1/Logik/prolog/Prolog Installation.md",
+    "semester-1/Logik/prolog/test.pl",
+    "semester-1/Logik/prolog/Master Prolog.md",
+    "semester-1/Logik/Master Logik.md",
+    "semester-1/programmieren/concepts/Strings.md",
+    "semester-1/programmieren/Eigene Datenbank/File Handling.md",
     "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
     "semester-1/programmieren/Eigene Datenbank/Datenbank Ideen.md",
-    "semester-1/programmieren/Eigene Datenbank/Menu.md",
-    "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
+    "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
+    "semester-1/programmieren/code/examples/files/output/file_handling",
+    "semester-1/programmieren/code/own_database/output/shows",
+    "semester-1/programmieren/code/own_database/db.txt",
     "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/digitaltechnik/Aufgaben/tipps klausur.md",
-    "semester-1/digitaltechnik/Master Digitaltechnik.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-06 LGs.md",
-    "semester-1/lineare-algebra/aufgaben/Lineare Algebra Aufgaben Master.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-01 tout.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-04 Zahlentheorie.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-03 Induktion.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-02 Mengen.md",
-    "semester-1/lineare-algebra/Master Lineare Algebra.md",
     "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
-    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1.1 UEbungen Erfuellbarkeit.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1 UEbungen.pdf",
-    "semester-1/goodnotes/Logik/Lgk 1.1 Mitschrieb PRAEDIKATENLOGIK.pdf",
-    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Prädikatenlogik.pdf",
-    "semester-1/programmieren/concepts/Functions.md",
-    "semester-1/projektmanagement/definitions/Projektstrukturplan.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Segmented Sieve.md",
-    "semester-1/programmieren/Sieb des Erathostenes/Sieve of Erathostenes.md",
-    "semester-1/projektmanagement/images/v-modell.png",
-    "semester-1/projektmanagement/images/wasserfall.png",
-    "semester-1/projektmanagement/images/sequentiell.png",
-    "semester-1/projektmanagement/images/Pasted image 20231220111558.png",
-    "semester-1/projektmanagement/images/mpm_example.png",
-    "semester-1/projektmanagement/images/gantt.png",
-    "semester-1/projektmanagement/images/gantt 1.png",
-    "semester-1/projektmanagement/images/magisches_dreieck.png",
-    "semester-1/projektmanagement/images/abfolgen_mpm.png",
-    "semester-1/projektmanagement/images/loesung_aufgabe_netzplan.png"
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf"
   ]
 }
