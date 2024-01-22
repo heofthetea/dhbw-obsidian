@@ -29,7 +29,7 @@ _Kill und Jump_: Abusen Speicherfall, um gewünschten wert an $Q_{1}$ zu erzeuge
 
 **Jump**:
 1. $Q_{1_{n-1}} = 0$ --> $Q_{1} = \lnot Q_{1_{n-1}} \land J = 1 \land 1 = 1$ ==> SET
-2. $Q_{1_{n-1} = 1}$ --> $Q_{1} = \lnot Q_{2_{n-1}} \land J = 0 \land 1 = 0$ 
+2. $Q_{1_{n-1}} = 1$ --> $Q_{1} = \lnot Q_{1_{n-1}} \land J = 0 \land 1 = 0$ 
 	- Aber: $K = 0 \rightarrow R = 0$ --> [[Speicherfall]] 
 	- --> $Q_{1} = Q_{1_{n-1}} = 1$
 **Kill**: Herleitung analog zu Jump

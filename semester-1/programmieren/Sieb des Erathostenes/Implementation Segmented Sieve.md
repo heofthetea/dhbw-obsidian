@@ -14,7 +14,7 @@ This compares the _average case_ approximate runtime of the following entities:
 - Segmented Sieve (with hardcoded values): [[segmented_sieve_hardcoded.c]]
 - Segmented Sieve: [[segmented_sieve.c]]
 	- under `wine`: Compiled to `exe`, then ran via the wine linux library. This serves to better compare the Benchmark, which is provided as a windows executable.
-- Benchmark: https://elearning.dhbw-stuttgart.de/moodle/pluginfile.php/660507/mod_folder/content/0/PrimDynC.exe?forcedownload=1 --> _PrimDynC.exe_
+- Benchmark: https://elearning.dhbw-stuttgart.de/moodle/pluginfile.php/660507/mod_folder/content/0/PrimDynC.exe?forcedownload=1 --> [[PrimDynC.exe]]
 	- This is the program that also allows for User Input. _PrimOpt2_, which does not do so, is faster, but is hardcoded to 10⁸.
 #### 10⁸
 |  | Segmented Sieve (with hardcoded values) | Segmented Sieve | Segmented Sieve (under `wine`) | Benchmark (under `wine`) | Benchmark (with hardcoded values) |

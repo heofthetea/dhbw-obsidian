@@ -1,4 +1,4 @@
-
+#lalg-aufgabe 
 ## Aufgabenblatt
 ```expander
 path:lineare-algebra/Aufgaben file:"Aufg-{{number}}_{{name}}"

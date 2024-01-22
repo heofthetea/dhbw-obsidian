@@ -2,7 +2,7 @@
 [[Master Programmieren]]
 [[Master Projektmanagement]]
 [[BWL Master]]
-[[ICC Master]]
+[[Master ICC]]
 [[Master Lineare Algebra]]
 [[Master Digitaltechnik]]
 [[Master Logik]]

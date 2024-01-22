@@ -1,2 +1,0 @@
-[[Hall & Hofstede]]
-[[presentation vietnam]]

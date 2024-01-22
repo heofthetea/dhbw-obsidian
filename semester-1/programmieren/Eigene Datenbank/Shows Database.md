@@ -152,6 +152,7 @@ void up_hex(Node *db)
 ```
 
 ### File Handling
+The functions prompt the user to enter, which file is read from / written to. However, for now everything is stored in [[db.txt]]
 #### Writing to file
 This more or less is a rewrite of [[#3. View alll datasets]]. However, in this case, an _iterative_ approach is used to circumvent possible problems arising by not closing the file.
 

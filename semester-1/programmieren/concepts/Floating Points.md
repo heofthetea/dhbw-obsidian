@@ -1,5 +1,7 @@
 > IEEE754
 
+[[Floats.pdf]]
+
 ![[double_in_memory.png]]
 
 [[negative_powerd_of_2.pdf]]

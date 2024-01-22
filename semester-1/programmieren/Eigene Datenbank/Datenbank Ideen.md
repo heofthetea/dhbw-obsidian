@@ -6,7 +6,9 @@ Speichere Programmiersprachen
 - name
 - rating x/10
 - classification $\in \{OOP, functional, procedural, esoteric, mix, bullshit\}$
-- use case $\in \{frontend, backend, fullstack, gamedev, none\}$S
+- use case $\in \{frontend, backend, fullstack, gamedev, none\}$
+
+--> scratched attempt: [[database.c]]
 
 
 ## Idee 2

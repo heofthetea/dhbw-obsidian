@@ -8,6 +8,7 @@ path:lineare-algebra/Aufgaben file:"Aufg-05_Geometrie"
 ## Bearbeitung
 
 ```expander
-path:goodnotes file:"Aufg-05_Geometrie"
+path:goodnotes file:"LAlg Aufg-05_Geometrie"
 ```
+[[LAlg Aufg-05_Geometrie.pdf]]
 

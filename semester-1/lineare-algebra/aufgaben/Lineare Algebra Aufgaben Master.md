@@ -7,6 +7,6 @@ tag:lalg-aufgabe
 [[LAlg Aufg-03 Induktion]]
 [[LAlg Aufg-04 Zahlentheorie]]
 [[LAlg Aufg-05 Geometrie]]
-[[LAlg Aufg-06 LGs]]
+[[LAlg Aufg-06 LGS]]
 
 
