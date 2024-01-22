@@ -16,8 +16,95 @@
                 "file": "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf"
               }
             }
+          },
+          {
+            "id": "c8411098de5bb179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/bwl/planspiel/Periode 4.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9e30f391718f456",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Periode 5.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb58bd82f80e77da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/bwl/planspiel/Periode 3.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a0cd9cff46f8911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/bwl/presentations/Master BWL Presentations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af12678497da7216",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/bwl/presentations/Produktions- und Fertigungswirtschaft.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eeefdd07444de13d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "66a2d4cfc114cde8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Colour Backups.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -83,7 +170,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +186,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,9 +196,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -135,7 +218,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,10 +236,20 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "de18557b088ba802",
+  "active": "eeefdd07444de13d",
   "lastOpenFiles": [
-    "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
     "notes/Colour Backups.md",
+    "semester-1/bwl/presentations/Produktions- und Fertigungswirtschaft.md",
+    "semester-1/bwl/presentations/Master BWL Presentations.md",
+    "semester-1/bwl/presentations/Organisationsformen.md",
+    "semester-1/bwl/Master BWL.md",
+    "semester-1/bwl/presentations",
+    "Periode 5.md",
+    "semester-1/bwl/planspiel/Periode 3.md",
+    "semester-1/bwl/planspiel/Periode 4.md",
+    "semester-1/digitaltechnik/flipflops/D-Flipflop (Delay-FF).md",
+    "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf",
+    "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
     "semester-1/programmieren/code/Code 006 Master.md",
     "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
     "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
@@ -180,9 +274,7 @@
     "semester-1/programmieren/code/Code Master.md",
     "templates/Lineare Algebra Aufgaben Template.md",
     "().md",
-    "Accent.md",
     "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/digitaltechnik/Aufgaben/tipps klausur.md",
     "semester-1/digitaltechnik/flipflops/images/ansteigende_flanke.png",
     "semester-1/digitaltechnik/flipflops/images/abfallende_flanke.png",
     "semester-1/digitaltechnik/flipflops/images/sr_ff_symbol.png",
@@ -191,13 +283,6 @@
     "semester-1/digitaltechnik/flipflops/images/dom_r_symbol.png",
     "semester-1/digitaltechnik/flipflops/images/sr_dom_s_symbol.png",
     "semester-1/digitaltechnik/flipflops/images/dom_r_eingang.png",
-    "semester-1/digitaltechnik/flipflops/images/d_ff_symbol.png",
-    "Master DHBW.md",
-    "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes Flipflop.md",
-    "semester-1/digitaltechnik/flipflops/Taktsteuerung.md",
-    "semester-1/digitaltechnik/flipflops/Flipflops.md",
-    "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes JK-FF.md",
-    "semester-1/digitaltechnik/flipflops/images",
-    "semester-1/digitaltechnik/flipflops"
+    "semester-1/digitaltechnik/flipflops/images/d_ff_symbol.png"
   ]
 }

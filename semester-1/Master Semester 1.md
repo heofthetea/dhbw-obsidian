@@ -1,7 +1,7 @@
 #master
 [[Master Programmieren]]
 [[Master Projektmanagement]]
-[[BWL Master]]
+[[Master BWL]]
 [[Master ICC]]
 [[Master Lineare Algebra]]
 [[Master Digitaltechnik]]

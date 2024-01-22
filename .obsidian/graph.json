@@ -18,14 +18,14 @@
       "query": "path:semester-1/digitaltechnik",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16355610
       }
     },
     {
       "query": "path:semester-1/ICC",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 10348042
       }
     },
     {
@@ -74,6 +74,6 @@
   "repelStrength": 11.8532557195072,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.09669309477661366,
-  "close": true
+  "scale": 0.27489347321194235,
+  "close": false
 }
