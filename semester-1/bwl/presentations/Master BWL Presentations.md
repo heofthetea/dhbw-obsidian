@@ -10,3 +10,6 @@ path:bwl/presentations
 ## Tipps
 Folien nummerieren !!
 Aufpassen auf _Formulierungen_
+Scope richtig halten
+
+--> alles endet in Beschuss durch Lorke lol

@@ -58,6 +58,37 @@ Copy budget:
 - M1: 10 000
 
 
-### Result
+#### Result
 103% Anlagenauslastung --> Investition in Rationalisierung
 76% Personalauslastung --> Layoffs
+
+### Sim 2.1
+Rationalisierung typ B: 2.5 mio
+Instandhaltung typ B: 1.5 mio
+
+Layoffs: -100
+
+### 2.2
+--> reset Instandhaltung: 1
+Layoffs: -300
+
+### 2.3
+Layoffs: 250
+Rationalisierung: 2.6 mio
+
+## Sim 3
+#### Einkauf
+0 copy budget
+78 000 copy classic
+#### geplanter Absatz
+CC M1: 62 000
+CC M2: 12 000
+
+
+Rationalisierung : 2.0 mio
+Layoffs: -275
+
+
+28 mio kurzfristig Kredit
+
+

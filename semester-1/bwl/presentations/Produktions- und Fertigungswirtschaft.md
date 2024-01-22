@@ -1,3 +1,4 @@
+> nach Lorke: _seehr_ wackelig, nicht zitieren lol
 
 Beschäftgt sich mit Gesamtheit von Aktivitäten und Prozessen
 Ziele effiziente Beschaffung von Ressourcen
@@ -10,6 +11,13 @@ Steuerung
 - Laufende Überwachung
 Technologische Entwicklungen: Fortschritte beeinflussen die Produktions- und Fertigungswirtschaft
 
+## Arten der Produktion
+- Werkstattfertigung
+- Baustellenfertigung
+- Einzelfertigung
+- Serienfertigung
+- Massenfertigung
+
 ## Produktionsprozess
 > def: alle Tätigkeiten, die einfließen, um ein Produkt anzubieten
 
@@ -20,11 +28,12 @@ Ziele von optimiertem Produktionsprozess:
 
 #### Phasen
 1) Arbeitsplanung
-	1) [[004 Arbeitspakete#Planungsprozess]]
-1) Arbeitsablauf
+	1) s. [[004 Arbeitspakete#Planungsprozess]]
+	2) [[9 Wissensgebiete#Risikomanagement|Risikomanagement]]
+2) Arbeitsablauf
 	1) welche Art von Produkten
-2) Zeitplanung
-3) Produktionsstart
+3) Zeitplanung
+4) Produktionsstart
 
 
 #### Arten
@@ -42,6 +51,7 @@ s. [[9 Wissensgebiete#Beschaffungsmanagement]]
 - Einkauf von Gütern (inkl. Bedarfsermittlung)
 - Analyse des Besschaffungsmarktes
 - Bestellung
+- Sourcing management (whatever that is lol)
 ##### Lagerung
 - Logistik
 - Warenprüfung
@@ -72,11 +82,6 @@ Wichtige Bestandteile: Lieferanten, Hersteller, Lager, Transport, Kunde
 - Flexibilität
 - Kundenzufriedenheit
 
-#### Schlüsselaspekte
-- Strategische Planung
-- [[9 Wissensgebiete#Risikomanagement|Risikomanagement]]
-- _Fokus auf Kunden!_
-- Prozessoptimierung
 ##### Vorausschauen
 Wie wird sich alles in Zukunft entwickeln?
 - Digitalisierung + Technologischer Fortschritt
