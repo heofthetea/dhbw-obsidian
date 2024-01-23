@@ -4,6 +4,7 @@
 
 Im wesentlichen eine _Erweiterung_ des [[T-Flipflop (Toggle-FF)|T-Flipflops]]:
 - Eingänge steuern, ob Toggle ermöglicht wird
+- $J = K = 1\Leftrightarrow$ [[T-Flipflop (Toggle-FF)|T-FF]] 
 
 _Vorteil_:
 - [[Verbotener Fall]] wird durch Invertierung gelöst

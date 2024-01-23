@@ -1,11 +1,16 @@
 beantwortet _Anfragen_
+[[Wissensbank]]
+[[Anfrage (Prolog)]]
 
-### Anfragen
-- sind Klauseln
-- sind gültig, wenn ihre _Negation_ unerfüllbar ist
-- Testet Erfüllbarkeit mit _Resolution_
---> Syntax ist gleich wie in [[Wissensbank]] 
-nur anders zu _lesen_: Fragestellung
+Variablen in Anfragen und Wissensbank dürfen _gleich_ heißen - sind aber _verschiedene_ Variablen!!
 
-Variablen: 
-human(X) = $\exists_{x}H(x)$ = Gibt es einen Menschen _?_ 
+#### Antworten
+Geben Information über _Erfüllbarkeit_
+--> Antwort false heißt _nur_: Anfrage ist _falsifizierbar_ (Es gibt ein Modell sodass Anfrage nicht gillt)
+
+
+### Closed World Assumption
+Wenn ich etwas nicht beweisen kann, ist es falsch lol
+> Alles, was falsifizierbar ist: false
+> Alles, was _allgemeingültig_ ist: true
+

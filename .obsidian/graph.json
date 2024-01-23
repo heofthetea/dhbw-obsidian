@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#master  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
       "query": "path:semester-1/projektmanagement ",
       "color": {
         "a": 1,
@@ -55,13 +62,6 @@
         "a": 1,
         "rgb": 5395168
       }
-    },
-    {
-      "query": "tag:#master  ",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
     }
   ],
   "collapse-display": false,
@@ -74,6 +74,6 @@
   "repelStrength": 11.8532557195072,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3735930106338071,
+  "scale": 0.3836934079616279,
   "close": true
 }

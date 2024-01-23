@@ -10,8 +10,12 @@
 	- erst KV-Diagramm, um zu wissen, was rauskommt
 - Trick: _Erweiterung durch neutrales Element_:
 	- $x_{0}x_{1} \Leftrightarrow x_{0}x_{1} \lor x_{0}x_{1}\lnot x_{2}$   
+- Umwandlung logische Schaltung in _NAND_s
 
 #### Flip-Flops
 _KEINE_ monostabilen Kippstufen + Verzögerungsglieder
 - [ ] Flip-Flops auswendig können
 	- [ ] Wahrheitstabelle für [[JK-Flipflop]] (mitsamt [[JK-Flipflop#Charakteristische Gleichung|charakteristischer Gleichung]]), am besten auswendig
+
+#### Zähler
+[[Asynchroner Vorwärtzähler]] simpler Aufbau

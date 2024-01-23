@@ -5,3 +5,5 @@ Implication -> :-
 [[Zahl (Prolog)]]
 [[Variable (Prolog)]]
 [[Komplexer Term (Prolog)]]
+[[Goal (Prolog)]]
+[[Regeln (Prolog)]]

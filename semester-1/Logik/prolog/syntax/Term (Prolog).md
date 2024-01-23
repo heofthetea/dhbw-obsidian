@@ -1,4 +1,5 @@
-![[Pasted image 20240122135015.png]]
+> Terme besitzen Aussagewert!
+![[prolog_terme.png]]
 
 **ACHTUNG!!** Begriffe _Term_ und _Atom_ haben andere Bedeutunt als in Logik!
 
