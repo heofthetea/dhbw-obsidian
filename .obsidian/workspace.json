@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2779984682153222",
+            "id": "ad8133d1d3e0e2fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/Logik/prolog/Master Prolog.md",
+                "file": "semester-1/logik/prolog/5.3/uebungen/Übung Unifikationsanfragen.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "112c1dbf7a2bc3bb",
+            "id": "2a6d0804234d3539",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/Logik/prolog/5.3/Unifikation in Anfragen.md",
+                "file": "semester-1/logik/prolog/Prolog Library.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +34,46 @@
             }
           },
           {
-            "id": "7970ffd1a68d8143",
+            "id": "1cc55936ef7980df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/digitaltechnik/zaehler/Asynchronzähler.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e75315f2dbd33195",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Daily Note 23-01-2024.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23a9d7ddc40e4a67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/logik/prolog/syntax/Regeln (Rules).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7794587917580644",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -42,12 +81,25 @@
             }
           },
           {
-            "id": "1418c83481e21b9c",
+            "id": "6442e5a4e2b79b3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anonyme Variable.md",
+                "file": "semester-1/logik/prolog/Prolog Library.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "433ef3a08c5edf8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/logik/prolog/Master Prolog.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -84,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "closed world",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +173,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anonyme Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +183,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Anonyme Variable.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,8 +204,25 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "73ce6a529c1c9c09",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -174,88 +240,53 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "floating": {
-    "id": "1405f6d18d6910e0",
-    "type": "floating",
-    "children": [
-      {
-        "id": "1586804d6f4b8174",
-        "type": "window",
-        "children": [
-          {
-            "id": "1aadc72d49549031",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "946e2c1f6feb7257",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1315,
-        "y": 27,
-        "width": 1245,
-        "height": 1413,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "1418c83481e21b9c",
+  "active": "7794587917580644",
   "lastOpenFiles": [
-    "Anonyme Variable.md",
-    "semester-1/Logik/prolog/5.3/Unifikation in Anfragen.md",
-    "semester-1/Logik/prolog/5.3/Übung Unifikationsanfragen.md",
-    "semester-1/Logik/prolog/Master Prolog.md",
-    "semester-1/Logik/prolog/5.3/Unifikation (Prolog).md",
-    "semester-1/Logik/prolog/5.3/Übung Unifikation.md",
-    "semester-1/Logik/prolog/5.3/negierte Unifiation.md",
-    "semester-1/Logik/prolog/code/test.pl",
-    "semester-1/Logik/prolog/5.3/5.3 Prolog Unifikation.md",
-    "semester-1/Logik/prolog/5.1/Prolog 5.1 Intro.md",
-    "semester-1/Logik/prolog/5.3/uebungen",
-    "Pasted image 20240123133228.png",
-    "semester-1/Logik/prolog/5.3",
-    "semester-1/Logik/prolog/5.1/syntax/Anfrage (Prolog).md",
-    "semester-1/Logik/prolog/5.1",
-    "semester-1/Logik/prolog/5.1/syntax/Goal (Prolog).md",
-    "semester-1/Logik/prolog/5.1/übung/Übung Prolog Wissensbank.md",
-    "semester-1/Logik/prolog/5.1/übung/Übung Prolog Syntax.md",
-    "semester-1/Logik/prolog/5.1/syntax/Prolog Syntax.md",
-    "semester-1/Logik/prolog/code",
-    "semester-1/Logik/prolog/code/harry_potter.pl",
-    "Closed World Assumption.md",
-    "semester-1/Logik/prolog/Prolog Interpreter.md",
-    "semester-1/Logik/prolog/5.1/syntax/Regeln (Prolog).md",
-    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
-    "semester-1/lineare-algebra/scripts/math-script.pdf",
-    "semester-1/lineare-algebra/Formeln Lineare Algebra.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-06 LGS.md",
+    "semester-1/logik/prolog/Prolog Library.md",
+    "semester-1/logik/prolog/Master Prolog.md",
+    "semester-1/logik/prolog/5.3/Ganzzahl-Arithmetik.md",
+    "semester-1/logik/prolog/5.3/Unifikation.md",
+    "semester-1/logik/prolog/5.3/Besondere Prädikate.md",
+    "semester-1/logik/prolog/5.3/Vergleichsprädikate.md",
+    "semester-1/logik/prolog/syntax/Atom.md",
+    "semester-1/logik/prolog/syntax/Regeln (Rules).md",
+    "semester-1/logik/prolog/syntax/Prolog Syntax.md",
+    "semester-1/logik/prolog/5.1/5.1 Prolog Intro.md",
     "notes/Daily Note 23-01-2024.md",
+    "semester-1/logik/Declarative Programming Language.md",
+    "semester-1/digitaltechnik/zaehler/Asynchronzähler.md",
+    "semester-1/digitaltechnik/flipflops/Master Flipflops.md",
+    "semester-1/logik/prolog/5.3/5.3 Prolog built-ins.md",
+    "semester-1/programmieren/Master Programmieren.md",
+    "Prolog Syntax Übersicht.md",
+    "semester-1/logik/Master Logik.md",
+    "semester-1/logik/prolog/syntax/Zahl.md",
+    "semester-1/logik/prolog/5.3/uebungen/Übung Unifikationsanfragen.md",
+    "semester-1/logik/prolog/5.3/uebungen/Übung Kreuzworträtsel.md",
+    "semester-1/logik/altklausuren/20BE.pdf",
+    "semester-1/digitaltechnik/zaehler/BCD Asynchronzähler.md",
     "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/bwl/planspiel/Planspiel Master.md",
-    "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf",
-    "semester-1/lineare-algebra/aufgaben/Master Aufgaben Lineare Algebra.md",
-    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
-    "semester-1/Master Semester 1.md",
-    "semester-1/digitaltechnik/Master Zähler.md",
-    "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
-    "semester-1/Logik/prolog/images/prolog_terme.png",
+    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/logik/altklausuren/Master Logik Altklausuren.md",
+    "semester-1/logik/prolog/images/solution_crossword_prolog.png",
+    "semester-1/logik/prolog/syntax/Closed World Assumption.md",
+    "semester-1/logik/prolog/images/stelligkeit_unifikationi.png",
+    "semester-1/logik/prolog/images/beispiel_gleichheit.png",
+    "semester-1/logik/prolog/images/aufg_5.4.png",
+    "semester-1/logik/prolog/5.3/images",
+    "semester-1/logik/prolog/code/crossword.pl",
+    "semester-1/logik/prolog/code/kreuzworträtsel.pl",
+    "semester-1/logik/Imperative Programmiersprache.md",
+    "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
+    "semester-1/goodnotes/Digitaltechnik/D-Technik 2.2 Zaehler.pdf",
+    "semester-1/goodnotes/Logik/Aufschriebe/Lgk 1.2 Praedikatenlogik.pdf",
+    "semester-1/programmieren/concepts/Recursion.md",
+    "Pasted image 20240123152205.png",
+    "semester-1/logik/prolog/images/prolog_terme.png",
     "semester-1/digitaltechnik/zaehler/images/dekadenzaehler_schaltzeichen.png",
     "Pasted image 20240122135015.png",
-    "semester-1/Logik/prolog/images/prolog_output_wertigkeit.png",
-    "semester-1/Logik/prolog/images/conjunctive_query.png",
-    "semester-1/digitaltechnik/zaehler/images/vorwaertszaehler_jkff.png",
-    "semester-1/digitaltechnik/zaehler/images/schaltzeichen_vorwaertszaehler.png",
-    "semester-1/digitaltechnik/zaehler/images/settable_vorwaertszaehler.png",
-    "semester-1/digitaltechnik/zaehler/images/backwards_counter.png"
+    "semester-1/logik/prolog/images/prolog_output_wertigkeit.png",
+    "semester-1/logik/prolog/images/conjunctive_query.png"
   ]
 }

@@ -1,6 +1,6 @@
 ### Vorwärts
 ![[bcd_mod10_forward.png]]
-Bei Zustand 0101 (respektive $0101_2$) muss auf 0000 resetted werden (Vermeidung Pseudo-Tetraden)
+Bei Zustand 0101 (respektive $1010_2$) muss auf 0000 resetted werden (Vermeidung Pseudo-Tetraden)
 
 ### Rückwärts
 ![[bcd_mod10_backwards_zaehler.png]]
