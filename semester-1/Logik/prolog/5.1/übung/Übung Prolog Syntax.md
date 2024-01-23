@@ -13,6 +13,7 @@
 9. `_Jules` = [[Variable (Prolog)]]
 10. `'_Jules'` = [[Atom (Prolog)]]
 
+---
 ### Übung komplexe Terme
 [[Komplexer Term (Prolog)]]
 [[semester-1/goodnotes/Logik/source/Logik-handout.pdf#page=221|Logik-handout, page 221]]

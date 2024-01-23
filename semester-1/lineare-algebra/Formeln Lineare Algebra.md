@@ -1,0 +1,2 @@
+- _Abstand Punkt/Ebende_ : $d(\textbf{q}, g) = ||\textbf{u} \times (\textbf{q} - \textbf {p})||$ , where $g = \textbf{p} \cdot t\textbf{u}$ with $||\textbf{u}|| = 1$  
+- _Tangentialebene_: $T = \{x \in \mathbb{R}^{3}\ |\ \langle \textbf{x} - \textbf{m}|\textbf{p} - \textbf{m} \rangle\}$ ,where m ist Mittelpunkt der Kugel K, und p der Schnittpunkt von T mit K

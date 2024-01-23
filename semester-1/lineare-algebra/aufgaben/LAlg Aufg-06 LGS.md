@@ -10,4 +10,4 @@ path:lineare-algebra/Aufgaben file:"Aufg-06_LGS"
 ```expander
 path:goodnotes file:"Aufg-06_LGS"
 ```
-[[semester-1/goodnotes/Lineare Algebra/Aufgaben/Aufg-06_LGS.pdf]]
+[[LAlg Aufg-06_LGS.pdf]]

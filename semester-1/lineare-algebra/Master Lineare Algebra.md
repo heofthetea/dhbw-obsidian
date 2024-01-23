@@ -11,7 +11,7 @@
 [[Lineare Algebra Mitschriebe]]
 
 ## Aufgaben
-[[Lineare Algebra Aufgaben Master]]
+[[Master Aufgaben Lineare Algebra]]
 ### Template
 [[Lineare Algebra Aufgaben Template]]
 

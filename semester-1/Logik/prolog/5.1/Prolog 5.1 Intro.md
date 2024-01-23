@@ -33,3 +33,5 @@ Beispiel: Kochrezept
 ## Übung Syntax
 ![[Übung Prolog Syntax]]
 
+## Übung Wissensbank
+![[Übung Prolog Wissensbank]]

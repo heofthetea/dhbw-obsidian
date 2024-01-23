@@ -1,4 +1,6 @@
-> Jedes [[Atom (Prolog)]] und jeder [[Komplexer Term (Prolog)]] ist ein _Goal_
+> Jedes [[Atom (Prolog)]] und jeder [[Komplexer Term (Prolog)]] ist ein _Goal_.
+
+Eselsbrücke für Begriff: Die Aussage wahr zu machen ist das _Ziel_.
 
 in [[Wissensbank]]: Aussage über Domäne
 als [[Prolog Interpreter#Anfragen|Anfrage]]: Frage zur Domäne
@@ -31,8 +33,4 @@ true.
 ?- dances(mia).
 false.
 ```
---> Es folgt _nicht_, dass Mia nicht tanzen _könnte_!!
-
-> Alle Aussagen, die nicht mit _absoluter Sicherheit_ aus [[Wissensbank]] folgt, werden als _false_ betrachtet.
-
-![[prolog_output_wertigkeit.png]]
+--> Es folgt _nicht_, dass Mia nicht tanzen _könnte_!! ([[Closed World Assumption]])

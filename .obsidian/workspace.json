@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ee9145208c1b84d",
+        "id": "ee73f0dc889598fb",
         "type": "tabs",
         "children": [
           {
-            "id": "2d34a1ec28017575",
+            "id": "2779984682153222",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semester-1/digitaltechnik/Master Zähler.md",
+                "file": "semester-1/Logik/prolog/Master Prolog.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,15 +21,41 @@
             }
           },
           {
-            "id": "f52c7eb3fdc0f234",
+            "id": "112c1dbf7a2bc3bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/Logik/prolog/5.3/Unifikation in Anfragen.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7970ffd1a68d8143",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "1418c83481e21b9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anonyme Variable.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -90,29 +116,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1efd26b085abc20",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "semester-1/digitaltechnik/Master Zähler.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "898bcd44224d2ad2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/digitaltechnik/Master Zähler.md",
+                "file": "Anonyme Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/digitaltechnik/Master Zähler.md"
+                "file": "Anonyme Variable.md"
               }
             }
           },
@@ -166,33 +175,25 @@
     }
   },
   "floating": {
-    "id": "9e240fb737500bac",
+    "id": "1405f6d18d6910e0",
     "type": "floating",
     "children": [
       {
-        "id": "f178db4aaa3f544f",
+        "id": "1586804d6f4b8174",
         "type": "window",
         "children": [
           {
-            "id": "2959ab9290646cd4",
+            "id": "1aadc72d49549031",
             "type": "tabs",
             "children": [
               {
-                "id": "af64b9b36da39a33",
+                "id": "946e2c1f6feb7257",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf"
+                    "file": "semester-1/goodnotes/Logik/source/Logik-handout.pdf"
                   }
-                }
-              },
-              {
-                "id": "e8ea0ee57047b8bd",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
                 }
               }
             ]
@@ -204,57 +205,57 @@
         "width": 1245,
         "height": 1413,
         "maximize": false,
-        "zoom": 1
+        "zoom": 0.5
       }
     ]
   },
-  "active": "f52c7eb3fdc0f234",
+  "active": "1418c83481e21b9c",
   "lastOpenFiles": [
+    "Anonyme Variable.md",
+    "semester-1/Logik/prolog/5.3/Unifikation in Anfragen.md",
+    "semester-1/Logik/prolog/5.3/Übung Unifikationsanfragen.md",
+    "semester-1/Logik/prolog/Master Prolog.md",
+    "semester-1/Logik/prolog/5.3/Unifikation (Prolog).md",
+    "semester-1/Logik/prolog/5.3/Übung Unifikation.md",
+    "semester-1/Logik/prolog/5.3/negierte Unifiation.md",
+    "semester-1/Logik/prolog/code/test.pl",
+    "semester-1/Logik/prolog/5.3/5.3 Prolog Unifikation.md",
+    "semester-1/Logik/prolog/5.1/Prolog 5.1 Intro.md",
+    "semester-1/Logik/prolog/5.3/uebungen",
+    "Pasted image 20240123133228.png",
+    "semester-1/Logik/prolog/5.3",
+    "semester-1/Logik/prolog/5.1/syntax/Anfrage (Prolog).md",
+    "semester-1/Logik/prolog/5.1",
+    "semester-1/Logik/prolog/5.1/syntax/Goal (Prolog).md",
+    "semester-1/Logik/prolog/5.1/übung/Übung Prolog Wissensbank.md",
+    "semester-1/Logik/prolog/5.1/übung/Übung Prolog Syntax.md",
+    "semester-1/Logik/prolog/5.1/syntax/Prolog Syntax.md",
+    "semester-1/Logik/prolog/code",
+    "semester-1/Logik/prolog/code/harry_potter.pl",
+    "Closed World Assumption.md",
+    "semester-1/Logik/prolog/Prolog Interpreter.md",
+    "semester-1/Logik/prolog/5.1/syntax/Regeln (Prolog).md",
+    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
+    "semester-1/lineare-algebra/scripts/math-script.pdf",
+    "semester-1/lineare-algebra/Formeln Lineare Algebra.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-06 LGS.md",
+    "notes/Daily Note 23-01-2024.md",
+    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
+    "semester-1/bwl/planspiel/Planspiel Master.md",
+    "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf",
+    "semester-1/lineare-algebra/aufgaben/Master Aufgaben Lineare Algebra.md",
+    "semester-1/lineare-algebra/aufgaben/LAlg Aufg-05 Geometrie.md",
     "semester-1/Master Semester 1.md",
-    "semester-1/lineare-algebra/Master Lineare Algebra.md",
-    "semester-1/ICC/Master ICC.md",
-    "semester-1/bwl/Master BWL.md",
-    "semester-1/projektmanagement/Master Projektmanagement.md",
-    "semester-1/programmieren/Master Programmieren.md",
-    "semester-1/digitaltechnik/Master Digitaltechnik.md",
-    "semester-1/Logik/Master Logik.md",
     "semester-1/digitaltechnik/Master Zähler.md",
-    "semester-1/Logik/prolog/syntax/Regeln (Prolog).md",
-    "semester-1/Logik/prolog/syntax/Goal (Prolog).md",
-    "semester-1/Logik/prolog/syntax/Elterngoal und Subgoal.md",
-    "semester-1/Logik/Imperative Programmiersprache.md",
-    "semester-1/Logik/prolog/syntax/Anfrage (Prolog).md",
+    "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
     "semester-1/Logik/prolog/images/prolog_terme.png",
-    "semester-1/digitaltechnik/zaehler/BCD Asynchronzähler.md",
     "semester-1/digitaltechnik/zaehler/images/dekadenzaehler_schaltzeichen.png",
-    "semester-1/Logik/prolog/syntax/Term (Prolog).md",
     "Pasted image 20240122135015.png",
     "semester-1/Logik/prolog/images/prolog_output_wertigkeit.png",
     "semester-1/Logik/prolog/images/conjunctive_query.png",
     "semester-1/digitaltechnik/zaehler/images/vorwaertszaehler_jkff.png",
     "semester-1/digitaltechnik/zaehler/images/schaltzeichen_vorwaertszaehler.png",
     "semester-1/digitaltechnik/zaehler/images/settable_vorwaertszaehler.png",
-    "semester-1/digitaltechnik/zaehler/images/backwards_counter.png",
-    "semester-1/digitaltechnik/zaehler/images/backwards_counter_jkff.png",
-    "semester-1/digitaltechnik/zaehler/Asynchronzähler.md",
-    "README.md",
-    "semester-1/digitaltechnik/zaehler/Synchronzähler.md",
-    "semester-1/digitaltechnik/zaehler/images",
-    "semester-1/Logik/prolog/Wissensbank.md",
-    "semester-1/digitaltechnik/flipflops/JK-Flipflop.md",
-    "semester-1/digitaltechnik/flipflops/Zweiflankengesteuertes JK-FF.md",
-    "semester-1/digitaltechnik/zaehler/Asynchroner Vorwärtzähler.md",
-    "semester-1/digitaltechnik/Digitaltechnik GoodNotes.md",
-    "semester-1/digitaltechnik/Aufgaben/tipps klausur.md",
-    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/digitaltechnik/zaehler/Asynchroner Rückwärtszähler.md",
-    "semester-1/digitaltechnik/zaehler",
-    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
-    "semester-1/Logik/prolog/übung",
-    "semester-1/Logik/prolog/test.pl",
-    "semester-1/Logik/prolog/syntax",
-    "semester-1/Logik/prolog/images",
-    "semester-1/lineare-algebra/aufgaben/Aufg-06_LGS.pdf",
-    "semester-1/goodnotes/Lineare Algebra/Aufgaben/Aufg-06_LGS.pdf"
+    "semester-1/digitaltechnik/zaehler/images/backwards_counter.png"
   ]
 }
