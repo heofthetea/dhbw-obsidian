@@ -1,12 +1,13 @@
 ## Syntax
 > Zu verstehen als logische _Implikation_
 > Gesprochen: "head _if_ body"
+
+Stellt verschiedene [[Goal|Goals]] in Relation miteinander
 ```
 <Head> :- <Body>
 ```
 **!! Achtung** Implication anders herum als in Logik:
 $F \rightarrow V$ = `<V> :- <F>`
-gesprochen: "F _wenn_ V"
 
 _Fakt_  kann als regel mit leerem Rumpf interpretiert werden:
 `fact(X)` = `fact(X) :- true`

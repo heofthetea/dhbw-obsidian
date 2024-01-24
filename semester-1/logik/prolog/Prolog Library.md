@@ -1,4 +1,4 @@
-
+#library
 ## Architektur
 - [[Declarative Programming Language]]: Man beschreibt was _ist_, nicht, _wie_ 
 - Wesentliche Bestandteile:
@@ -8,7 +8,7 @@
 - [[Closed World Assumption]]: Wenn etwas nicht _direkt_ und _unwiederlegbar_ aus den Fakten der Wissensbank gefolgert werden kann, wird es $false$ betrachtet
 
 ## Syntax
-### Naming Conventions:
+### Naming Conventions
 - [[Variable]]: beginnt mit _Großbuchstabe_ oder _Underscore_
 - [[Atom|Atom (= Konstante)]]: beginnt mit Kleinbuchstabe, _oder_ ist wrapped in _single quotes_
 - [[Komplexer Term]]: Aufgebaut wie _Funktion_ in anderen Programmiersprachen:

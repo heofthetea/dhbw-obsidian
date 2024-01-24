@@ -1,6 +1,5 @@
-beantwortet _Anfragen_
-[[Wissensbank]]
-[[Anfrage]]
+1. Liest eine [[Wissensbank]] ein
+2. Beantwortet [[Anfrage|Anfragen]], indem er sie mit [[Wissensbank]] vergleicht
 
 Variablen in Anfragen und Wissensbank dürfen _gleich_ heißen - sind aber _verschiedene_ Variablen!!
 
