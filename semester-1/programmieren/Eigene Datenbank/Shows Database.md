@@ -9,7 +9,7 @@
 #### General
 - [ ] stop using _numbers_ to control actions, **YOU'RE WRITING A FUCKNG CLI, NOT A NOKIA PHONE APPLICATION**
 - [ ] use controlled "end of string" characters and look for them manually via for-loop
-- [ ] 
+- [ ] HANDLE YOUR BULLSHIT FILE HANDLING
 #### Tasks until 25.01.
 - [x] Menu
 - [x] manual data entry
@@ -231,6 +231,7 @@ Node *read_text_file(Node *db)
 ##### Translating the data
 This is probably the most ugly way to do this. It also technically doesn't terminate the string where it needs to terminate, rather generates a work-around only terminating the last character. 
 - [ ] Could be solved by while-looping backwards, but this is even more ugly ig
+- [ ] _ACTUALLY_: JUST USE `fscanf` INSTEAD YOU STUPID FUCKING IDIOTIC ASS BULLSHIT
 
 ```c
 Show *show_from_row(char *row)
@@ -253,6 +254,5 @@ Show *show_from_row(char *row)
     return new;
 }
 ```
-
 
 

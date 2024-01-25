@@ -14,6 +14,7 @@ _include map_ lul
 
 ---
 __?? use time beam__
+--> [[Vietnam.pdf|yes, use time beam]]
 
 vietnam: "viet" --> outsiders, "nam" --> south
 	==> "southern outsiders"

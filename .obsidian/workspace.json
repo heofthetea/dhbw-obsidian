@@ -34,17 +34,28 @@
             }
           },
           {
-            "id": "b8166e3505d22b40",
+            "id": "c0bcece441048587",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf"
+                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
+            }
+          },
+          {
+            "id": "28e2f9606b42a09c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf",
+                "file": "semester-1/logik/prolog/Prolog Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf"
+                "file": "semester-1/logik/prolog/Prolog Library.md"
               }
             }
           },
@@ -151,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf",
+                "file": "semester-1/logik/prolog/Prolog Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,10 +192,16 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b8166e3505d22b40",
+  "active": "28e2f9606b42a09c",
   "lastOpenFiles": [
-    "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
+    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
+    "templates/Lineare Algebra Aufgaben Template.md",
+    "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
+    "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
+    "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
     "semester-1/lineare-algebra/Formeln Lineare Algebra.md",
+    "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf",
+    "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
     "semester-1/lineare-algebra/Master Lineare Algebra.md",
     "semester-1/logik/prolog/Prolog Library.md",
     "semester-1/bwl/presentations/vertrieb/Eigene Präsentation Vertrieb.md",
@@ -206,11 +223,6 @@
     "semester-1/logik/prolog/syntax/Goal.md",
     "semester-1/logik/prolog/Prolog Interpreter.md",
     "semester-1/logik/Declarative Programming Language.md",
-    "semester-1/logik/prolog/syntax/Prädikat.md",
-    "semester-1/logik/prolog/Master Prolog.md",
-    "semester-1/logik/prolog/5.3/Ganzzahl-Arithmetik.md",
-    "semester-1/logik/prolog/5.3/Unifikation.md",
-    "semester-1/logik/prolog/5.3/Besondere Prädikate.md",
     "semester-1/logik/altklausuren/20BE.pdf",
     "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
     "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
@@ -223,7 +235,6 @@
     "semester-1/logik/prolog/code/crossword.pl",
     "semester-1/logik/prolog/code/kreuzworträtsel.pl",
     "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
-    "semester-1/goodnotes/Digitaltechnik/D-Technik 2.2 Zaehler.pdf",
     "Pasted image 20240123152205.png",
     "semester-1/logik/prolog/images/prolog_terme.png",
     "semester-1/digitaltechnik/zaehler/images/dekadenzaehler_schaltzeichen.png",
