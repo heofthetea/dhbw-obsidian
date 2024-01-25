@@ -52,12 +52,36 @@ Node *add_to_list(Show *s, Node *list)
     return list;
 }
 
+Node *get_element_at(int id, Node *n, int depth)
+{
+    if (depth == id)
+        return n;
+    if (!n->next)
+        return NULL;
+    return get_element_at(id, n->next, depth + 1);
+}
+
+Node *delete_from_list(Node *db, Node *n)
+{
+    if (n->next)
+        n->next->previous = n->previous;
+
+    if (n->previous)
+        n->previous->next = n->next;
+    else
+        db = n->next;
+    free(n);
+
+    return db;
+}
+
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
 Show *show_from_console();
 Show *show_from_row(char *row);
 Node *manual_entry(Node *db);
 Node *read_text_file(Node *db);
+Node *delete_from_input(Node *db);
 void write_text_file(Node *db);
 void up_hex(Node *db);
 void print_datasets(Node *db);
@@ -94,6 +118,9 @@ int main()
         case 4:
             write_text_file(db);
             break;
+        case 5:
+            db = delete_from_input(db);
+            break;
 
         default:
             printf("\nHey Hannes, du Doedel, das ist keine valide Option!\n");
@@ -109,6 +136,7 @@ void render_menu()
     printf("\n2: manually enter dataset");
     printf("\n3: show all datasets");
     printf("\n4: write to .txt file");
+    printf("\n5: delete element");
 
     printf("\n\n-1: up_hex() as debugging tool");
     printf("\n\n> ");
@@ -195,6 +223,19 @@ void up_hex(Node *db)
     printf("\n-------------------------------------------------------\n");
 }
 
+Node *delete_from_input(Node *db)
+{
+    int temp_id;
+    printf("\nEnter element index to delete: ");
+    scanf("%d", &temp_id);
+    Node *to_delete = get_element_at(temp_id, db, 0);
+    if (to_delete)
+    {
+        db = delete_from_list(db, to_delete);
+    }
+    return db;
+}
+
 //-------------------------------------------------------------------------------------------------------------------------------------------
 // File handling stuff
 
@@ -242,9 +283,9 @@ Show *show_from_row(char *row)
     col += sizeof(new->headliner);
     strncpy(new->support_acts, row + col, sizeof(new->support_acts));
 
-    new->date[sizeof(new->date) - 1] = 0; //putting string teriminators everywhere to actually mark the end of a line
-    new->venue[sizeof(new->venue) - 1] = 0; 
-    new->headliner[sizeof(new->headliner) - 1] = 0; 
+    new->date[sizeof(new->date) - 1] = 0; // putting string teriminators everywhere to actually mark the end of a line
+    new->venue[sizeof(new->venue) - 1] = 0;
+    new->headliner[sizeof(new->headliner) - 1] = 0;
     new->support_acts[sizeof(new->support_acts) - 1] = 0; // IT PHYSICALLY HURTS ME AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
     return new;

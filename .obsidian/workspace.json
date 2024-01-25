@@ -53,9 +53,74 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "e1841b568e0112e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/code/007/Code 007 Master.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb6694f71535e1e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/code/Code 006 Master.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "755ff1fa6ea331dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e15571354d8f42c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Delete Node.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ac8019eb459ee1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bubble Sort.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -121,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "semester-1/logik/prolog/Prolog Library.md",
+                "file": "Bubble Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "semester-1/logik/prolog/Prolog Library.md"
+                "file": "Bubble Sort.md"
               }
             }
           },
@@ -162,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "semester-1/logik/prolog/Prolog Library.md",
+                "file": "Bubble Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,15 +257,35 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "28e2f9606b42a09c",
+  "active": "8ac8019eb459ee1a",
   "lastOpenFiles": [
+    "semester-1/programmieren/code/007/output/bubble_sort_list",
+    "semester-1/programmieren/code/007/bubble_sort_list.c",
+    "semester-1/programmieren/code/007/output/bubble_sort",
+    "semester-1/programmieren/code/sieve_of_eratosthenes/segmented_sieve",
+    "semester-1/programmieren/code/own_database/shows",
+    "semester-1/programmieren/code/007/bubble_sort",
+    "semester-1/programmieren/code/007/output",
+    "semester-1/programmieren/code/007/bubble_sort.c",
+    "Runtime Behavior.md",
+    "Bubble Sort.md",
+    "Sort List.md",
+    "Delete Node.md",
+    "semester-1/programmieren/code/own_database/output/shows",
+    "semester-1/programmieren/code/own_database/output",
+    "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+    "semester-1/programmieren/code/007/Code 007 Master.md",
+    "semester-1/programmieren/code/Code 006 Master.md",
+    "semester-1/programmieren/code/005/Code 005 Master.md",
+    "semester-1/programmieren/code/007",
+    "semester-1/programmieren/code/Code Master.md",
+    "semester-1/programmieren/Master Programmieren.md",
     "semester-1/ICC/presentation vietnam/presentation vietnam.md",
     "templates/Lineare Algebra Aufgaben Template.md",
     "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
     "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
     "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
     "semester-1/lineare-algebra/Formeln Lineare Algebra.md",
-    "semester-1/lineare-algebra/altklausuren/DHBW-Klausur_Lin-Alg_2022-23_Lsg.pdf",
     "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
     "semester-1/lineare-algebra/Master Lineare Algebra.md",
     "semester-1/logik/prolog/Prolog Library.md",
@@ -209,32 +294,12 @@
     "semester-1/bwl/presentations/vertrieb/indirekter_absatz.png",
     "semester-1/bwl/presentations/vertrieb/Indirekter Absatz.md",
     "semester-1/bwl/presentations/vertrieb/Direkter Absatz.md",
-    "semester-1/bwl/presentations/vertrieb",
     "notes/Daily Note 24-01-2024.md",
     "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
-    "semester-1/lineare-algebra/Lineare Algebra Mitschriebe.md",
-    "semester-1/logik/prolog/syntax/Regeln (Rules).md",
-    "notes/Daily Note 23-01-2024.md",
-    "semester-1/logik/prolog/5.3/uebungen/Übung Unifikationsanfragen.md",
-    "semester-1/digitaltechnik/zaehler/Asynchronzähler.md",
-    "semester-1/logik/prolog/syntax/Zahl.md",
-    "semester-1/bwl/presentations/Master BWL Presentations.md",
-    "semester-1/bwl/Master BWL.md",
-    "semester-1/logik/prolog/syntax/Goal.md",
-    "semester-1/logik/prolog/Prolog Interpreter.md",
-    "semester-1/logik/Declarative Programming Language.md",
-    "semester-1/logik/altklausuren/20BE.pdf",
-    "semester-1/digitaltechnik/scripts/Digitaltechnik_2.pdf",
-    "semester-1/goodnotes/Logik/source/Logik-handout.pdf",
-    "semester-1/goodnotes/Digitaltechnik/scripts/Digitaltechnik_2.pdf",
     "semester-1/logik/prolog/images/solution_crossword_prolog.png",
     "semester-1/logik/prolog/images/stelligkeit_unifikationi.png",
     "semester-1/logik/prolog/images/beispiel_gleichheit.png",
     "semester-1/logik/prolog/images/aufg_5.4.png",
-    "semester-1/logik/prolog/5.3/images",
-    "semester-1/logik/prolog/code/crossword.pl",
-    "semester-1/logik/prolog/code/kreuzworträtsel.pl",
-    "semester-1/goodnotes/Lineare Algebra/Aufgaben/UEbungen.pdf",
     "Pasted image 20240123152205.png",
     "semester-1/logik/prolog/images/prolog_terme.png",
     "semester-1/digitaltechnik/zaehler/images/dekadenzaehler_schaltzeichen.png",

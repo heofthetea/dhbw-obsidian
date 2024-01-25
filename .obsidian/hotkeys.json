@@ -115,14 +115,6 @@
       "key": "T"
     }
   ],
-  "editor:table-col-after": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
   "editor:table-row-after": [
     {
       "modifiers": [
@@ -138,6 +130,14 @@
         "Mod"
       ],
       "key": "L"
+    }
+  ],
+  "editor:table-col-after": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
     }
   ]
 }
