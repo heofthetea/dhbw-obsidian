@@ -1,4 +1,4 @@
-Kombiniert [[Asynchroner Rückwärtszähler]] und [[Asynchroner Vorwärtzähler]]
+Kombiniert [[Asynchronzähler rückwärts]] und [[Asynchronzähler vorwärts]]
 
 ==> _Mechanische Schalter_
 ![[synchronous_combined_mechanic.png]]

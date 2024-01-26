@@ -18,4 +18,5 @@ _KEINE_ monostabilen Kippstufen + Verzögerungsglieder
 	- [ ] Wahrheitstabelle für [[JK-Flipflop]] (mitsamt [[JK-Flipflop#Charakteristische Gleichung|charakteristischer Gleichung]]), am besten auswendig
 
 #### Zähler
-[[Asynchroner Vorwärtzähler]] simpler Aufbau
+[[Asynchronzähler vorwärts]] simpler Aufbau
+[[Berechnung von Synchronzählung]]

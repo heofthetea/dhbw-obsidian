@@ -8,5 +8,7 @@ tag:lalg-aufgabe
 [[LAlg Aufg-04 Zahlentheorie]]
 [[LAlg Aufg-05 Geometrie]]
 [[LAlg Aufg-06 LGS]]
+[[LAlg Aufg-07 Komplexe_Zahlen_1]]
+[[Lineare Algebra Aufgaben Template]]
 
 
