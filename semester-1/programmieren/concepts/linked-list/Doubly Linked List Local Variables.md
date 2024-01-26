@@ -87,3 +87,6 @@ void up_hex(input_student *input)
 	}
 }
 ```
+
+#### Delete Node
+![[Delete Node]]

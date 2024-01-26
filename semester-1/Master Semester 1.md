@@ -6,3 +6,4 @@
 [[Master Lineare Algebra]]
 [[Master Digitaltechnik]]
 [[Master Logik]]
+[[Master Schlüsselqualifikationen]]

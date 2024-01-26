@@ -14,7 +14,7 @@
 [[switch-case]]
 [[Floating Points]]
 [[Recursion]]
-[[Doubly linked list]]
+[[Master Linked Lists]]
 
 ## Code
 [[Code Master]]

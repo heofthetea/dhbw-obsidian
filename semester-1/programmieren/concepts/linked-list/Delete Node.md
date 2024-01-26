@@ -26,11 +26,11 @@ void delete_node(List *l)
 			free(f->current);
 		}
 
-		else if(f->mom->danach) 
+		else if(f->current->next) 
 		{
 		
 		}
-		else if(f->mom->davor)
+		else if(f->current->previous)
 		{
 		
 		}

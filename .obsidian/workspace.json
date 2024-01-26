@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d58a5523976cfdba",
+        "id": "db11eb8aaa6a23c9",
         "type": "tabs",
         "children": [
           {
-            "id": "6bcf18bb45a57876",
+            "id": "4c6ae934e4407254",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,108 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dbe8c244f775f37c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/lineare-algebra/Formeln Lineare Algebra.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0bcece441048587",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28e2f9606b42a09c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "e1841b568e0112e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/code/007/Code 007 Master.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb6694f71535e1e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/code/Code 006 Master.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "755ff1fa6ea331dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e15571354d8f42c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Delete Node.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ac8019eb459ee1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bubble Sort.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bubble Sort.md",
+                "file": "semester-1/logik/prolog/Prolog Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bubble Sort.md"
+                "file": "semester-1/logik/prolog/Prolog Library.md"
               }
             }
           },
@@ -227,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bubble Sort.md",
+                "file": "semester-1/logik/prolog/Prolog Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5,
-    "collapsed": true
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,53 +156,52 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "8ac8019eb459ee1a",
+  "active": "4c6ae934e4407254",
   "lastOpenFiles": [
+    "semester-1/forschungsmethoden/Intro/images/uebung_testkriterien.png",
+    "semester-1/forschungsmethoden/Intro/images/design_science_research.png",
+    "semester-1/forschungsmethoden/Intro/images/forschungsvorgehen.png",
+    "semester-1/forschungsmethoden/Intro/images/forschungsvorgehen_confusing.png",
+    "semester-1/forschungsmethoden/Intro/images/forschungsfrage.png",
+    "semester-1/forschungsmethoden/Intro/images/ablauf_projekt.png",
+    "semester-1/forschungsmethoden/Intro/Gütekriterien für Tests.md",
+    "semester-1/forschungsmethoden/Intro/Von Thorie zu Hypothese.md",
+    "semester-1/forschungsmethoden/Intro/SQ_Forschungsprojekt_001_Intro.pdf",
+    "semester-1/forschungsmethoden/Intro/Forschungsdesigns.md",
+    "semester-1/forschungsmethoden/Intro/Disposition.md",
+    "semester-1/forschungsmethoden/Intro/images/integratioin praxismmodul.png",
+    "semester-1/forschungsmethoden/Intro/images",
+    "semester-1/Master Semester 1.md",
+    "semester-1/forschungsmethoden/Master Schlüsselqualifikationen.md",
+    "semester-1/programmieren/concepts/linked-list/Master Linked Lists.md",
+    "semester-1/forschungsmethoden/Intro/001 Forschungsprojekt Intro.md",
+    "semester-1/forschungsmethoden/Intro",
+    "semester-1/programmieren/Master Programmieren.md",
+    "semester-1/programmieren/code/007/Code 007 Master.md",
+    "semester-1/programmieren/code/007/bubble_sort.c",
+    "semester-1/programmieren/concepts/linked-list/Sort List.md",
+    "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
+    "semester-1/forschungsmethoden/Intro/Was ist Forschung?.md",
+    "semester-1/forschungsmethoden/Intro/Forschungsprojekt.md",
+    "semester-1/programmieren/concepts/linked-list/Delete Node.md",
+    "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
+    "semester-1/forschungsmethoden/Intro/Schema Forschungsprojekt.md",
+    "semester-1/forschungsmethoden/Intro/Einordnung Aufgabenstellung.md",
+    "semester-1/forschungsmethoden/Intro/Vorgehen der Forschung.md",
+    "semester-1/forschungsmethoden/Intro/Forschungsstrategie.md",
+    "semester-1/forschungsmethoden/Intro/Praxisarbeiten.md",
+    "Forschungsmethoden.md",
+    "semester-1/forschungsmethoden/Intro/Forschungsarten.md",
+    "semester-1/forschungsmethoden/Intro/Design Science Research.md",
+    "semester-1/forschungsmethoden/Intro/Forschungsfrage.md",
+    "semester-1/schlüsselqualifikationen/lu286353x1n9.tmp",
+    "semester-1/forschungsmethoden",
     "semester-1/programmieren/code/007/output/bubble_sort_list",
     "semester-1/programmieren/code/007/bubble_sort_list.c",
     "semester-1/programmieren/code/007/output/bubble_sort",
     "semester-1/programmieren/code/sieve_of_eratosthenes/segmented_sieve",
-    "semester-1/programmieren/code/own_database/shows",
-    "semester-1/programmieren/code/007/bubble_sort",
-    "semester-1/programmieren/code/007/output",
-    "semester-1/programmieren/code/007/bubble_sort.c",
-    "Runtime Behavior.md",
-    "Bubble Sort.md",
-    "Sort List.md",
-    "Delete Node.md",
-    "semester-1/programmieren/code/own_database/output/shows",
-    "semester-1/programmieren/code/own_database/output",
-    "semester-1/programmieren/concepts/linked-list/Doubly Linked List Local Variables.md",
-    "semester-1/programmieren/code/007/Code 007 Master.md",
-    "semester-1/programmieren/code/Code 006 Master.md",
-    "semester-1/programmieren/code/005/Code 005 Master.md",
-    "semester-1/programmieren/code/007",
-    "semester-1/programmieren/code/Code Master.md",
-    "semester-1/programmieren/Master Programmieren.md",
-    "semester-1/ICC/presentation vietnam/presentation vietnam.md",
-    "templates/Lineare Algebra Aufgaben Template.md",
-    "semester-1/programmieren/Eigene Datenbank/Shows Database.md",
-    "semester-1/programmieren/concepts/linked-list/Doubly linked list.md",
-    "semester-1/programmieren/Eigene Datenbank/Aufgabe - eigene Datenbank.md",
-    "semester-1/lineare-algebra/Formeln Lineare Algebra.md",
-    "semester-1/lineare-algebra/altklausuren/Master Lineare Algebra Altklausuren.md",
-    "semester-1/lineare-algebra/Master Lineare Algebra.md",
-    "semester-1/logik/prolog/Prolog Library.md",
-    "semester-1/bwl/presentations/vertrieb/Eigene Präsentation Vertrieb.md",
-    "semester-1/bwl/presentations/vertrieb/Absatzformen.md",
     "semester-1/bwl/presentations/vertrieb/indirekter_absatz.png",
-    "semester-1/bwl/presentations/vertrieb/Indirekter Absatz.md",
-    "semester-1/bwl/presentations/vertrieb/Direkter Absatz.md",
-    "notes/Daily Note 24-01-2024.md",
-    "semester-1/lineare-algebra/Lineare Algebra Aufschriebe.md",
     "semester-1/logik/prolog/images/solution_crossword_prolog.png",
-    "semester-1/logik/prolog/images/stelligkeit_unifikationi.png",
-    "semester-1/logik/prolog/images/beispiel_gleichheit.png",
-    "semester-1/logik/prolog/images/aufg_5.4.png",
-    "Pasted image 20240123152205.png",
-    "semester-1/logik/prolog/images/prolog_terme.png",
-    "semester-1/digitaltechnik/zaehler/images/dekadenzaehler_schaltzeichen.png",
-    "Pasted image 20240122135015.png",
-    "semester-1/logik/prolog/images/prolog_output_wertigkeit.png"
+    "semester-1/logik/prolog/images/stelligkeit_unifikationi.png"
   ]
 }
