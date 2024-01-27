@@ -1,5 +1,5 @@
 [[Unifikation]]
-![[semester-1/goodnotes/Logik/source/Logik-handout.pdf#page=241|Logik-handout]]
+![[Logik-handout.pdf]]
 
 1) bread = bread -> _true_ 
 2) 'Bread' = bread -> _false_
